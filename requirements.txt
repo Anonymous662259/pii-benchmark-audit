@@ -1,0 +1,19 @@
+# Python 3.11. The same set is installed in the Modal image (scripts/modal_pii_baselines.py).
+torch
+gliner2
+gliner
+transformers>=4.48,<5
+accelerate
+datasets
+huggingface_hub
+hf_xet
+chonkie
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+# runner and figures
+modal
+matplotlib
+pymupdf

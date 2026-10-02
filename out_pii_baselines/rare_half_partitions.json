@@ -1,0 +1,58 @@
+{
+  "privy": {
+    "n_labels": 17,
+    "overlap_pct": 88.9,
+    "test support": {
+      "bce": 99.19,
+      "scl": 99.49,
+      "delta": 0.3
+    },
+    "train frequency": {
+      "bce": 99.04,
+      "scl": 99.24,
+      "delta": 0.2
+    }
+  },
+  "pii_500k": {
+    "n_labels": 20,
+    "overlap_pct": 90.0,
+    "test support": {
+      "bce": 79.93,
+      "scl": 82.3,
+      "delta": 2.37
+    },
+    "train frequency": {
+      "bce": 81.51,
+      "scl": 83.48,
+      "delta": 1.98
+    }
+  },
+  "kiji": {
+    "n_labels": 28,
+    "overlap_pct": 92.9,
+    "test support": {
+      "bce": 79.99,
+      "scl": 80.22,
+      "delta": 0.22
+    },
+    "train frequency": {
+      "bce": 79.51,
+      "scl": 79.77,
+      "delta": 0.26
+    }
+  },
+  "gretel": {
+    "n_labels": 42,
+    "overlap_pct": 95.2,
+    "test support": {
+      "bce": 85.36,
+      "scl": 88.75,
+      "delta": 3.4
+    },
+    "train frequency": {
+      "bce": 85.61,
+      "scl": 89.0,
+      "delta": 3.38
+    }
+  }
+}

@@ -1,0 +1,3415 @@
+{
+  "W2": {
+    "pairs": [
+      {
+        "home": "privy",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -8.51,
+        "delta_rare_on_types_both_predict": -8.51,
+        "types_both_predict": 10,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 10.9,
+            "recall_untrained": 43.0
+          },
+          "unseen": {
+            "types": 18,
+            "recall_trained": 42.0,
+            "recall_untrained": 52.1
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -6.35,
+        "delta_rare_on_types_both_predict": -6.35,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 46.0,
+            "recall_untrained": 77.4
+          },
+          "unseen": {
+            "types": 25,
+            "recall_trained": 32.4,
+            "recall_untrained": 60.4
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": 0.08,
+        "delta_rare_on_types_both_predict": 0.65,
+        "types_both_predict": 20,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 18.5,
+            "recall_untrained": 26.3
+          },
+          "unseen": {
+            "types": 40,
+            "recall_trained": 43.9,
+            "recall_untrained": 56.2
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -18.95,
+        "delta_rare_on_types_both_predict": -17.17,
+        "types_both_predict": 27,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 42.5,
+            "recall_untrained": 61.4
+          },
+          "unseen": {
+            "types": 51,
+            "recall_trained": 50.9,
+            "recall_untrained": 74.5
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -17.69,
+        "delta_rare_on_types_both_predict": -17.69,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 45.3,
+            "recall_untrained": 55.6
+          },
+          "unseen": {
+            "types": 26,
+            "recall_trained": 44.9,
+            "recall_untrained": 61.6
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -3.72,
+        "delta_rare_on_types_both_predict": -3.72,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 40.4,
+            "recall_untrained": 40.9
+          },
+          "unseen": {
+            "types": 16,
+            "recall_trained": 44.3,
+            "recall_untrained": 60.3
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 6.17,
+        "delta_rare_on_types_both_predict": 6.17,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 32.1,
+            "recall_untrained": 29.8
+          },
+          "unseen": {
+            "types": 27,
+            "recall_trained": 41.4,
+            "recall_untrained": 48.7
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -10.43,
+        "delta_rare_on_types_both_predict": -12.66,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 17.6,
+            "recall_untrained": 45.5
+          },
+          "unseen": {
+            "types": 6,
+            "recall_trained": 48.8,
+            "recall_untrained": 58.8
+          }
+        }
+      },
+      {
+        "home": "privy",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 5.29,
+        "delta_rare_on_types_both_predict": 5.29,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 5,
+            "recall_trained": 49.0,
+            "recall_untrained": 62.3
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -18.92,
+        "delta_rare_on_types_both_predict": -18.92,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 23.1,
+            "recall_untrained": 32.1
+          },
+          "unseen": {
+            "types": 15,
+            "recall_trained": 33.1,
+            "recall_untrained": 42.4
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -12.67,
+        "delta_rare_on_types_both_predict": -12.67,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 11,
+            "recall_trained": 80.0,
+            "recall_untrained": 46.6
+          },
+          "unseen": {
+            "types": 17,
+            "recall_trained": 59.3,
+            "recall_untrained": 75.4
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -5.46,
+        "delta_rare_on_types_both_predict": -5.73,
+        "types_both_predict": 20,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 89.5,
+            "recall_untrained": 89.2
+          },
+          "unseen": {
+            "types": 38,
+            "recall_trained": 48.4,
+            "recall_untrained": 51.5
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -9.67,
+        "delta_rare_on_types_both_predict": -9.67,
+        "types_both_predict": 28,
+        "by_name": {
+          "shared": {
+            "types": 6,
+            "recall_trained": 84.9,
+            "recall_untrained": 88.8
+          },
+          "unseen": {
+            "types": 49,
+            "recall_trained": 57.1,
+            "recall_untrained": 69.9
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -3.08,
+        "delta_rare_on_types_both_predict": -3.08,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 84.2,
+            "recall_untrained": 81.6
+          },
+          "unseen": {
+            "types": 20,
+            "recall_trained": 55.8,
+            "recall_untrained": 52.3
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -1.14,
+        "delta_rare_on_types_both_predict": -1.14,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 13,
+            "recall_trained": 84.1,
+            "recall_untrained": 64.1
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 40.3,
+            "recall_untrained": 43.4
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 3.82,
+        "delta_rare_on_types_both_predict": 3.82,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 41.9,
+            "recall_untrained": 47.9
+          },
+          "unseen": {
+            "types": 26,
+            "recall_trained": 22.7,
+            "recall_untrained": 49.0
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 2,
+        "zero_untrained": 0,
+        "delta_rare": -12.8,
+        "delta_rare_on_types_both_predict": -14.09,
+        "types_both_predict": 2,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 29.0,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "pii_500k",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 4.8,
+        "delta_rare_on_types_both_predict": 4.8,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 81.0,
+            "recall_untrained": 85.0
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 32.1,
+            "recall_untrained": 51.0
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 7.28,
+        "delta_rare_on_types_both_predict": 7.28,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 28.1,
+            "recall_untrained": 39.7
+          },
+          "unseen": {
+            "types": 14,
+            "recall_trained": 19.8,
+            "recall_untrained": 41.6
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 3.6,
+        "delta_rare_on_types_both_predict": 3.6,
+        "types_both_predict": 10,
+        "by_name": {
+          "shared": {
+            "types": 11,
+            "recall_trained": 59.3,
+            "recall_untrained": 44.7
+          },
+          "unseen": {
+            "types": 9,
+            "recall_trained": 59.8,
+            "recall_untrained": 57.1
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 3.33,
+        "delta_rare_on_types_both_predict": 3.33,
+        "types_both_predict": 21,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 85.8,
+            "recall_untrained": 80.2
+          },
+          "unseen": {
+            "types": 35,
+            "recall_trained": 61.1,
+            "recall_untrained": 51.8
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -5.97,
+        "delta_rare_on_types_both_predict": -5.97,
+        "types_both_predict": 28,
+        "by_name": {
+          "shared": {
+            "types": 8,
+            "recall_trained": 73.9,
+            "recall_untrained": 92.3
+          },
+          "unseen": {
+            "types": 47,
+            "recall_trained": 52.7,
+            "recall_untrained": 69.4
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -10.55,
+        "delta_rare_on_types_both_predict": -10.55,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 65.8,
+            "recall_untrained": 74.8
+          },
+          "unseen": {
+            "types": 20,
+            "recall_trained": 52.2,
+            "recall_untrained": 56.1
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 6.67,
+        "delta_rare_on_types_both_predict": 6.67,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 12,
+            "recall_trained": 63.1,
+            "recall_untrained": 50.5
+          },
+          "unseen": {
+            "types": 5,
+            "recall_trained": 76.4,
+            "recall_untrained": 78.4
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 14.89,
+        "delta_rare_on_types_both_predict": 14.89,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 57.7,
+            "recall_untrained": 83.4
+          },
+          "unseen": {
+            "types": 25,
+            "recall_trained": 15.2,
+            "recall_untrained": 46.8
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 2,
+        "zero_untrained": 0,
+        "delta_rare": -10.18,
+        "delta_rare_on_types_both_predict": -8.85,
+        "types_both_predict": 2,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 9.5,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "kiji",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 2.09,
+        "delta_rare_on_types_both_predict": 2.09,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 5,
+            "recall_trained": 32.5,
+            "recall_untrained": 62.3
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -13.47,
+        "delta_rare_on_types_both_predict": -13.47,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 24.4,
+            "recall_untrained": 72.3
+          },
+          "unseen": {
+            "types": 15,
+            "recall_trained": 12.5,
+            "recall_untrained": 36.4
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -5.51,
+        "delta_rare_on_types_both_predict": -5.51,
+        "types_both_predict": 10,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 72.5,
+            "recall_untrained": 81.2
+          },
+          "unseen": {
+            "types": 16,
+            "recall_trained": 28.1,
+            "recall_untrained": 43.0
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -19.36,
+        "delta_rare_on_types_both_predict": -19.36,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 33.6,
+            "recall_untrained": 78.0
+          },
+          "unseen": {
+            "types": 21,
+            "recall_trained": 27.2,
+            "recall_untrained": 54.8
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -18.92,
+        "delta_rare_on_types_both_predict": -18.92,
+        "types_both_predict": 28,
+        "by_name": {
+          "shared": {
+            "types": 38,
+            "recall_trained": 40.7,
+            "recall_untrained": 75.5
+          },
+          "unseen": {
+            "types": 17,
+            "recall_trained": 19.6,
+            "recall_untrained": 66.9
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -19.83,
+        "delta_rare_on_types_both_predict": -19.83,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 59.3,
+            "recall_untrained": 84.8
+          },
+          "unseen": {
+            "types": 20,
+            "recall_trained": 29.9,
+            "recall_untrained": 51.2
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -3.06,
+        "delta_rare_on_types_both_predict": -3.06,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 76.0,
+            "recall_untrained": 74.8
+          },
+          "unseen": {
+            "types": 14,
+            "recall_trained": 45.9,
+            "recall_untrained": 55.6
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 27.05,
+        "delta_rare_on_types_both_predict": 27.05,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 20,
+            "recall_trained": 23.8,
+            "recall_untrained": 43.3
+          },
+          "unseen": {
+            "types": 9,
+            "recall_trained": 8.8,
+            "recall_untrained": 68.9
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 4,
+        "zero_untrained": 0,
+        "delta_rare": -27.95,
+        "delta_rare_on_types_both_predict": null,
+        "types_both_predict": 0,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 4.2,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "gretel",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 13.61,
+        "delta_rare_on_types_both_predict": 13.61,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 52.7,
+            "recall_untrained": 66.8
+          },
+          "unseen": {
+            "types": 3,
+            "recall_trained": 5.8,
+            "recall_untrained": 59.0
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -7.2,
+        "delta_rare_on_types_both_predict": -7.2,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 76.7,
+            "recall_untrained": 85.3
+          },
+          "unseen": {
+            "types": 16,
+            "recall_trained": 13.0,
+            "recall_untrained": 40.7
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 2,
+        "zero_untrained": 0,
+        "delta_rare": 8.2,
+        "delta_rare_on_types_both_predict": 21.09,
+        "types_both_predict": 8,
+        "by_name": {
+          "shared": {
+            "types": 13,
+            "recall_trained": 72.2,
+            "recall_untrained": 48.6
+          },
+          "unseen": {
+            "types": 7,
+            "recall_trained": 27.7,
+            "recall_untrained": 63.6
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -15.97,
+        "delta_rare_on_types_both_predict": -17.2,
+        "types_both_predict": 13,
+        "by_name": {
+          "shared": {
+            "types": 12,
+            "recall_trained": 79.2,
+            "recall_untrained": 48.3
+          },
+          "unseen": {
+            "types": 16,
+            "recall_trained": 52.5,
+            "recall_untrained": 75.2
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 2,
+        "zero_untrained": 0,
+        "delta_rare": -10.5,
+        "delta_rare_on_types_both_predict": -10.29,
+        "types_both_predict": 19,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 92.9,
+            "recall_untrained": 91.1
+          },
+          "unseen": {
+            "types": 39,
+            "recall_trained": 49.1,
+            "recall_untrained": 53.6
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -27.2,
+        "delta_rare_on_types_both_predict": -25.22,
+        "types_both_predict": 27,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 91.9,
+            "recall_untrained": 96.8
+          },
+          "unseen": {
+            "types": 52,
+            "recall_trained": 46.5,
+            "recall_untrained": 71.7
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -22.33,
+        "delta_rare_on_types_both_predict": -22.5,
+        "types_both_predict": 13,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 84.2,
+            "recall_untrained": 75.8
+          },
+          "unseen": {
+            "types": 23,
+            "recall_trained": 36.7,
+            "recall_untrained": 58.3
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 11.91,
+        "delta_rare_on_types_both_predict": 11.91,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 84.1,
+            "recall_untrained": 89.1
+          },
+          "unseen": {
+            "types": 27,
+            "recall_trained": 11.2,
+            "recall_untrained": 46.9
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 3,
+        "zero_untrained": 0,
+        "delta_rare": -13.95,
+        "delta_rare_on_types_both_predict": -18.75,
+        "types_both_predict": 1,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 4.3,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "ai4p_400k",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 22.98,
+        "delta_rare_on_types_both_predict": 22.98,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 5,
+            "recall_trained": 14.7,
+            "recall_untrained": 62.3
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -22.93,
+        "delta_rare_on_types_both_predict": -22.93,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 33.5,
+            "recall_untrained": 18.1
+          },
+          "unseen": {
+            "types": 16,
+            "recall_trained": 21.3,
+            "recall_untrained": 43.3
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 13.72,
+        "delta_rare_on_types_both_predict": 13.72,
+        "types_both_predict": 10,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 73.9,
+            "recall_untrained": 69.6
+          },
+          "unseen": {
+            "types": 13,
+            "recall_trained": 40.7,
+            "recall_untrained": 43.3
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -1.61,
+        "delta_rare_on_types_both_predict": -1.61,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 66.0,
+            "recall_untrained": 68.9
+          },
+          "unseen": {
+            "types": 21,
+            "recall_trained": 43.0,
+            "recall_untrained": 57.3
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -6.27,
+        "delta_rare_on_types_both_predict": -6.27,
+        "types_both_predict": 21,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 68.2,
+            "recall_untrained": 87.2
+          },
+          "unseen": {
+            "types": 35,
+            "recall_trained": 39.6,
+            "recall_untrained": 51.4
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -13.86,
+        "delta_rare_on_types_both_predict": -13.86,
+        "types_both_predict": 28,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 65.7,
+            "recall_untrained": 88.1
+          },
+          "unseen": {
+            "types": 48,
+            "recall_trained": 49.0,
+            "recall_untrained": 69.2
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 10.73,
+        "delta_rare_on_types_both_predict": 10.73,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 80.2,
+            "recall_untrained": 58.9
+          },
+          "unseen": {
+            "types": 13,
+            "recall_trained": 60.3,
+            "recall_untrained": 60.0
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 13.32,
+        "delta_rare_on_types_both_predict": 13.32,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 24.9,
+            "recall_untrained": 47.9
+          },
+          "unseen": {
+            "types": 26,
+            "recall_trained": 18.0,
+            "recall_untrained": 49.0
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -10.35,
+        "delta_rare_on_types_both_predict": -12.54,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 5.0,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "ai4p_300k",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": 0.03,
+        "delta_rare_on_types_both_predict": 0.36,
+        "types_both_predict": 2,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 32.9,
+            "recall_untrained": 85.0
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 20.7,
+            "recall_untrained": 51.0
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -3.95,
+        "delta_rare_on_types_both_predict": -3.95,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 61.4,
+            "recall_untrained": 76.3
+          },
+          "unseen": {
+            "types": 13,
+            "recall_trained": 28.0,
+            "recall_untrained": 34.1
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 6.8,
+        "delta_rare_on_types_both_predict": 6.8,
+        "types_both_predict": 10,
+        "by_name": {
+          "shared": {
+            "types": 6,
+            "recall_trained": 86.3,
+            "recall_untrained": 78.6
+          },
+          "unseen": {
+            "types": 14,
+            "recall_trained": 53.5,
+            "recall_untrained": 42.3
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 6.28,
+        "delta_rare_on_types_both_predict": 6.28,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 8,
+            "recall_trained": 86.0,
+            "recall_untrained": 78.5
+          },
+          "unseen": {
+            "types": 20,
+            "recall_trained": 61.9,
+            "recall_untrained": 54.2
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 19.94,
+        "delta_rare_on_types_both_predict": 19.94,
+        "types_both_predict": 21,
+        "by_name": {
+          "shared": {
+            "types": 38,
+            "recall_trained": 79.5,
+            "recall_untrained": 57.4
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 29.2,
+            "recall_untrained": 43.3
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -0.42,
+        "delta_rare_on_types_both_predict": -0.42,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 7,
+            "recall_trained": 87.2,
+            "recall_untrained": 84.8
+          },
+          "unseen": {
+            "types": 20,
+            "recall_trained": 48.5,
+            "recall_untrained": 51.2
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 5.38,
+        "delta_rare_on_types_both_predict": 5.38,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 84.2,
+            "recall_untrained": 74.8
+          },
+          "unseen": {
+            "types": 14,
+            "recall_trained": 66.0,
+            "recall_untrained": 55.6
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 31.86,
+        "delta_rare_on_types_both_predict": 31.86,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 18,
+            "recall_trained": 52.9,
+            "recall_untrained": 50.2
+          },
+          "unseen": {
+            "types": 11,
+            "recall_trained": 26.6,
+            "recall_untrained": 47.0
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -11.87,
+        "delta_rare_on_types_both_predict": -14.57,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 31.8,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "nemotron_pii",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 19.31,
+        "delta_rare_on_types_both_predict": 19.31,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 82.6,
+            "recall_untrained": 85.0
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 30.4,
+            "recall_untrained": 51.0
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -13.9,
+        "delta_rare_on_types_both_predict": -13.9,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 19.4,
+            "recall_untrained": 72.3
+          },
+          "unseen": {
+            "types": 15,
+            "recall_trained": 13.9,
+            "recall_untrained": 36.4
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 2,
+        "zero_untrained": 0,
+        "delta_rare": -13.63,
+        "delta_rare_on_types_both_predict": -6.19,
+        "types_both_predict": 8,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 89.1,
+            "recall_untrained": 91.0
+          },
+          "unseen": {
+            "types": 17,
+            "recall_trained": 22.1,
+            "recall_untrained": 44.4
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -12.6,
+        "delta_rare_on_types_both_predict": -12.6,
+        "types_both_predict": 14,
+        "by_name": {
+          "shared": {
+            "types": 4,
+            "recall_trained": 79.8,
+            "recall_untrained": 71.0
+          },
+          "unseen": {
+            "types": 24,
+            "recall_trained": 17.9,
+            "recall_untrained": 60.2
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": 10.11,
+        "delta_rare_on_types_both_predict": 10.61,
+        "types_both_predict": 20,
+        "by_name": {
+          "shared": {
+            "types": 20,
+            "recall_trained": 71.8,
+            "recall_untrained": 55.8
+          },
+          "unseen": {
+            "types": 22,
+            "recall_trained": 47.6,
+            "recall_untrained": 55.9
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -16.98,
+        "delta_rare_on_types_both_predict": -15.47,
+        "types_both_predict": 27,
+        "by_name": {
+          "shared": {
+            "types": 18,
+            "recall_trained": 62.4,
+            "recall_untrained": 66.7
+          },
+          "unseen": {
+            "types": 37,
+            "recall_trained": 49.6,
+            "recall_untrained": 82.3
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -42.89,
+        "delta_rare_on_types_both_predict": -42.95,
+        "types_both_predict": 13,
+        "by_name": {
+          "shared": {
+            "types": 3,
+            "recall_trained": 82.2,
+            "recall_untrained": 88.6
+          },
+          "unseen": {
+            "types": 24,
+            "recall_trained": 21.8,
+            "recall_untrained": 56.1
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 3.1,
+        "delta_rare_on_types_both_predict": 3.1,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 84.2,
+            "recall_untrained": 83.3
+          },
+          "unseen": {
+            "types": 15,
+            "recall_trained": 36.8,
+            "recall_untrained": 56.3
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "tab",
+        "rare_types": 4,
+        "zero_trained": 4,
+        "zero_untrained": 0,
+        "delta_rare": -27.95,
+        "delta_rare_on_types_both_predict": null,
+        "types_both_predict": 0,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 8,
+            "recall_trained": 39.1,
+            "recall_untrained": 54.4
+          }
+        }
+      },
+      {
+        "home": "gretel_finance",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 19.81,
+        "delta_rare_on_types_both_predict": 19.81,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 69.8,
+            "recall_untrained": 85.0
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 28.9,
+            "recall_untrained": 51.0
+          }
+        }
+      }
+    ],
+    "summary": {
+      "pairs": 72,
+      "pairs_below_untrained": 43,
+      "below_with_more_zero_types": 17,
+      "mean_zero_trained": 0.47,
+      "mean_zero_untrained": 0,
+      "median_delta_rare": -4.71,
+      "median_delta_on_both": -3.83,
+      "unseen_recall_trained": 34.9,
+      "unseen_recall_untrained": 54.4,
+      "shared_recall_trained": 69.0,
+      "shared_recall_untrained": 74.8
+    }
+  },
+  "W3": {
+    "adjacent": [
+      {
+        "corpus": "privy",
+        "upper": "GLiNER multi-PII",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 3.03,
+        "flips_under": []
+      },
+      {
+        "corpus": "privy",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 0.84,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "privy",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 2.19,
+        "flips_under": []
+      },
+      {
+        "corpus": "privy",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "Gretel GLiNER",
+        "margin": 40.74,
+        "flips_under": []
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 5.67,
+        "flips_under": []
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 0.41,
+        "flips_under": [
+          "V3"
+        ]
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 7.78,
+        "flips_under": []
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 7.5,
+        "flips_under": []
+      },
+      {
+        "corpus": "kiji",
+        "upper": "GLiNER2-PII",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 3.81,
+        "flips_under": []
+      },
+      {
+        "corpus": "kiji",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 3.0,
+        "flips_under": []
+      },
+      {
+        "corpus": "kiji",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 2.07,
+        "flips_under": [
+          "V1-10"
+        ]
+      },
+      {
+        "corpus": "kiji",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 43.77,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel",
+        "upper": "Gretel GLiNER",
+        "lower": "GLiNER multi-PII",
+        "margin": 37.52,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel",
+        "upper": "GLiNER multi-PII",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 0.77,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "gretel",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 3.41,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER2-PII",
+        "margin": 3.54,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 5.23,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER2-PII",
+        "margin": 6.35,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 5.23,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 35.8,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 0.98,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 0.85,
+        "flips_under": [
+          "V3"
+        ]
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 9.03,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 17.62,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "GLiNER multi-PII",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 7.52,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 1.38,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER2-PII",
+        "margin": 1.9,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "GLiNER2-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 25.32,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 2.94,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "GLiNER multi-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 5.4,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "GLiNER2-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 7.58,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "Gretel GLiNER",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 1.75,
+        "flips_under": []
+      },
+      {
+        "corpus": "tab",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 1.88,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "tab",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 15.52,
+        "flips_under": []
+      },
+      {
+        "corpus": "tab",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 1.32,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "tab",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 10.56,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "GLiNER multi-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 6.92,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 1.41,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 0.37,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "GLiNER2-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 6.04,
+        "flips_under": []
+      }
+    ],
+    "n_adjacent": 40,
+    "n_close_lt3": 15,
+    "close_flipped": 8,
+    "any_flipped": 8,
+    "min_margin": 0.37,
+    "objectives_by_corpus": {
+      "V0:b-a": {
+        "per_corpus": [
+          0.21,
+          2.03,
+          0.26,
+          1.88
+        ],
+        "positive": 4,
+        "p_sign_flip_corpus": 0.125,
+        "min_attainable_p": 0.125
+      },
+      "V0:c-b": {
+        "per_corpus": [
+          0.17,
+          0.52,
+          -0.08,
+          1.19
+        ],
+        "positive": 3,
+        "p_sign_flip_corpus": 0.25,
+        "min_attainable_p": 0.125
+      },
+      "V1-10:b-a": {
+        "per_corpus": [
+          0.21,
+          2.03,
+          0.33,
+          1.97
+        ],
+        "positive": 4,
+        "p_sign_flip_corpus": 0.125,
+        "min_attainable_p": 0.125
+      },
+      "V1-10:c-b": {
+        "per_corpus": [
+          0.17,
+          0.52,
+          -0.07,
+          -0.41
+        ],
+        "positive": 2,
+        "p_sign_flip_corpus": 0.75,
+        "min_attainable_p": 0.125
+      },
+      "V2:b-a": {
+        "per_corpus": [
+          0.91,
+          3.12,
+          0.53,
+          1.3
+        ],
+        "positive": 4,
+        "p_sign_flip_corpus": 0.125,
+        "min_attainable_p": 0.125
+      },
+      "V2:c-b": {
+        "per_corpus": [
+          0.17,
+          0.38,
+          -0.02,
+          1.11
+        ],
+        "positive": 3,
+        "p_sign_flip_corpus": 0.25,
+        "min_attainable_p": 0.125
+      },
+      "V3:b-a": {
+        "per_corpus": [
+          0.21,
+          2.41,
+          0.12,
+          1.88
+        ],
+        "positive": 4,
+        "p_sign_flip_corpus": 0.125,
+        "min_attainable_p": 0.125
+      },
+      "V3:c-b": {
+        "per_corpus": [
+          0.17,
+          0.27,
+          -0.02,
+          1.19
+        ],
+        "positive": 3,
+        "p_sign_flip_corpus": 0.25,
+        "min_attainable_p": 0.125
+      },
+      "V4:b-a": {
+        "per_corpus": [
+          0.21,
+          2.03,
+          0.26,
+          1.91
+        ],
+        "positive": 4,
+        "p_sign_flip_corpus": 0.125,
+        "min_attainable_p": 0.125
+      },
+      "V4:c-b": {
+        "per_corpus": [
+          0.17,
+          0.52,
+          -0.08,
+          1.19
+        ],
+        "positive": 3,
+        "p_sign_flip_corpus": 0.25,
+        "min_attainable_p": 0.125
+      }
+    }
+  },
+  "W8": {
+    "corpora": {
+      "privy": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 55.85,
+          "GLiNER2-PII": 58.04,
+          "GLiNER multi-PII": 61.91,
+          "NVIDIA GLiNER-PII": 58.88,
+          "Gretel GLiNER": 15.11,
+          "(b) privy": 99.2,
+          "(b) pii_500k": 36.93,
+          "(b) kiji": 63.13,
+          "(b) gretel": 42.38,
+          "(b) ai4p_400k": 48.65,
+          "(b) ai4p_300k": 32.92,
+          "(b) nemotron_pii": 51.9,
+          "(b) gretel_finance": 41.95
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 47.33,
+          "GLiNER2-PII": 50.09,
+          "GLiNER multi-PII": 40.72,
+          "NVIDIA GLiNER-PII": 48.31,
+          "Gretel GLiNER": 11.35,
+          "(b) privy": 99.47,
+          "(b) pii_500k": 36.97,
+          "(b) kiji": 30.65,
+          "(b) gretel": 19.81,
+          "(b) ai4p_400k": 22.03,
+          "(b) ai4p_300k": 24.78,
+          "(b) nemotron_pii": 38.24,
+          "(b) gretel_finance": 22.48
+        },
+        "tau_all": 0.538,
+        "tau_released": 0.2,
+        "top_rare_all": "(b) privy",
+        "top_micro_all": "(b) privy",
+        "top_rare_released": "GLiNER multi-PII",
+        "top_micro_released": "GLiNER2-PII"
+      },
+      "pii_500k": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 34.19,
+          "GLiNER2-PII": 39.86,
+          "GLiNER multi-PII": 26.0,
+          "NVIDIA GLiNER-PII": 33.78,
+          "Gretel GLiNER": 18.5,
+          "(b) privy": 25.68,
+          "(b) pii_500k": 81.82,
+          "(b) kiji": 37.79,
+          "(b) gretel": 28.68,
+          "(b) ai4p_400k": 42.39,
+          "(b) ai4p_300k": 47.91,
+          "(b) nemotron_pii": 40.99,
+          "(b) gretel_finance": 20.56
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 55.65,
+          "GLiNER2-PII": 55.01,
+          "GLiNER multi-PII": 34.92,
+          "NVIDIA GLiNER-PII": 59.16,
+          "Gretel GLiNER": 36.35,
+          "(b) privy": 48.08,
+          "(b) pii_500k": 89.71,
+          "(b) kiji": 59.41,
+          "(b) gretel": 49.57,
+          "(b) ai4p_400k": 67.69,
+          "(b) ai4p_300k": 58.9,
+          "(b) nemotron_pii": 62.91,
+          "(b) gretel_finance": 45.75
+        },
+        "tau_all": 0.718,
+        "tau_released": 0.2,
+        "top_rare_all": "(b) pii_500k",
+        "top_micro_all": "(b) pii_500k",
+        "top_rare_released": "GLiNER2-PII",
+        "top_micro_released": "NVIDIA GLiNER-PII"
+      },
+      "kiji": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 65.24,
+          "GLiNER2-PII": 72.05,
+          "GLiNER multi-PII": 63.17,
+          "NVIDIA GLiNER-PII": 68.24,
+          "Gretel GLiNER": 19.4,
+          "(b) privy": 58.89,
+          "(b) pii_500k": 52.57,
+          "(b) kiji": 80.3,
+          "(b) gretel": 45.87,
+          "(b) ai4p_400k": 49.27,
+          "(b) ai4p_300k": 63.63,
+          "(b) nemotron_pii": 71.52,
+          "(b) gretel_finance": 52.63
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 63.61,
+          "GLiNER2-PII": 65.93,
+          "GLiNER multi-PII": 42.63,
+          "NVIDIA GLiNER-PII": 66.52,
+          "Gretel GLiNER": 33.77,
+          "(b) privy": 38.46,
+          "(b) pii_500k": 69.01,
+          "(b) kiji": 92.94,
+          "(b) gretel": 42.0,
+          "(b) ai4p_400k": 72.13,
+          "(b) ai4p_300k": 60.77,
+          "(b) nemotron_pii": 68.38,
+          "(b) gretel_finance": 33.11
+        },
+        "tau_all": 0.436,
+        "tau_released": 0.8,
+        "top_rare_all": "(b) kiji",
+        "top_micro_all": "(b) kiji",
+        "top_rare_released": "GLiNER2-PII",
+        "top_micro_released": "NVIDIA GLiNER-PII"
+      },
+      "gretel": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 37.22,
+          "GLiNER2-PII": 33.68,
+          "GLiNER multi-PII": 41.4,
+          "NVIDIA GLiNER-PII": 40.63,
+          "Gretel GLiNER": 78.92,
+          "(b) privy": 37.3,
+          "(b) pii_500k": 31.76,
+          "(b) kiji": 40.55,
+          "(b) gretel": 87.49,
+          "(b) ai4p_400k": 26.72,
+          "(b) ai4p_300k": 30.95,
+          "(b) nemotron_pii": 57.16,
+          "(b) gretel_finance": 47.33
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 57.65,
+          "GLiNER2-PII": 58.54,
+          "GLiNER multi-PII": 59.25,
+          "NVIDIA GLiNER-PII": 62.01,
+          "Gretel GLiNER": 82.5,
+          "(b) privy": 47.75,
+          "(b) pii_500k": 52.16,
+          "(b) kiji": 60.22,
+          "(b) gretel": 95.9,
+          "(b) ai4p_400k": 57.11,
+          "(b) ai4p_300k": 50.74,
+          "(b) nemotron_pii": 68.88,
+          "(b) gretel_finance": 69.55
+        },
+        "tau_all": 0.718,
+        "tau_released": 0.6,
+        "top_rare_all": "(b) gretel",
+        "top_micro_all": "(b) gretel",
+        "top_rare_released": "Gretel GLiNER",
+        "top_micro_released": "Gretel GLiNER"
+      },
+      "nemotron_pii": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 78.76,
+          "GLiNER2-PII": 72.41,
+          "GLiNER multi-PII": 67.18,
+          "NVIDIA GLiNER-PII": 83.99,
+          "Gretel GLiNER": 31.38,
+          "(b) privy": 59.81,
+          "(b) pii_500k": 69.09,
+          "(b) kiji": 72.79,
+          "(b) gretel": 59.84,
+          "(b) ai4p_400k": 51.56,
+          "(b) ai4p_300k": 64.9,
+          "(b) nemotron_pii": 96.84,
+          "(b) gretel_finance": 61.78
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 77.85,
+          "GLiNER2-PII": 79.2,
+          "GLiNER multi-PII": 63.48,
+          "NVIDIA GLiNER-PII": 90.15,
+          "Gretel GLiNER": 42.88,
+          "(b) privy": 59.07,
+          "(b) pii_500k": 71.22,
+          "(b) kiji": 67.93,
+          "(b) gretel": 52.56,
+          "(b) ai4p_400k": 66.04,
+          "(b) ai4p_300k": 67.3,
+          "(b) nemotron_pii": 96.01,
+          "(b) gretel_finance": 67.32
+        },
+        "tau_all": 0.744,
+        "tau_released": 0.8,
+        "top_rare_all": "(b) nemotron_pii",
+        "top_micro_all": "(b) nemotron_pii",
+        "top_rare_released": "NVIDIA GLiNER-PII",
+        "top_micro_released": "NVIDIA GLiNER-PII"
+      },
+      "ai4p_300k": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 57.19,
+          "GLiNER2-PII": 55.36,
+          "GLiNER multi-PII": 46.33,
+          "NVIDIA GLiNER-PII": 56.21,
+          "Gretel GLiNER": 28.71,
+          "(b) privy": 39.51,
+          "(b) pii_500k": 54.11,
+          "(b) kiji": 46.64,
+          "(b) gretel": 37.36,
+          "(b) ai4p_400k": 34.86,
+          "(b) ai4p_300k": 93.51,
+          "(b) nemotron_pii": 56.77,
+          "(b) gretel_finance": 14.31
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 63.94,
+          "GLiNER2-PII": 65.11,
+          "GLiNER multi-PII": 58.37,
+          "NVIDIA GLiNER-PII": 66.54,
+          "Gretel GLiNER": 38.27,
+          "(b) privy": 51.95,
+          "(b) pii_500k": 67.97,
+          "(b) kiji": 63.22,
+          "(b) gretel": 49.83,
+          "(b) ai4p_400k": 58.61,
+          "(b) ai4p_300k": 94.43,
+          "(b) nemotron_pii": 64.84,
+          "(b) gretel_finance": 44.99
+        },
+        "tau_all": 0.667,
+        "tau_released": 0.6,
+        "top_rare_all": "(b) ai4p_300k",
+        "top_micro_all": "(b) ai4p_300k",
+        "top_rare_released": "GLiNER2 Multi-v1",
+        "top_micro_released": "NVIDIA GLiNER-PII"
+      },
+      "ai4p_400k": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 43.23,
+          "GLiNER2-PII": 41.33,
+          "GLiNER multi-PII": 52.13,
+          "NVIDIA GLiNER-PII": 44.61,
+          "Gretel GLiNER": 16.01,
+          "(b) privy": 39.52,
+          "(b) pii_500k": 42.09,
+          "(b) kiji": 49.9,
+          "(b) gretel": 40.18,
+          "(b) ai4p_400k": 88.12,
+          "(b) ai4p_300k": 53.96,
+          "(b) nemotron_pii": 48.61,
+          "(b) gretel_finance": 46.33
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 46.85,
+          "GLiNER2-PII": 48.22,
+          "GLiNER multi-PII": 45.85,
+          "NVIDIA GLiNER-PII": 53.3,
+          "Gretel GLiNER": 44.7,
+          "(b) privy": 37.25,
+          "(b) pii_500k": 52.07,
+          "(b) kiji": 52.36,
+          "(b) gretel": 50.62,
+          "(b) ai4p_400k": 86.75,
+          "(b) ai4p_300k": 60.63,
+          "(b) nemotron_pii": 56.19,
+          "(b) gretel_finance": 50.02
+        },
+        "tau_all": 0.538,
+        "tau_released": 0.2,
+        "top_rare_all": "(b) ai4p_400k",
+        "top_micro_all": "(b) ai4p_400k",
+        "top_rare_released": "GLiNER multi-PII",
+        "top_micro_released": "NVIDIA GLiNER-PII"
+      },
+      "gretel_finance": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 27.17,
+          "GLiNER2-PII": 36.5,
+          "GLiNER multi-PII": 41.9,
+          "NVIDIA GLiNER-PII": 44.84,
+          "Gretel GLiNER": 28.92,
+          "(b) privy": 33.34,
+          "(b) pii_500k": 30.99,
+          "(b) kiji": 42.07,
+          "(b) gretel": 54.22,
+          "(b) ai4p_400k": 39.08,
+          "(b) ai4p_300k": 40.49,
+          "(b) nemotron_pii": 59.03,
+          "(b) gretel_finance": 83.79
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 44.78,
+          "GLiNER2-PII": 51.15,
+          "GLiNER multi-PII": 34.07,
+          "NVIDIA GLiNER-PII": 35.86,
+          "Gretel GLiNER": 19.7,
+          "(b) privy": 46.6,
+          "(b) pii_500k": 33.46,
+          "(b) kiji": 20.82,
+          "(b) gretel": 31.89,
+          "(b) ai4p_400k": 19.69,
+          "(b) ai4p_300k": 29.0,
+          "(b) nemotron_pii": 38.58,
+          "(b) gretel_finance": 80.44
+        },
+        "tau_all": 0.179,
+        "tau_released": 0.0,
+        "top_rare_all": "(b) gretel_finance",
+        "top_micro_all": "(b) gretel_finance",
+        "top_rare_released": "NVIDIA GLiNER-PII",
+        "top_micro_released": "GLiNER2-PII"
+      },
+      "tab": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 27.95,
+          "GLiNER2-PII": 29.83,
+          "GLiNER multi-PII": 11.11,
+          "NVIDIA GLiNER-PII": 12.43,
+          "Gretel GLiNER": 0.55,
+          "(b) privy": 17.52,
+          "(b) pii_500k": 15.14,
+          "(b) kiji": 17.77,
+          "(b) gretel": 0.0,
+          "(b) ai4p_400k": 14.0,
+          "(b) ai4p_300k": 17.6,
+          "(b) nemotron_pii": 16.08,
+          "(b) gretel_finance": 0.0
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 57.62,
+          "GLiNER2-PII": 54.25,
+          "GLiNER multi-PII": 57.31,
+          "NVIDIA GLiNER-PII": 54.37,
+          "Gretel GLiNER": 6.88,
+          "(b) privy": 50.79,
+          "(b) pii_500k": 42.18,
+          "(b) kiji": 16.6,
+          "(b) gretel": 7.96,
+          "(b) ai4p_400k": 8.13,
+          "(b) ai4p_300k": 9.34,
+          "(b) nemotron_pii": 44.85,
+          "(b) gretel_finance": 51.74
+        },
+        "tau_all": 0.219,
+        "tau_released": 0.2,
+        "top_rare_all": "GLiNER2-PII",
+        "top_micro_all": "GLiNER2 Multi-v1",
+        "top_rare_released": "GLiNER2-PII",
+        "top_micro_released": "GLiNER2 Multi-v1"
+      },
+      "mapa": {
+        "rare_half": {
+          "GLiNER2 Multi-v1": 13.55,
+          "GLiNER2-PII": 11.77,
+          "GLiNER multi-PII": 20.47,
+          "NVIDIA GLiNER-PII": 12.14,
+          "Gretel GLiNER": 5.73,
+          "(b) privy": 18.84,
+          "(b) pii_500k": 18.35,
+          "(b) kiji": 15.64,
+          "(b) gretel": 27.16,
+          "(b) ai4p_400k": 36.54,
+          "(b) ai4p_300k": 13.59,
+          "(b) nemotron_pii": 32.86,
+          "(b) gretel_finance": 33.36
+        },
+        "micro": {
+          "GLiNER2 Multi-v1": 32.31,
+          "GLiNER2-PII": 25.04,
+          "GLiNER multi-PII": 22.65,
+          "NVIDIA GLiNER-PII": 35.52,
+          "Gretel GLiNER": 18.19,
+          "(b) privy": 35.03,
+          "(b) pii_500k": 43.1,
+          "(b) kiji": 39.45,
+          "(b) gretel": 38.92,
+          "(b) ai4p_400k": 23.96,
+          "(b) ai4p_300k": 33.95,
+          "(b) nemotron_pii": 46.67,
+          "(b) gretel_finance": 37.9
+        },
+        "tau_all": 0.282,
+        "tau_released": 0.2,
+        "top_rare_all": "(b) ai4p_400k",
+        "top_micro_all": "(b) nemotron_pii",
+        "top_rare_released": "GLiNER multi-PII",
+        "top_micro_released": "NVIDIA GLiNER-PII"
+      }
+    },
+    "median_tau_all": 0.538,
+    "median_tau_released": 0.2,
+    "top_released_same": 2,
+    "n_corpora": 10,
+    "home_first_under_micro": 8,
+    "homes": 8
+  },
+  "W5": {
+    "per_corpus": {
+      "privy": {
+        "V0": {
+          "GLiNER2 Multi-v1": 47.33,
+          "GLiNER2-PII": 50.09,
+          "GLiNER multi-PII": 40.72,
+          "NVIDIA GLiNER-PII": 48.31,
+          "Gretel GLiNER": 11.35
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 47.33,
+          "GLiNER2-PII": 50.09,
+          "GLiNER multi-PII": 40.72,
+          "NVIDIA GLiNER-PII": 48.31,
+          "Gretel GLiNER": 11.35
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 42.85,
+          "GLiNER2-PII": 35.14,
+          "GLiNER multi-PII": 31.52,
+          "NVIDIA GLiNER-PII": 36.23,
+          "Gretel GLiNER": 16.07
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 47.33,
+          "GLiNER2-PII": 50.09,
+          "GLiNER multi-PII": 40.72,
+          "NVIDIA GLiNER-PII": 48.31,
+          "Gretel GLiNER": 11.35
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 47.33,
+          "GLiNER2-PII": 50.09,
+          "GLiNER multi-PII": 40.72,
+          "NVIDIA GLiNER-PII": 48.31,
+          "Gretel GLiNER": 11.35
+        }
+      },
+      "pii_500k": {
+        "V0": {
+          "GLiNER2 Multi-v1": 55.65,
+          "GLiNER2-PII": 55.01,
+          "GLiNER multi-PII": 34.92,
+          "NVIDIA GLiNER-PII": 59.16,
+          "Gretel GLiNER": 36.35
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 55.65,
+          "GLiNER2-PII": 55.01,
+          "GLiNER multi-PII": 34.92,
+          "NVIDIA GLiNER-PII": 59.16,
+          "Gretel GLiNER": 36.35
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 53.71,
+          "GLiNER2-PII": 55.33,
+          "GLiNER multi-PII": 35.81,
+          "NVIDIA GLiNER-PII": 56.42,
+          "Gretel GLiNER": 38.55
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 56.16,
+          "GLiNER2-PII": 55.53,
+          "GLiNER multi-PII": 35.61,
+          "NVIDIA GLiNER-PII": 59.78,
+          "Gretel GLiNER": 36.55
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 55.66,
+          "GLiNER2-PII": 55.01,
+          "GLiNER multi-PII": 34.92,
+          "NVIDIA GLiNER-PII": 59.16,
+          "Gretel GLiNER": 36.35
+        }
+      },
+      "kiji": {
+        "V0": {
+          "GLiNER2 Multi-v1": 63.61,
+          "GLiNER2-PII": 65.93,
+          "GLiNER multi-PII": 42.63,
+          "NVIDIA GLiNER-PII": 66.52,
+          "Gretel GLiNER": 33.77
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 64.19,
+          "GLiNER2-PII": 66.58,
+          "GLiNER multi-PII": 42.99,
+          "NVIDIA GLiNER-PII": 67.65,
+          "Gretel GLiNER": 33.78
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 48.83,
+          "GLiNER2-PII": 50.02,
+          "GLiNER multi-PII": 49.88,
+          "NVIDIA GLiNER-PII": 40.94,
+          "Gretel GLiNER": 45.52
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 66.65,
+          "GLiNER2-PII": 69.12,
+          "GLiNER multi-PII": 44.53,
+          "NVIDIA GLiNER-PII": 68.9,
+          "Gretel GLiNER": 34.37
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 63.62,
+          "GLiNER2-PII": 65.93,
+          "GLiNER multi-PII": 42.64,
+          "NVIDIA GLiNER-PII": 66.53,
+          "Gretel GLiNER": 33.78
+        }
+      },
+      "gretel": {
+        "V0": {
+          "GLiNER2 Multi-v1": 57.65,
+          "GLiNER2-PII": 58.54,
+          "GLiNER multi-PII": 59.25,
+          "NVIDIA GLiNER-PII": 62.01,
+          "Gretel GLiNER": 82.5
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 57.66,
+          "GLiNER2-PII": 58.57,
+          "GLiNER multi-PII": 59.29,
+          "NVIDIA GLiNER-PII": 62.04,
+          "Gretel GLiNER": 82.51
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 58.9,
+          "GLiNER2-PII": 59.26,
+          "GLiNER multi-PII": 61.17,
+          "NVIDIA GLiNER-PII": 59.89,
+          "Gretel GLiNER": 84.12
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 60.04,
+          "GLiNER2-PII": 60.94,
+          "GLiNER multi-PII": 60.36,
+          "NVIDIA GLiNER-PII": 65.44,
+          "Gretel GLiNER": 82.68
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 57.65,
+          "GLiNER2-PII": 58.54,
+          "GLiNER multi-PII": 59.25,
+          "NVIDIA GLiNER-PII": 62.02,
+          "Gretel GLiNER": 82.5
+        }
+      },
+      "nemotron_pii": {
+        "V0": {
+          "GLiNER2 Multi-v1": 77.85,
+          "GLiNER2-PII": 79.2,
+          "GLiNER multi-PII": 63.48,
+          "NVIDIA GLiNER-PII": 90.15,
+          "Gretel GLiNER": 42.88
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 77.85,
+          "GLiNER2-PII": 79.2,
+          "GLiNER multi-PII": 63.48,
+          "NVIDIA GLiNER-PII": 90.15,
+          "Gretel GLiNER": 42.88
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 80.68,
+          "GLiNER2-PII": 76.95,
+          "GLiNER multi-PII": 69.46,
+          "NVIDIA GLiNER-PII": 84.75,
+          "Gretel GLiNER": 54.17
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 78.1,
+          "GLiNER2-PII": 79.5,
+          "GLiNER multi-PII": 63.56,
+          "NVIDIA GLiNER-PII": 90.29,
+          "Gretel GLiNER": 43.0
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 77.86,
+          "GLiNER2-PII": 79.21,
+          "GLiNER multi-PII": 63.48,
+          "NVIDIA GLiNER-PII": 90.16,
+          "Gretel GLiNER": 42.88
+        }
+      },
+      "ai4p_300k": {
+        "V0": {
+          "GLiNER2 Multi-v1": 63.94,
+          "GLiNER2-PII": 65.11,
+          "GLiNER multi-PII": 58.37,
+          "NVIDIA GLiNER-PII": 66.54,
+          "Gretel GLiNER": 38.27
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 63.94,
+          "GLiNER2-PII": 65.11,
+          "GLiNER multi-PII": 58.37,
+          "NVIDIA GLiNER-PII": 66.54,
+          "Gretel GLiNER": 38.27
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 56.43,
+          "GLiNER2-PII": 58.13,
+          "GLiNER multi-PII": 53.34,
+          "NVIDIA GLiNER-PII": 61.58,
+          "Gretel GLiNER": 37.15
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 68.01,
+          "GLiNER2-PII": 69.6,
+          "GLiNER multi-PII": 59.62,
+          "NVIDIA GLiNER-PII": 68.84,
+          "Gretel GLiNER": 41.92
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 63.91,
+          "GLiNER2-PII": 65.09,
+          "GLiNER multi-PII": 58.4,
+          "NVIDIA GLiNER-PII": 66.5,
+          "Gretel GLiNER": 38.26
+        }
+      },
+      "ai4p_400k": {
+        "V0": {
+          "GLiNER2 Multi-v1": 46.85,
+          "GLiNER2-PII": 48.22,
+          "GLiNER multi-PII": 45.85,
+          "NVIDIA GLiNER-PII": 53.3,
+          "Gretel GLiNER": 44.7
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 46.85,
+          "GLiNER2-PII": 48.22,
+          "GLiNER multi-PII": 45.85,
+          "NVIDIA GLiNER-PII": 53.3,
+          "Gretel GLiNER": 44.7
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 44.98,
+          "GLiNER2-PII": 46.85,
+          "GLiNER multi-PII": 45.38,
+          "NVIDIA GLiNER-PII": 51.64,
+          "Gretel GLiNER": 43.21
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 46.85,
+          "GLiNER2-PII": 48.22,
+          "GLiNER multi-PII": 45.85,
+          "NVIDIA GLiNER-PII": 53.3,
+          "Gretel GLiNER": 44.7
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 47.5,
+          "GLiNER2-PII": 48.81,
+          "GLiNER multi-PII": 46.54,
+          "NVIDIA GLiNER-PII": 53.49,
+          "Gretel GLiNER": 44.72
+        }
+      },
+      "gretel_finance": {
+        "V0": {
+          "GLiNER2 Multi-v1": 44.78,
+          "GLiNER2-PII": 51.15,
+          "GLiNER multi-PII": 34.07,
+          "NVIDIA GLiNER-PII": 35.86,
+          "Gretel GLiNER": 19.7
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 44.78,
+          "GLiNER2-PII": 51.15,
+          "GLiNER multi-PII": 34.07,
+          "NVIDIA GLiNER-PII": 35.86,
+          "Gretel GLiNER": 19.7
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 32.98,
+          "GLiNER2-PII": 38.27,
+          "GLiNER multi-PII": 33.58,
+          "NVIDIA GLiNER-PII": 33.56,
+          "Gretel GLiNER": 28.18
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 47.51,
+          "GLiNER2-PII": 53.5,
+          "GLiNER multi-PII": 37.31,
+          "NVIDIA GLiNER-PII": 38.34,
+          "Gretel GLiNER": 19.92
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 44.78,
+          "GLiNER2-PII": 51.15,
+          "GLiNER multi-PII": 34.07,
+          "NVIDIA GLiNER-PII": 35.86,
+          "Gretel GLiNER": 19.68
+        }
+      },
+      "tab": {
+        "V0": {
+          "GLiNER2 Multi-v1": 57.62,
+          "GLiNER2-PII": 54.25,
+          "GLiNER multi-PII": 57.31,
+          "NVIDIA GLiNER-PII": 54.37,
+          "Gretel GLiNER": 6.88
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 57.62,
+          "GLiNER2-PII": 54.25,
+          "GLiNER multi-PII": 57.31,
+          "NVIDIA GLiNER-PII": 54.37,
+          "Gretel GLiNER": 6.88
+        },
+        "V2": {
+          "GLiNER2 Multi-v1": 41.45,
+          "GLiNER2-PII": 33.82,
+          "GLiNER multi-PII": 36.99,
+          "NVIDIA GLiNER-PII": 37.09,
+          "Gretel GLiNER": 9.83
+        },
+        "V3": {
+          "GLiNER2 Multi-v1": 58.18,
+          "GLiNER2-PII": 55.82,
+          "GLiNER multi-PII": 57.8,
+          "NVIDIA GLiNER-PII": 55.79,
+          "Gretel GLiNER": 6.88
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 57.62,
+          "GLiNER2-PII": 54.25,
+          "GLiNER multi-PII": 57.31,
+          "NVIDIA GLiNER-PII": 54.37,
+          "Gretel GLiNER": 6.88
+        }
+      },
+      "mapa": {
+        "V0": {
+          "GLiNER2 Multi-v1": 32.31,
+          "GLiNER2-PII": 25.04,
+          "GLiNER multi-PII": 22.65,
+          "NVIDIA GLiNER-PII": 35.52,
+          "Gretel GLiNER": 18.19
+        },
+        "V1-10": {
+          "GLiNER2 Multi-v1": 32.31,
+          "GLiNER2-PII": 25.04,
+          "GLiNER multi-PII": 22.65,
+          "NVIDIA GLiNER-PII": 35.52,
+          "Gretel GLiNER": 18.19
+        },
+        "V4": {
+          "GLiNER2 Multi-v1": 32.31,
+          "GLiNER2-PII": 25.04,
+          "GLiNER multi-PII": 22.65,
+          "NVIDIA GLiNER-PII": 35.52,
+          "Gretel GLiNER": 18.19
+        }
+      }
+    },
+    "adjacent": [
+      {
+        "corpus": "privy",
+        "upper": "GLiNER2-PII",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 1.78,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "privy",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 0.98,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "privy",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 6.6,
+        "flips_under": []
+      },
+      {
+        "corpus": "privy",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 29.38,
+        "flips_under": []
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 3.51,
+        "flips_under": []
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER2-PII",
+        "margin": 0.64,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "GLiNER2-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 18.66,
+        "flips_under": []
+      },
+      {
+        "corpus": "pii_500k",
+        "upper": "Gretel GLiNER",
+        "lower": "GLiNER multi-PII",
+        "margin": 1.43,
+        "flips_under": []
+      },
+      {
+        "corpus": "kiji",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 0.59,
+        "flips_under": [
+          "V2",
+          "V3"
+        ]
+      },
+      {
+        "corpus": "kiji",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 2.32,
+        "flips_under": []
+      },
+      {
+        "corpus": "kiji",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 20.98,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "kiji",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 8.86,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel",
+        "upper": "Gretel GLiNER",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 20.49,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 2.76,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "gretel",
+        "upper": "GLiNER multi-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 0.71,
+        "flips_under": [
+          "V3"
+        ]
+      },
+      {
+        "corpus": "gretel",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 0.89,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 10.95,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 1.35,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 14.38,
+        "flips_under": []
+      },
+      {
+        "corpus": "nemotron_pii",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 20.6,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 1.43,
+        "flips_under": [
+          "V3"
+        ]
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 1.17,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 5.57,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_300k",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 20.1,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 5.08,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 1.37,
+        "flips_under": []
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 0.99,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "ai4p_400k",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 1.15,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 6.37,
+        "flips_under": []
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 8.92,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 1.79,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "gretel_finance",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 14.37,
+        "flips_under": []
+      },
+      {
+        "corpus": "tab",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER multi-PII",
+        "margin": 0.3,
+        "flips_under": []
+      },
+      {
+        "corpus": "tab",
+        "upper": "GLiNER multi-PII",
+        "lower": "NVIDIA GLiNER-PII",
+        "margin": 2.94,
+        "flips_under": [
+          "V2"
+        ]
+      },
+      {
+        "corpus": "tab",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2-PII",
+        "margin": 0.13,
+        "flips_under": [
+          "V3"
+        ]
+      },
+      {
+        "corpus": "tab",
+        "upper": "GLiNER2-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 47.37,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "NVIDIA GLiNER-PII",
+        "lower": "GLiNER2 Multi-v1",
+        "margin": 3.21,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "GLiNER2 Multi-v1",
+        "lower": "GLiNER2-PII",
+        "margin": 7.26,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "GLiNER2-PII",
+        "lower": "GLiNER multi-PII",
+        "margin": 2.39,
+        "flips_under": []
+      },
+      {
+        "corpus": "mapa",
+        "upper": "GLiNER multi-PII",
+        "lower": "Gretel GLiNER",
+        "margin": 4.46,
+        "flips_under": []
+      }
+    ],
+    "n_adjacent": 40,
+    "n_close_lt3": 20,
+    "close_flipped": 12,
+    "any_flipped": 14,
+    "max_flipped_margin": 20.98,
+    "median_tau": {
+      "V1-10": 1.0,
+      "V2": 0.8,
+      "V3": 1.0,
+      "V4": 1.0
+    },
+    "top_changed": {
+      "V1-10": "0/10",
+      "V2": "2/9",
+      "V3": "2/9",
+      "V4": "0/10"
+    },
+    "objectives_micro": {
+      "V0:b-a": {
+        "per_corpus": [
+          0.02,
+          -0.37,
+          -0.09,
+          -0.17
+        ],
+        "mean": -0.153,
+        "positive": 1
+      },
+      "V0:c-b": {
+        "per_corpus": [
+          0.02,
+          -0.0,
+          -0.02,
+          -0.08
+        ],
+        "mean": -0.022,
+        "positive": 1
+      },
+      "V1-10:b-a": {
+        "per_corpus": [
+          0.02,
+          -0.37,
+          -0.09,
+          -0.17
+        ],
+        "mean": -0.153,
+        "positive": 1
+      },
+      "V1-10:c-b": {
+        "per_corpus": [
+          0.02,
+          -0.0,
+          -0.02,
+          -0.09
+        ],
+        "mean": -0.022,
+        "positive": 1
+      },
+      "V2:b-a": {
+        "per_corpus": [
+          0.08,
+          -0.41,
+          0.12,
+          -0.13
+        ],
+        "mean": -0.084,
+        "positive": 2
+      },
+      "V2:c-b": {
+        "per_corpus": [
+          0.02,
+          -0.02,
+          -0.14,
+          -0.02
+        ],
+        "mean": -0.04,
+        "positive": 1
+      },
+      "V3:b-a": {
+        "per_corpus": [
+          0.02,
+          -0.34,
+          -0.1,
+          -0.14
+        ],
+        "mean": -0.141,
+        "positive": 1
+      },
+      "V3:c-b": {
+        "per_corpus": [
+          0.02,
+          -0.02,
+          0.0,
+          -0.01
+        ],
+        "mean": -0.002,
+        "positive": 2
+      },
+      "V4:b-a": {
+        "per_corpus": [
+          0.02,
+          -0.37,
+          -0.09,
+          -0.17
+        ],
+        "mean": -0.152,
+        "positive": 1
+      },
+      "V4:c-b": {
+        "per_corpus": [
+          0.02,
+          -0.0,
+          -0.02,
+          -0.08
+        ],
+        "mean": -0.022,
+        "positive": 1
+      }
+    }
+  },
+  "W2_tab": {
+    "pairs": [
+      {
+        "home": "tab",
+        "target": "privy",
+        "rare_types": 9,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -35.59,
+        "delta_rare_on_types_both_predict": -35.59,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 2,
+            "recall_trained": 23.9,
+            "recall_untrained": 36.7
+          },
+          "unseen": {
+            "types": 15,
+            "recall_trained": 21.3,
+            "recall_untrained": 43.6
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "pii_500k",
+        "rare_types": 10,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -15.98,
+        "delta_rare_on_types_both_predict": -15.87,
+        "types_both_predict": 9,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 20,
+            "recall_trained": 37.5,
+            "recall_untrained": 51.6
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "kiji",
+        "rare_types": 14,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -46.87,
+        "delta_rare_on_types_both_predict": -50.47,
+        "types_both_predict": 13,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 28,
+            "recall_trained": 27.2,
+            "recall_untrained": 61.0
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "gretel",
+        "rare_types": 21,
+        "zero_trained": 6,
+        "zero_untrained": 0,
+        "delta_rare": -21.07,
+        "delta_rare_on_types_both_predict": -18.7,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 42,
+            "recall_trained": 24.4,
+            "recall_untrained": 55.8
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "nemotron_pii",
+        "rare_types": 28,
+        "zero_trained": 4,
+        "zero_untrained": 0,
+        "delta_rare": -56.15,
+        "delta_rare_on_types_both_predict": -52.55,
+        "types_both_predict": 24,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 55,
+            "recall_trained": 32.0,
+            "recall_untrained": 74.0
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "ai4p_300k",
+        "rare_types": 14,
+        "zero_trained": 2,
+        "zero_untrained": 0,
+        "delta_rare": -40.19,
+        "delta_rare_on_types_both_predict": -38.31,
+        "types_both_predict": 12,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 27,
+            "recall_trained": 26.4,
+            "recall_untrained": 61.4
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "ai4p_400k",
+        "rare_types": 9,
+        "zero_trained": 1,
+        "zero_untrained": 0,
+        "delta_rare": -23.78,
+        "delta_rare_on_types_both_predict": -22.0,
+        "types_both_predict": 8,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 17,
+            "recall_trained": 31.6,
+            "recall_untrained": 59.7
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "gretel_finance",
+        "rare_types": 15,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": -18.89,
+        "delta_rare_on_types_both_predict": -18.89,
+        "types_both_predict": 15,
+        "by_name": {
+          "shared": {
+            "types": 0,
+            "recall_trained": NaN,
+            "recall_untrained": NaN
+          },
+          "unseen": {
+            "types": 29,
+            "recall_trained": 33.7,
+            "recall_untrained": 48.7
+          }
+        }
+      },
+      {
+        "home": "tab",
+        "target": "mapa",
+        "rare_types": 3,
+        "zero_trained": 0,
+        "zero_untrained": 0,
+        "delta_rare": 20.68,
+        "delta_rare_on_types_both_predict": 20.68,
+        "types_both_predict": 3,
+        "by_name": {
+          "shared": {
+            "types": 1,
+            "recall_trained": 60.0,
+            "recall_untrained": 64.7
+          },
+          "unseen": {
+            "types": 4,
+            "recall_trained": 56.9,
+            "recall_untrained": 61.8
+          }
+        }
+      }
+    ],
+    "summary": {
+      "pairs": 9,
+      "pairs_below_untrained": 8,
+      "below_with_more_zero_types": 6,
+      "mean_zero_trained": 1.67,
+      "mean_zero_untrained": 0,
+      "median_delta_rare": -23.78,
+      "median_delta_on_both": -22.0,
+      "unseen_recall_trained": 31.6,
+      "unseen_recall_untrained": 59.7,
+      "shared_recall_trained": 42.0,
+      "shared_recall_untrained": 50.7
+    }
+  }
+}

@@ -1,0 +1,2161 @@
+{
+  "privy": {
+    "n_train": 49922,
+    "n_test": 5000,
+    "O_offsets": {
+      "spans_checked": 88839,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 17,
+      "support": {
+        "PASSWORD": 129,
+        "US_BANK_NUMBER": 130,
+        "IMEI": 136,
+        "MAC_ADDRESS": 136,
+        "CREDIT_CARD": 136,
+        "AGE": 137,
+        "US_ITIN": 142,
+        "US_LICENSE_PLATE": 155,
+        "US_DRIVER_LICENSE": 156,
+        "US_PASSPORT": 157,
+        "ORG": 292,
+        "FINANCIAL": 450,
+        "NRP": 620,
+        "TITLE": 630,
+        "DATE_TIME": 992,
+        "PER": 1408,
+        "LOC": 2302
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 129,
+      "rare_half_median_support": 136
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.04,
+      "template_leak_pct": 0.16,
+      "value_seen_pct": 50.35,
+      "n_train_templates": 49894,
+      "n_train": 49922
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 43567,
+      "non_majority_label_pct": 0.34,
+      "top_inconsistent": [
+        {
+          "value": "virginia",
+          "labels": {
+            "LOC": 33,
+            "PER": 11
+          }
+        },
+        {
+          "value": "jackson",
+          "labels": {
+            "PER": 21,
+            "LOC": 9
+          }
+        },
+        {
+          "value": "mad",
+          "labels": {
+            "LOC": 8,
+            "FINANCIAL": 7
+          }
+        },
+        {
+          "value": "christian",
+          "labels": {
+            "NRP": 59,
+            "PER": 6
+          }
+        },
+        {
+          "value": "austin",
+          "labels": {
+            "LOC": 10,
+            "PER": 6
+          }
+        },
+        {
+          "value": "washington",
+          "labels": {
+            "LOC": 35,
+            "PER": 5
+          }
+        },
+        {
+          "value": "richmond",
+          "labels": {
+            "LOC": 10,
+            "PER": 4
+          }
+        },
+        {
+          "value": "charlotte",
+          "labels": {
+            "LOC": 8,
+            "PER": 4
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 0,
+      "uncovered_hits": 0,
+      "docs": 5000,
+      "uncovered_per_1k_docs": 0.0,
+      "uncovered_per_1M_chars": 0.0,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": false,
+        "IP": false,
+        "IBAN": false,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 0,
+      "uncovered_out_of_schema": 0,
+      "in_schema_per_1k_docs": 0.0,
+      "out_of_schema_per_1k_docs": 0.0,
+      "uncovered_by_type": {},
+      "examples": []
+    },
+    "B_boundaries": {
+      "spans": 8108,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 0.0
+    },
+    "G_artifacts": {
+      "spans": 8108,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 0.0,
+      "docs_with_unfilled_slot": 0,
+      "slot_examples": [],
+      "top_slots": {}
+    },
+    "X_consequence": {
+      "a": {
+        "micro_leaked": 100.0,
+        "micro_unseen": 99.54,
+        "docs_leaked": 8,
+        "docs_unseen": 4992,
+        "recall_seen_value": 99.77,
+        "recall_unseen_value": 99.4
+      },
+      "b": {
+        "micro_leaked": 100.0,
+        "micro_unseen": 99.51,
+        "docs_leaked": 8,
+        "docs_unseen": 4992,
+        "recall_seen_value": 99.76,
+        "recall_unseen_value": 99.44
+      },
+      "c": {
+        "micro_leaked": 100.0,
+        "micro_unseen": 99.57,
+        "docs_leaked": 8,
+        "docs_unseen": 4992,
+        "recall_seen_value": 99.78,
+        "recall_unseen_value": 99.55
+      }
+    }
+  },
+  "pii_500k": {
+    "n_train": 49998,
+    "n_test": 4999,
+    "O_offsets": {
+      "spans_checked": 130042,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 20,
+      "support": {
+        "DRIVERLICENSENUM": 110,
+        "GENDER": 111,
+        "SEX": 113,
+        "SOCIALNUM": 119,
+        "CREDITCARDNUMBER": 126,
+        "TAXNUM": 152,
+        "ZIPCODE": 189,
+        "PASSPORTNUM": 202,
+        "AGE": 270,
+        "IDCARDNUM": 403,
+        "TITLE": 409,
+        "BUILDINGNUM": 453,
+        "STREET": 544,
+        "EMAIL": 575,
+        "DATE": 581,
+        "TIME": 674,
+        "TELEPHONENUM": 774,
+        "CITY": 825,
+        "SURNAME": 1419,
+        "GIVENNAME": 3759
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 110,
+      "rare_half_median_support": 139.0
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.56,
+      "template_leak_pct": 1.6,
+      "value_seen_pct": 28.55,
+      "n_train_templates": 49484,
+      "n_train": 49998
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 21168,
+      "non_majority_label_pct": 7.21,
+      "top_inconsistent": [
+        {
+          "value": "female",
+          "labels": {
+            "SEX": 135,
+            "GENDER": 124
+          }
+        },
+        {
+          "value": "male",
+          "labels": {
+            "SEX": 122,
+            "GENDER": 91
+          }
+        },
+        {
+          "value": "weiblich",
+          "labels": {
+            "GENDER": 47,
+            "SEX": 41
+          }
+        },
+        {
+          "value": "femenino",
+          "labels": {
+            "SEX": 43,
+            "GENDER": 41
+          }
+        },
+        {
+          "value": "masculino",
+          "labels": {
+            "SEX": 36,
+            "GENDER": 36
+          }
+        },
+        {
+          "value": "other",
+          "labels": {
+            "GENDER": 122,
+            "SEX": 34
+          }
+        },
+        {
+          "value": "10",
+          "labels": {
+            "AGE": 34,
+            "BUILDINGNUM": 33
+          }
+        },
+        {
+          "value": "12",
+          "labels": {
+            "AGE": 37,
+            "BUILDINGNUM": 31
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 36,
+      "uncovered_hits": 0,
+      "docs": 4999,
+      "uncovered_per_1k_docs": 0.0,
+      "uncovered_per_1M_chars": 0.0,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": true,
+        "IP": false,
+        "IBAN": false,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 0,
+      "uncovered_out_of_schema": 0,
+      "in_schema_per_1k_docs": 0.0,
+      "out_of_schema_per_1k_docs": 0.0,
+      "uncovered_by_type": {},
+      "examples": []
+    },
+    "B_boundaries": {
+      "spans": 11808,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 0.0
+    },
+    "G_artifacts": {
+      "spans": 11808,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 0.48,
+      "docs_with_unfilled_slot": 24,
+      "slot_examples": [
+        "అద్భుతాగతavier [LANGUAGEPLACEHOLDER_9] స్కిల్స్",
+        "[ORGANISATIONPLACEHOLDER_39] is hosting a hackat",
+        "rá en Ahumada y el pago se realizará en [CURRENCYPLACEHOLDER_22].",
+        "ás personalizados, necesitamos saber su [LANGUAGEPLACEHOLDER_22]."
+      ],
+      "top_slots": {
+        "[LANGUAGEPLACEHOLDER_#]": 11,
+        "[AMOUNTPLACEHOLDER_#]": 5,
+        "[ORGANISATIONPLACEHOLDER_#]": 4,
+        "[CURRENCYPLACEHOLDER_#]": 2,
+        "[NUMBER]": 2,
+        "[POLICYNUMPLACEHOLDER_#]": 1,
+        "[VEHICLEVINPLACEHOLDER_#]": 1,
+        "[ACCOUNTNUMPLACEHOLDER_#]": 1
+      }
+    },
+    "X_consequence": {
+      "a": {
+        "micro_leaked": 92.28,
+        "micro_unseen": 89.9,
+        "docs_leaked": 80,
+        "docs_unseen": 4919,
+        "recall_seen_value": 92.36,
+        "recall_unseen_value": 88.9
+      },
+      "b": {
+        "micro_leaked": 91.21,
+        "micro_unseen": 89.55,
+        "docs_leaked": 80,
+        "docs_unseen": 4919,
+        "recall_seen_value": 92.04,
+        "recall_unseen_value": 88.48
+      },
+      "c": {
+        "micro_leaked": 91.37,
+        "micro_unseen": 89.56,
+        "docs_leaked": 80,
+        "docs_unseen": 4919,
+        "recall_seen_value": 92.04,
+        "recall_unseen_value": 88.49
+      }
+    }
+  },
+  "kiji": {
+    "n_train": 43845,
+    "n_test": 5000,
+    "O_offsets": {
+      "spans_checked": 377017,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 28,
+      "support": {
+        "ORGANIZATION": 4,
+        "TITLE": 5,
+        "USERNAME": 309,
+        "CREDITCARDNUMBER": 351,
+        "IDCARDNUM": 570,
+        "AGE": 571,
+        "TAXNUM": 574,
+        "NATIONALID": 579,
+        "LICENSEPLATENUM": 594,
+        "PASSPORTID": 616,
+        "PASSWORD": 624,
+        "SECURITYTOKEN": 632,
+        "DRIVERLICENSENUM": 635,
+        "IBAN": 637,
+        "SSN": 641,
+        "URL": 660,
+        "DATEOFBIRTH": 695,
+        "EMAIL": 766,
+        "PHONENUMBER": 782,
+        "COMPANYNAME": 921,
+        "COUNTRY": 1142,
+        "STATE": 2238,
+        "ZIP": 2786,
+        "STREET": 3614,
+        "BUILDINGNUM": 3841,
+        "CITY": 4173,
+        "SURNAME": 4413,
+        "FIRSTNAME": 5412
+      },
+      "types_lt_10": 2,
+      "types_lt_20": 2,
+      "types_lt_50": 2,
+      "rare_half_min_support": 4,
+      "rare_half_median_support": 576.5
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.0,
+      "template_leak_pct": 2.76,
+      "value_seen_pct": 83.7,
+      "n_train_templates": 42854,
+      "n_train": 43845
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 304941,
+      "non_majority_label_pct": 5.82,
+      "top_inconsistent": [
+        {
+          "value": "45",
+          "labels": {
+            "BUILDINGNUM": 2302,
+            "AGE": 1278,
+            "STREET": 16
+          }
+        },
+        {
+          "value": "123456789",
+          "labels": {
+            "IDCARDNUM": 288,
+            "NATIONALID": 261,
+            "TAXNUM": 235
+          }
+        },
+        {
+          "value": "42",
+          "labels": {
+            "BUILDINGNUM": 921,
+            "AGE": 539,
+            "STREET": 2
+          }
+        },
+        {
+          "value": "12345678",
+          "labels": {
+            "TAXNUM": 403,
+            "IDCARDNUM": 306,
+            "NATIONALID": 114
+          }
+        },
+        {
+          "value": "luxembourg",
+          "labels": {
+            "COUNTRY": 404,
+            "STATE": 316,
+            "CITY": 149
+          }
+        },
+        {
+          "value": "zürich",
+          "labels": {
+            "CITY": 1159,
+            "STATE": 447
+          }
+        },
+        {
+          "value": "987654321",
+          "labels": {
+            "IDCARDNUM": 266,
+            "TAXNUM": 175,
+            "NATIONALID": 145
+          }
+        },
+        {
+          "value": "123-45-6789",
+          "labels": {
+            "SSN": 1916,
+            "TAXNUM": 209,
+            "NATIONALID": 144
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 494,
+      "uncovered_hits": 10,
+      "docs": 5000,
+      "uncovered_per_1k_docs": 2.0,
+      "uncovered_per_1M_chars": 4.57,
+      "schema_has": {
+        "URL": true,
+        "EMAIL": true,
+        "IP": false,
+        "IBAN": true,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 10,
+      "uncovered_out_of_schema": 0,
+      "in_schema_per_1k_docs": 2.0,
+      "out_of_schema_per_1k_docs": 0.0,
+      "uncovered_by_type": {
+        "URL": 8,
+        "EMAIL": 2
+      },
+      "examples": [
+        {
+          "type": "URL",
+          "value": "https://bank-berlin.de/verification"
+        },
+        {
+          "type": "EMAIL",
+          "value": "olivia.bennett89@mail.com"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.salzburg.gv.at"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.lpsi.de/forschungsergebnisse"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.berlinerbank.de"
+        },
+        {
+          "type": "EMAIL",
+          "value": "lars.hansen@example.dk"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 38785,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 1.704
+    },
+    "G_artifacts": {
+      "spans": 38785,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 0.0,
+      "docs_with_unfilled_slot": 0,
+      "slot_examples": [],
+      "top_slots": {}
+    },
+    "X_consequence": {
+      "a": {
+        "micro_leaked": 100.0,
+        "micro_unseen": 92.76,
+        "docs_leaked": 138,
+        "docs_unseen": 4862,
+        "recall_seen_value": 93.49,
+        "recall_unseen_value": 90.8
+      },
+      "b": {
+        "micro_leaked": 99.98,
+        "micro_unseen": 92.75,
+        "docs_leaked": 138,
+        "docs_unseen": 4862,
+        "recall_seen_value": 93.3,
+        "recall_unseen_value": 90.87
+      },
+      "c": {
+        "micro_leaked": 99.9,
+        "micro_unseen": 92.75,
+        "docs_leaked": 138,
+        "docs_unseen": 4862,
+        "recall_seen_value": 93.23,
+        "recall_unseen_value": 90.84
+      }
+    }
+  },
+  "gretel": {
+    "n_train": 50000,
+    "n_test": 5000,
+    "O_offsets": {
+      "spans_checked": 233431,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 42,
+      "support": {
+        "PIN": 2,
+        "CVV": 3,
+        "TAX_ID": 23,
+        "URL": 23,
+        "STATE": 27,
+        "SWIFT_BIC": 28,
+        "HEALTH_PLAN_BENEFICIARY_NUMBER": 41,
+        "NATIONAL_ID": 46,
+        "PASSWORD": 59,
+        "API_KEY": 60,
+        "IPV6": 66,
+        "COUNTRY": 71,
+        "COORDINATE": 85,
+        "VEHICLE_IDENTIFIER": 98,
+        "POSTCODE": 104,
+        "TIME": 106,
+        "CERTIFICATE_LICENSE_NUMBER": 124,
+        "CITY": 128,
+        "BIOMETRIC_IDENTIFIER": 137,
+        "ACCOUNT_NUMBER": 141,
+        "COMPANY_NAME": 185,
+        "UNIQUE_IDENTIFIER": 189,
+        "DATE_TIME": 211,
+        "DEVICE_IDENTIFIER": 249,
+        "BANK_ROUTING_NUMBER": 257,
+        "USER_NAME": 338,
+        "ADDRESS": 563,
+        "LICENSE_PLATE": 579,
+        "CREDIT_CARD_NUMBER": 663,
+        "STREET_ADDRESS": 869,
+        "IPV4": 896,
+        "PHONE_NUMBER": 904,
+        "NAME": 980,
+        "EMPLOYEE_ID": 1005,
+        "CUSTOMER_ID": 1033,
+        "EMAIL": 1049,
+        "LAST_NAME": 1057,
+        "DATE": 1157,
+        "FIRST_NAME": 1172,
+        "SSN": 1661,
+        "DATE_OF_BIRTH": 2331,
+        "MEDICAL_RECORD_NUMBER": 2658
+      },
+      "types_lt_10": 2,
+      "types_lt_20": 2,
+      "types_lt_50": 8,
+      "rare_half_min_support": 2,
+      "rare_half_median_support": 66
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.0,
+      "template_leak_pct": 4.22,
+      "value_seen_pct": 14.1,
+      "n_train_templates": 48541,
+      "n_train": 50000
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 22756,
+      "non_majority_label_pct": 4.07,
+      "top_inconsistent": [
+        {
+          "value": "thomas",
+          "labels": {
+            "FIRST_NAME": 67,
+            "LAST_NAME": 32
+          }
+        },
+        {
+          "value": "taylor",
+          "labels": {
+            "LAST_NAME": 36,
+            "FIRST_NAME": 21
+          }
+        },
+        {
+          "value": "scott",
+          "labels": {
+            "FIRST_NAME": 40,
+            "LAST_NAME": 19
+          }
+        },
+        {
+          "value": "kelly",
+          "labels": {
+            "FIRST_NAME": 48,
+            "LAST_NAME": 17
+          }
+        },
+        {
+          "value": "jordan",
+          "labels": {
+            "FIRST_NAME": 20,
+            "LAST_NAME": 10,
+            "COUNTRY": 4
+          }
+        },
+        {
+          "value": "mitchell",
+          "labels": {
+            "FIRST_NAME": 22,
+            "LAST_NAME": 13
+          }
+        },
+        {
+          "value": "lee",
+          "labels": {
+            "LAST_NAME": 36,
+            "FIRST_NAME": 13
+          }
+        },
+        {
+          "value": "martin",
+          "labels": {
+            "LAST_NAME": 23,
+            "FIRST_NAME": 12
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 682,
+      "uncovered_hits": 5,
+      "docs": 5000,
+      "uncovered_per_1k_docs": 1.0,
+      "uncovered_per_1M_chars": 4.62,
+      "schema_has": {
+        "URL": true,
+        "EMAIL": true,
+        "IP": true,
+        "IBAN": false,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 5,
+      "uncovered_out_of_schema": 0,
+      "in_schema_per_1k_docs": 1.0,
+      "out_of_schema_per_1k_docs": 0.0,
+      "uncovered_by_type": {
+        "EMAIL": 4,
+        "URL": 1
+      },
+      "examples": [
+        {
+          "type": "EMAIL",
+          "value": "old@example.com"
+        },
+        {
+          "type": "EMAIL",
+          "value": "new@example.com"
+        },
+        {
+          "type": "URL",
+          "value": "https://example.com/supertechgadget.jpg"
+        },
+        {
+          "type": "EMAIL",
+          "value": "info@biotechrx.com"
+        },
+        {
+          "type": "EMAIL",
+          "value": "support@ourstore.com"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 21378,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 0.0
+    },
+    "G_artifacts": {
+      "spans": 21378,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 0.06,
+      "docs_with_unfilled_slot": 3,
+      "slot_examples": [
+        "576339  **LOAN DETAILS**  Loan Amount: $[AMOUNT] Interest Rate: [RAT",
+        "of my biometric data for the purpose of [L31075732993]. I understand that ",
+        "n Benefit Statement**  **Beneficiary:** [C7306475] **Address:** 308 Le"
+      ],
+      "top_slots": {
+        "[AMOUNT]": 1,
+        "[RATE]": 1,
+        "[TERMS]": 1,
+        "[L#]": 1,
+        "[C#]": 1
+      }
+    },
+    "X_consequence": {
+      "a": {
+        "micro_leaked": 97.98,
+        "micro_unseen": 95.88,
+        "docs_leaked": 211,
+        "docs_unseen": 4789,
+        "recall_seen_value": 91.41,
+        "recall_unseen_value": 96.62
+      },
+      "b": {
+        "micro_leaked": 97.94,
+        "micro_unseen": 95.73,
+        "docs_leaked": 211,
+        "docs_unseen": 4789,
+        "recall_seen_value": 91.23,
+        "recall_unseen_value": 96.46
+      },
+      "c": {
+        "micro_leaked": 97.94,
+        "micro_unseen": 95.62,
+        "docs_leaked": 211,
+        "docs_unseen": 4789,
+        "recall_seen_value": 90.22,
+        "recall_unseen_value": 96.42
+      }
+    }
+  },
+  "nemotron_anonymous-org_full": {
+    "O_offsets": {
+      "spans_checked": 1249974,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 55,
+      "support": {
+        "TAX_ID": 661,
+        "UNIQUE_ID": 849,
+        "DEVICE_IDENTIFIER": 1283,
+        "CERTIFICATE_LICENSE_NUMBER": 1489,
+        "NATIONAL_ID": 1495,
+        "IPV6": 1599,
+        "SEXUALITY": 1670,
+        "LICENSE_PLATE": 2003,
+        "MAC_ADDRESS": 2125,
+        "VEHICLE_IDENTIFIER": 2265,
+        "API_KEY": 2399,
+        "CVV": 2401,
+        "HTTP_COOKIE": 2464,
+        "BLOOD_TYPE": 2742,
+        "SWIFT_BIC": 2910,
+        "SSN": 3080,
+        "RELIGIOUS_BELIEF": 3090,
+        "IPV4": 3095,
+        "POSTCODE": 3106,
+        "POLITICAL_VIEW": 3170,
+        "FAX_NUMBER": 3191,
+        "PIN": 3292,
+        "PASSWORD": 3398,
+        "AGE": 3602,
+        "COORDINATE": 3812,
+        "GENDER": 3917,
+        "BANK_ROUTING_NUMBER": 4105,
+        "COUNTY": 4256,
+        "LANGUAGE": 4340,
+        "EMPLOYEE_ID": 4523,
+        "EDUCATION_LEVEL": 4562,
+        "RACE_ETHNICITY": 4612,
+        "HEALTH_PLAN_BENEFICIARY_NUMBER": 5254,
+        "EMPLOYMENT_STATUS": 5501,
+        "MEDICAL_RECORD_NUMBER": 5548,
+        "BIOMETRIC_IDENTIFIER": 5678,
+        "CREDIT_DEBIT_CARD": 6404,
+        "DATE_TIME": 6605,
+        "USER_NAME": 7936,
+        "ACCOUNT_NUMBER": 8324,
+        "STREET_ADDRESS": 8407,
+        "STATE": 9033,
+        "DATE_OF_BIRTH": 9055,
+        "CITY": 9096,
+        "CUSTOMER_ID": 10241,
+        "COUNTRY": 11672,
+        "PHONE_NUMBER": 11992,
+        "TIME": 12553,
+        "OCCUPATION": 18071,
+        "URL": 18963,
+        "EMAIL": 26976,
+        "COMPANY_NAME": 27542,
+        "LAST_NAME": 29497,
+        "DATE": 36922,
+        "FIRST_NAME": 41777
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 661,
+      "rare_half_median_support": 2826.0
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.0,
+      "template_leak_pct": 0.0,
+      "value_seen_pct": 52.7,
+      "n_train_templates": 99981,
+      "n_train": 100000
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 790775,
+      "non_majority_label_pct": 1.7,
+      "top_inconsistent": [
+        {
+          "value": "student",
+          "labels": {
+            "EMPLOYMENT_STATUS": 553,
+            "OCCUPATION": 232,
+            "EDUCATION_LEVEL": 40
+          }
+        },
+        {
+          "value": "new york",
+          "labels": {
+            "STATE": 798,
+            "CITY": 255,
+            "COUNTY": 4
+          }
+        },
+        {
+          "value": "georgia",
+          "labels": {
+            "STATE": 369,
+            "COUNTRY": 161,
+            "FIRST_NAME": 8
+          }
+        },
+        {
+          "value": "123456789",
+          "labels": {
+            "BANK_ROUTING_NUMBER": 36,
+            "ACCOUNT_NUMBER": 32,
+            "PASSWORD": 30
+          }
+        },
+        {
+          "value": "jordan",
+          "labels": {
+            "COUNTRY": 369,
+            "FIRST_NAME": 75,
+            "LAST_NAME": 47
+          }
+        },
+        {
+          "value": "thomas",
+          "labels": {
+            "FIRST_NAME": 314,
+            "LAST_NAME": 119
+          }
+        },
+        {
+          "value": "korean",
+          "labels": {
+            "LANGUAGE": 163,
+            "RACE_ETHNICITY": 116
+          }
+        },
+        {
+          "value": "taylor",
+          "labels": {
+            "FIRST_NAME": 234,
+            "LAST_NAME": 98,
+            "CITY": 1
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 20155,
+      "uncovered_hits": 14,
+      "docs": 50000,
+      "uncovered_per_1k_docs": 0.28,
+      "uncovered_by_type": {
+        "URL": 7,
+        "IP": 3,
+        "CARD_NUMBER": 3,
+        "EMAIL": 1
+      },
+      "examples": [
+        {
+          "type": "URL",
+          "value": "https://policy.support.servicenow"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.exampleinvestment.com/guidelines"
+        },
+        {
+          "type": "IP",
+          "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+        },
+        {
+          "type": "IP",
+          "value": "2001:0db8:85a3::8a2e:370:7334"
+        },
+        {
+          "type": "URL",
+          "value": "ftp://creatives.advertisingreview.com/creatives/2023Q3/fashi"
+        },
+        {
+          "type": "IP",
+          "value": "2a02:4d60:1031::c5e1:9876"
+        }
+      ]
+    },
+    "X_consequence": {
+      "GLiNER2 uni+affine (July run, thr 0.7)": {
+        "micro_leaked": 100.0,
+        "micro_unseen": 96.27,
+        "docs_leaked": 2,
+        "docs_unseen": 49998,
+        "recall_seen_value": 94.86,
+        "recall_unseen_value": 96.39
+      }
+    }
+  },
+  "nemotron": {
+    "n_train": 100000,
+    "n_test": 100000,
+    "O_offsets": {
+      "spans_checked": 1675796,
+      "mismatch": 12965,
+      "mismatch_pct": 0.774,
+      "examples": [
+        {
+          "label": "RACE_ETHNICITY",
+          "value": "spanish",
+          "text_at_offsets": "Spanish"
+        },
+        {
+          "label": "RACE_ETHNICITY",
+          "value": "puerto rican",
+          "text_at_offsets": "Puerto Rican"
+        },
+        {
+          "label": "POLITICAL_VIEW",
+          "value": "Environmentalist",
+          "text_at_offsets": "environmentalist"
+        },
+        {
+          "label": "RACE_ETHNICITY",
+          "value": "white",
+          "text_at_offsets": "White"
+        },
+        {
+          "label": "POLITICAL_VIEW",
+          "value": "Pro-life",
+          "text_at_offsets": "pro-life"
+        }
+      ]
+    },
+    "S_support": {
+      "n_types": 55,
+      "support": {
+        "TAX_ID": 1302,
+        "UNIQUE_ID": 1777,
+        "DEVICE_IDENTIFIER": 2507,
+        "NATIONAL_ID": 2847,
+        "CERTIFICATE_LICENSE_NUMBER": 3002,
+        "IPV6": 3139,
+        "SEXUALITY": 3312,
+        "LICENSE_PLATE": 4078,
+        "MAC_ADDRESS": 4250,
+        "VEHICLE_IDENTIFIER": 4561,
+        "API_KEY": 4667,
+        "CVV": 4843,
+        "HTTP_COOKIE": 4892,
+        "BLOOD_TYPE": 5539,
+        "SWIFT_BIC": 5559,
+        "SSN": 6062,
+        "IPV4": 6078,
+        "RELIGIOUS_BELIEF": 6257,
+        "POSTCODE": 6279,
+        "POLITICAL_VIEW": 6402,
+        "FAX_NUMBER": 6423,
+        "PIN": 6456,
+        "PASSWORD": 6985,
+        "AGE": 7167,
+        "GENDER": 7645,
+        "COORDINATE": 7659,
+        "BANK_ROUTING_NUMBER": 8354,
+        "COUNTY": 8465,
+        "LANGUAGE": 8651,
+        "EMPLOYEE_ID": 8878,
+        "RACE_ETHNICITY": 9248,
+        "EDUCATION_LEVEL": 9378,
+        "HEALTH_PLAN_BENEFICIARY_NUMBER": 10558,
+        "EMPLOYMENT_STATUS": 11018,
+        "MEDICAL_RECORD_NUMBER": 11098,
+        "BIOMETRIC_IDENTIFIER": 11379,
+        "CREDIT_DEBIT_CARD": 12867,
+        "DATE_TIME": 13221,
+        "USER_NAME": 15800,
+        "ACCOUNT_NUMBER": 16693,
+        "STREET_ADDRESS": 16879,
+        "DATE_OF_BIRTH": 18079,
+        "STATE": 18318,
+        "CITY": 18347,
+        "CUSTOMER_ID": 20502,
+        "COUNTRY": 23475,
+        "PHONE_NUMBER": 23930,
+        "TIME": 24506,
+        "OCCUPATION": 36888,
+        "URL": 37847,
+        "EMAIL": 53930,
+        "COMPANY_NAME": 54837,
+        "LAST_NAME": 59596,
+        "DATE": 73867,
+        "FIRST_NAME": 84043
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 1302,
+      "rare_half_median_support": 5549.0
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.0,
+      "template_leak_pct": 0.0,
+      "value_seen_pct": 52.8,
+      "n_train_templates": 99981,
+      "n_train": 100000
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 1092340,
+      "non_majority_label_pct": 1.76,
+      "top_inconsistent": [
+        {
+          "value": "new york",
+          "labels": {
+            "STATE": 1062,
+            "CITY": 310,
+            "COUNTY": 4
+          }
+        },
+        {
+          "value": "student",
+          "labels": {
+            "EMPLOYMENT_STATUS": 763,
+            "OCCUPATION": 267,
+            "EDUCATION_LEVEL": 45
+          }
+        },
+        {
+          "value": "georgia",
+          "labels": {
+            "STATE": 482,
+            "COUNTRY": 205,
+            "FIRST_NAME": 14
+          }
+        },
+        {
+          "value": "jordan",
+          "labels": {
+            "COUNTRY": 439,
+            "FIRST_NAME": 118,
+            "LAST_NAME": 62
+          }
+        },
+        {
+          "value": "korean",
+          "labels": {
+            "LANGUAGE": 246,
+            "RACE_ETHNICITY": 174
+          }
+        },
+        {
+          "value": "123456789",
+          "labels": {
+            "BANK_ROUTING_NUMBER": 52,
+            "PASSWORD": 40,
+            "ACCOUNT_NUMBER": 38
+          }
+        },
+        {
+          "value": "taylor",
+          "labels": {
+            "FIRST_NAME": 323,
+            "LAST_NAME": 160,
+            "CITY": 1
+          }
+        },
+        {
+          "value": "thomas",
+          "labels": {
+            "FIRST_NAME": 454,
+            "LAST_NAME": 157,
+            "USER_NAME": 1
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 40192,
+      "uncovered_hits": 32,
+      "docs": 100000,
+      "uncovered_per_1k_docs": 0.32,
+      "uncovered_per_1M_chars": 0.33,
+      "schema_has": {
+        "URL": true,
+        "EMAIL": true,
+        "IP": true,
+        "IBAN": false,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 32,
+      "uncovered_out_of_schema": 0,
+      "in_schema_per_1k_docs": 0.32,
+      "out_of_schema_per_1k_docs": 0.0,
+      "uncovered_by_type": {
+        "IP": 12,
+        "URL": 14,
+        "CARD_NUMBER": 5,
+        "EMAIL": 1
+      },
+      "examples": [
+        {
+          "type": "IP",
+          "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+        },
+        {
+          "type": "IP",
+          "value": "2001:0db8:85a3::8a2e:370:7334"
+        },
+        {
+          "type": "URL",
+          "value": "www.allaboutcookies.org"
+        },
+        {
+          "type": "URL",
+          "value": "http://tools.google.com/dlpage/gaoptout"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.exampleinvestment.com/guidelines"
+        },
+        {
+          "type": "CARD_NUMBER",
+          "value": "4242-4242-4242-4242"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 850340,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 0.006
+    },
+    "G_artifacts": {
+      "spans": 850340,
+      "null_value_pct": 0.004,
+      "null_values": 31,
+      "markup_value_pct": 0.001,
+      "markup_values": 12,
+      "docs_with_unfilled_slot_pct": 0.011,
+      "docs_with_unfilled_slot": 11,
+      "slot_examples": [
+        "IT OF NO PENDING LITIGATION**  STATE OF [STATE]  COUNTY OF [COUNTY]",
+        "_________________ Sheena Fung  STATE OF [STATE] COUNTY OF [COUNTY] ",
+        "**AFFIDAVIT OF NO DEFAULT**  STATE OF [STATE]  COUNTY OF [COUNTY]",
+        " **High-Resolution Images:** - Image 1: [JPEG] Crime scene overvie"
+      ],
+      "top_slots": {
+        "[STATE]": 12,
+        "[COUNTY]": 9,
+        "[JPEG]": 2,
+        "[DATE]": 2,
+        "[ADDRESS]": 2,
+        "[REDACTED]": 1,
+        "[PURPOSE]": 1
+      }
+    },
+    "X_consequence": {
+      "GLiNER2 uni+affine (July run on the anonymous-org re-upload, thr 0.7)": {
+        "micro_leaked": 100.0,
+        "micro_unseen": 96.27,
+        "docs_leaked": 2,
+        "docs_unseen": 49998,
+        "recall_seen_value": 94.87,
+        "recall_unseen_value": 96.38
+      }
+    }
+  },
+  "tab": {
+    "n_train": 1014,
+    "n_test": 127,
+    "O_offsets": {
+      "spans_checked": 95029,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 8,
+      "support": {
+        "QUANTITY": 218,
+        "CODE": 336,
+        "MISC": 345,
+        "DEM": 498,
+        "LOC": 527,
+        "PERSON": 1018,
+        "ORG": 1995,
+        "DATETIME": 2626
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 218,
+      "rare_half_median_support": 340.5
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.0,
+      "template_leak_pct": 0.0,
+      "value_seen_pct": 63.53,
+      "n_train_templates": 1014,
+      "n_train": 1014
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 67671,
+      "non_majority_label_pct": 1.81,
+      "top_inconsistent": [
+        {
+          "value": "united kingdom",
+          "labels": {
+            "ORG": 168,
+            "LOC": 107,
+            "DEM": 23
+          }
+        },
+        {
+          "value": "turkey",
+          "labels": {
+            "LOC": 160,
+            "ORG": 90
+          }
+        },
+        {
+          "value": "switzerland",
+          "labels": {
+            "ORG": 109,
+            "LOC": 84
+          }
+        },
+        {
+          "value": "polish",
+          "labels": {
+            "DEM": 205,
+            "ORG": 54,
+            "LOC": 6
+          }
+        },
+        {
+          "value": "secretary of state",
+          "labels": {
+            "ORG": 42,
+            "DEM": 24,
+            "PERSON": 20
+          }
+        },
+        {
+          "value": "austria",
+          "labels": {
+            "LOC": 91,
+            "ORG": 41
+          }
+        },
+        {
+          "value": "germany",
+          "labels": {
+            "LOC": 126,
+            "ORG": 36
+          }
+        },
+        {
+          "value": "human rights building, strasbourg",
+          "labels": {
+            "LOC": 108,
+            "ORG": 34
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 0,
+      "uncovered_hits": 0,
+      "docs": 127,
+      "uncovered_per_1k_docs": 0.0,
+      "uncovered_per_1M_chars": 0.0,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": false,
+        "IP": false,
+        "IBAN": false,
+        "CARD_NUMBER": false
+      },
+      "uncovered_in_schema": 0,
+      "uncovered_out_of_schema": 0,
+      "in_schema_per_1k_docs": 0.0,
+      "out_of_schema_per_1k_docs": 0.0,
+      "uncovered_by_type": {},
+      "examples": []
+    },
+    "B_boundaries": {
+      "spans": 7563,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 0.238
+    },
+    "G_artifacts": {
+      "spans": 7563,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 0.0,
+      "docs_with_unfilled_slot": 0,
+      "slot_examples": [],
+      "top_slots": {}
+    },
+    "X_consequence": {},
+    "IAA": {
+      "train": {
+        "docs_multi": 67,
+        "pairs": 137,
+        "exact_f1_mean": 78.41,
+        "span_only_f1_mean": 80.36
+      },
+      "test": {
+        "docs_multi": 105,
+        "pairs": 1543,
+        "exact_f1_mean": 82.84,
+        "span_only_f1_mean": 84.74
+      }
+    }
+  },
+  "mapa": {
+    "n_train": 0,
+    "n_test": 10838,
+    "O_offsets": {
+      "na": "spans carry no value field"
+    },
+    "S_support": {
+      "n_types": 5,
+      "support": {
+        "AMOUNT": 24,
+        "ADDRESS": 536,
+        "PERSON": 1157,
+        "DATE": 1996,
+        "ORGANISATION": 2429
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 1,
+      "rare_half_min_support": 24,
+      "rare_half_median_support": 536
+    },
+    "L_leakage": {
+      "na": "no train split released"
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 4624,
+      "non_majority_label_pct": 4.04,
+      "top_inconsistent": [
+        {
+          "value": "simmenthal",
+          "labels": {
+            "ORGANISATION": 230,
+            "PERSON": 59
+          }
+        },
+        {
+          "value": "costanzo",
+          "labels": {
+            "PERSON": 52,
+            "ORGANISATION": 42
+          }
+        },
+        {
+          "value": "peterbroeck",
+          "labels": {
+            "PERSON": 24,
+            "ORGANISATION": 16
+          }
+        },
+        {
+          "value": "vrijheidsfonds",
+          "labels": {
+            "PERSON": 11,
+            "ORGANISATION": 9
+          }
+        },
+        {
+          "value": "van gend en loos",
+          "labels": {
+            "ORGANISATION": 11,
+            "PERSON": 6
+          }
+        },
+        {
+          "value": "debus",
+          "labels": {
+            "PERSON": 13,
+            "ORGANISATION": 6
+          }
+        },
+        {
+          "value": "van gend & loos",
+          "labels": {
+            "ORGANISATION": 15,
+            "PERSON": 4
+          }
+        },
+        {
+          "value": "pontin",
+          "labels": {
+            "PERSON": 16,
+            "ORGANISATION": 4
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 1,
+      "uncovered_hits": 1,
+      "docs": 10838,
+      "uncovered_per_1k_docs": 0.09,
+      "uncovered_per_1M_chars": 0.46,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": false,
+        "IP": false,
+        "IBAN": false,
+        "CARD_NUMBER": false
+      },
+      "uncovered_in_schema": 0,
+      "uncovered_out_of_schema": 1,
+      "in_schema_per_1k_docs": 0.0,
+      "out_of_schema_per_1k_docs": 0.09,
+      "uncovered_by_type": {
+        "URL": 1
+      },
+      "examples": [
+        {
+          "type": "URL",
+          "value": "https://www.workplacerelations.ie/en/Complaints_Disputes/Adj"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 6142,
+      "edge_whitespace_pct": 0.0,
+      "overlapping_pct": 0.0
+    },
+    "G_artifacts": {
+      "spans": 6142,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 0.0,
+      "docs_with_unfilled_slot": 0,
+      "slot_examples": [],
+      "top_slots": {}
+    },
+    "X_consequence": {}
+  },
+  "gretel_finance": {
+    "n_train": 50346,
+    "n_test": 5594,
+    "O_offsets": {
+      "na": "spans carry no value field"
+    },
+    "S_support": {
+      "n_types": 29,
+      "support": {
+        "USER_NAME": 71,
+        "DATE_TIME": 89,
+        "API_KEY": 91,
+        "LOCAL_LATLNG": 97,
+        "PASSWORD": 101,
+        "CREDIT_CARD_NUMBER": 120,
+        "IPV6": 134,
+        "PASSPORT_NUMBER": 136,
+        "DRIVER_LICENSE_NUMBER": 140,
+        "ACCOUNT_PIN": 143,
+        "SSN": 153,
+        "BANK_ROUTING_NUMBER": 158,
+        "CREDIT_CARD_SECURITY_CODE": 160,
+        "IPV4": 164,
+        "BBAN": 166,
+        "EMPLOYEE_ID": 175,
+        "CUSTOMER_ID": 195,
+        "IBAN": 203,
+        "LAST_NAME": 215,
+        "SWIFT_BIC_CODE": 227,
+        "DATE_OF_BIRTH": 250,
+        "FIRST_NAME": 279,
+        "PHONE_NUMBER": 946,
+        "EMAIL": 1422,
+        "TIME": 1746,
+        "STREET_ADDRESS": 4307,
+        "COMPANY": 6342,
+        "DATE": 8469,
+        "NAME": 10318
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 71,
+      "rare_half_median_support": 136
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.14,
+      "template_leak_pct": 0.46,
+      "value_seen_pct": 62.16,
+      "n_train_templates": 50200,
+      "n_train": 50346
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 236593,
+      "non_majority_label_pct": 1.14,
+      "top_inconsistent": [
+        {
+          "value": "december 31, 2021",
+          "labels": {
+            "DATE": 997,
+            "DATE_TIME": 21
+          }
+        },
+        {
+          "value": "123456789",
+          "labels": {
+            "NAME": 288,
+            "PASSPORT_NUMBER": 18,
+            "DATE": 1
+          }
+        },
+        {
+          "value": "123456",
+          "labels": {
+            "NAME": 108,
+            "TIME": 12,
+            "SSN": 4
+          }
+        },
+        {
+          "value": "laurent",
+          "labels": {
+            "NAME": 14,
+            "LAST_NAME": 10,
+            "FIRST_NAME": 9
+          }
+        },
+        {
+          "value": "adres",
+          "labels": {
+            "STREET_ADDRESS": 22,
+            "NAME": 17
+          }
+        },
+        {
+          "value": "nilsson",
+          "labels": {
+            "NAME": 17,
+            "LAST_NAME": 15
+          }
+        },
+        {
+          "value": "maria",
+          "labels": {
+            "NAME": 213,
+            "FIRST_NAME": 15
+          }
+        },
+        {
+          "value": "adresse",
+          "labels": {
+            "STREET_ADDRESS": 24,
+            "NAME": 15
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 323,
+      "uncovered_hits": 20,
+      "docs": 5594,
+      "uncovered_per_1k_docs": 3.58,
+      "uncovered_per_1M_chars": 2.74,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": true,
+        "IP": true,
+        "IBAN": true,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 1,
+      "uncovered_out_of_schema": 19,
+      "in_schema_per_1k_docs": 0.18,
+      "out_of_schema_per_1k_docs": 3.4,
+      "uncovered_by_type": {
+        "URL": 19,
+        "CARD_NUMBER": 1
+      },
+      "examples": [
+        {
+          "type": "URL",
+          "value": "www.unserabank.de"
+        },
+        {
+          "type": "URL",
+          "value": "www.digitalmediafund.com"
+        },
+        {
+          "type": "URL",
+          "value": "https://register.example.com/innovative-teaching"
+        },
+        {
+          "type": "URL",
+          "value": "https://register.example.com/tech-integration"
+        },
+        {
+          "type": "URL",
+          "value": "www.example.com"
+        },
+        {
+          "type": "URL",
+          "value": "smtp.example.com"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 37017,
+      "edge_whitespace_pct": 0.014,
+      "overlapping_pct": 2.191
+    },
+    "G_artifacts": {
+      "spans": 37017,
+      "null_value_pct": 0.0,
+      "null_values": 0,
+      "markup_value_pct": 0.014,
+      "markup_values": 5,
+      "docs_with_unfilled_slot_pct": 0.358,
+      "docs_with_unfilled_slot": 20,
+      "slot_examples": [
+        "il de [CIUDAD_Registro_Mercantil], Tomo [TOMO], Libro [LIBRO], Fol",
+        "FT Message in Swedish, MT760 format:  :\\[MT760][CSM]\\[522][20220812",
+        "er information, such as SWIFT/BIC codes [SRXXUSQA919], device information",
+        "SSURANCE, Société anonyme au capital de [MONTANT] euros, dont le sièg"
+      ],
+      "top_slots": {
+        "[REDACTED]": 23,
+        "[DATE]": 5,
+        "[BIDM]": 4,
+        "[VILLE]": 3,
+        "[LUOGO]": 2,
+        "[NUMBER]": 2,
+        "[TOMO]": 1,
+        "[LIBRO]": 1
+      }
+    },
+    "X_consequence": {}
+  },
+  "ai4privacy_300k": {
+    "n_train": 177677,
+    "n_test": 47728,
+    "O_offsets": {
+      "spans_checked": 1505581,
+      "mismatch": 7812,
+      "mismatch_pct": 0.519,
+      "examples": [
+        {
+          "label": "GIVENNAME1",
+          "value": "SADAN5010589125]'s parents to discuss pr",
+          "text_at_offsets": "SADAN5010589125]'s parents to discuss pr"
+        },
+        {
+          "label": "GIVENNAME1",
+          "value": "SADAN5010589125] has shown great potenti",
+          "text_at_offsets": "SADAN5010589125] has shown great potenti"
+        },
+        {
+          "label": "IDCARD",
+          "value": "BOD_A(February 4th, 1955",
+          "text_at_offsets": "February 4th, 1955  \n   "
+        },
+        {
+          "label": "IDCARD",
+          "value": "IDCARD_K(CY92321MY",
+          "text_at_offsets": "CY92321MY  \n   Loc"
+        },
+        {
+          "label": "IDCARD",
+          "value": "IDCARD_G(FX17650VR",
+          "text_at_offsets": "FX17650VR  \n   Loc"
+        }
+      ]
+    },
+    "S_support": {
+      "n_types": 28,
+      "support": {
+        "CARDISSUER": 17,
+        "LASTNAME3": 1190,
+        "GEOCOORD": 1285,
+        "GIVENNAME2": 3358,
+        "LASTNAME2": 3712,
+        "SECADDRESS": 5066,
+        "PASS": 10303,
+        "COUNTRY": 10694,
+        "DATE": 10734,
+        "TITLE": 11097,
+        "BUILDING": 11835,
+        "STREET": 11963,
+        "STATE": 11975,
+        "POSTCODE": 12160,
+        "CITY": 12364,
+        "TEL": 12601,
+        "GIVENNAME1": 12602,
+        "SEX": 12989,
+        "IP": 14111,
+        "LASTNAME1": 14228,
+        "BOD": 14531,
+        "DRIVERLICENSE": 15207,
+        "PASSPORT": 15570,
+        "SOCIALNUMBER": 15791,
+        "EMAIL": 15883,
+        "IDCARD": 16693,
+        "USERNAME": 17209,
+        "TIME": 24022
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 1,
+      "types_lt_50": 1,
+      "rare_half_min_support": 17,
+      "rare_half_median_support": 10498.5
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.0,
+      "template_leak_pct": 0.0,
+      "value_seen_pct": 42.88,
+      "n_train_templates": 177621,
+      "n_train": 177677
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 595267,
+      "non_majority_label_pct": 4.83,
+      "top_inconsistent": [
+        {
+          "value": "fr",
+          "labels": {
+            "COUNTRY": 2290,
+            "STATE": 459,
+            "TITLE": 449
+          }
+        },
+        {
+          "value": "gr",
+          "labels": {
+            "STATE": 387,
+            "TITLE": 207,
+            "PASSPORT": 11
+          }
+        },
+        {
+          "value": "n/a",
+          "labels": {
+            "GIVENNAME1": 56,
+            "SECADDRESS": 54,
+            "USERNAME": 50
+          }
+        },
+        {
+          "value": "none",
+          "labels": {
+            "GIVENNAME1": 43,
+            "TITLE": 30,
+            "SECADDRESS": 27
+          }
+        },
+        {
+          "value": "unknown",
+          "labels": {
+            "LASTNAME1": 71,
+            "GIVENNAME1": 59,
+            "BOD": 24
+          }
+        },
+        {
+          "value": "21",
+          "labels": {
+            "TIME": 504,
+            "STATE": 120,
+            "BUILDING": 63
+          }
+        },
+        {
+          "value": "nan",
+          "labels": {
+            "POSTCODE": 233,
+            "CITY": 96,
+            "STATE": 75
+          }
+        },
+        {
+          "value": "...",
+          "labels": {
+            "LASTNAME1": 44,
+            "SOCIALNUMBER": 24,
+            "IDCARD": 14
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 7970,
+      "uncovered_hits": 69,
+      "docs": 47728,
+      "uncovered_per_1k_docs": 1.45,
+      "uncovered_per_1M_chars": 3.44,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": true,
+        "IP": true,
+        "IBAN": false,
+        "CARD_NUMBER": false
+      },
+      "uncovered_in_schema": 63,
+      "uncovered_out_of_schema": 6,
+      "in_schema_per_1k_docs": 1.32,
+      "out_of_schema_per_1k_docs": 0.13,
+      "uncovered_by_type": {
+        "IP": 35,
+        "URL": 6,
+        "EMAIL": 28
+      },
+      "examples": [
+        {
+          "type": "IP",
+          "value": "156.241.173.1"
+        },
+        {
+          "type": "IP",
+          "value": "203.64.21.1"
+        },
+        {
+          "type": "URL",
+          "value": "www.educationcareercounseling.uk/reset-password"
+        },
+        {
+          "type": "URL",
+          "value": "www.educationcareercounseling.uk/reset-password"
+        },
+        {
+          "type": "IP",
+          "value": "216.96.121.232"
+        },
+        {
+          "type": "EMAIL",
+          "value": "1959sbrigan@outlook.co"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 319190,
+      "edge_whitespace_pct": 0.24,
+      "overlapping_pct": 0.684
+    },
+    "G_artifacts": {
+      "spans": 319190,
+      "null_value_pct": 0.072,
+      "null_values": 229,
+      "markup_value_pct": 0.041,
+      "markup_values": 132,
+      "docs_with_unfilled_slot_pct": 1.439,
+      "docs_with_unfilled_slot": 687,
+      "slot_examples": [
+        "ome to Virtual Reality Classroom!  Dear [RECIPIENT_NAME],  We are thrilled t",
+        " characteristics:  1. Group A - led by [INSTRUCTOR_NAME_A]    - Date of Birth:",
+        "rth: 01/02/1939     7. Group G - led by [INSTRUCTOR_NAME_G]    - Date of Birth:",
+        "rt.  2. Student: [M635352682869]    Contact Number: "
+      ],
+      "top_slots": {
+        "DATE_BG(": 47,
+        "[LASTNAME#_A]": 42,
+        "{{#}}": 30,
+        "TIME_BG(": 26,
+        "[GIVENNAME#_A]": 20,
+        "KEY_ID(": 20,
+        "[S#]": 15,
+        "[N#]": 15
+      }
+    },
+    "X_consequence": {}
+  },
+  "ai4privacy_400k": {
+    "n_train": 325517,
+    "n_test": 81379,
+    "O_offsets": {
+      "spans_checked": 444186,
+      "mismatch": 0,
+      "mismatch_pct": 0.0,
+      "examples": []
+    },
+    "S_support": {
+      "n_types": 17,
+      "support": {
+        "DRIVERLICENSENUM": 2483,
+        "CREDITCARDNUMBER": 2567,
+        "TAXNUM": 2609,
+        "PASSWORD": 2641,
+        "SOCIALNUM": 3038,
+        "ZIPCODE": 3558,
+        "BUILDINGNUM": 3599,
+        "STREET": 3714,
+        "DATEOFBIRTH": 3761,
+        "ACCOUNTNUM": 3982,
+        "IDCARDNUM": 4121,
+        "TELEPHONENUM": 5682,
+        "EMAIL": 7721,
+        "CITY": 8078,
+        "USERNAME": 8566,
+        "SURNAME": 9193,
+        "GIVENNAME": 13497
+      },
+      "types_lt_10": 0,
+      "types_lt_20": 0,
+      "types_lt_50": 0,
+      "rare_half_min_support": 2483,
+      "rare_half_median_support": 3038
+    },
+    "L_leakage": {
+      "exact_text_dup_pct": 0.04,
+      "template_leak_pct": 0.25,
+      "value_seen_pct": 28.31,
+      "n_train_templates": 325031,
+      "n_train": 325517
+    },
+    "C_consistency": {
+      "mentions_in_repeated_values": 96789,
+      "non_majority_label_pct": 3.4,
+      "top_inconsistent": [
+        {
+          "value": "nan",
+          "labels": {
+            "ZIPCODE": 60,
+            "CITY": 49,
+            "GIVENNAME": 1
+          }
+        },
+        {
+          "value": "linden",
+          "labels": {
+            "STREET": 13,
+            "CITY": 12,
+            "GIVENNAME": 2
+          }
+        },
+        {
+          "value": "la roche",
+          "labels": {
+            "CITY": 17,
+            "STREET": 9
+          }
+        },
+        {
+          "value": "rain",
+          "labels": {
+            "CITY": 7,
+            "STREET": 7,
+            "GIVENNAME": 1
+          }
+        },
+        {
+          "value": "peyton",
+          "labels": {
+            "GIVENNAME": 5,
+            "CITY": 4,
+            "USERNAME": 2
+          }
+        },
+        {
+          "value": "1307",
+          "labels": {
+            "BUILDINGNUM": 9,
+            "ZIPCODE": 6
+          }
+        },
+        {
+          "value": "tor",
+          "labels": {
+            "STREET": 6,
+            "GIVENNAME": 4,
+            "SURNAME": 1
+          }
+        },
+        {
+          "value": "schattenhalb",
+          "labels": {
+            "CITY": 14,
+            "STREET": 5
+          }
+        }
+      ]
+    },
+    "U_unannotated": {
+      "rule_hits": 2763,
+      "uncovered_hits": 995,
+      "docs": 81379,
+      "uncovered_per_1k_docs": 12.23,
+      "uncovered_per_1M_chars": 81.94,
+      "schema_has": {
+        "URL": false,
+        "EMAIL": true,
+        "IP": false,
+        "IBAN": false,
+        "CARD_NUMBER": true
+      },
+      "uncovered_in_schema": 2,
+      "uncovered_out_of_schema": 993,
+      "in_schema_per_1k_docs": 0.02,
+      "out_of_schema_per_1k_docs": 12.2,
+      "uncovered_by_type": {
+        "URL": 981,
+        "IBAN": 12,
+        "EMAIL": 1,
+        "CARD_NUMBER": 1
+      },
+      "examples": [
+        {
+          "type": "URL",
+          "value": "https://stephens.org/"
+        },
+        {
+          "type": "URL",
+          "value": "https://sanchez.com/"
+        },
+        {
+          "type": "URL",
+          "value": "http://raymond.com/"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.stark-hays.net/"
+        },
+        {
+          "type": "URL",
+          "value": "http://www.davison.com/"
+        },
+        {
+          "type": "URL",
+          "value": "https://www.robinson.info/"
+        }
+      ]
+    },
+    "B_boundaries": {
+      "spans": 88810,
+      "edge_whitespace_pct": 0.329,
+      "overlapping_pct": 0.0
+    },
+    "G_artifacts": {
+      "spans": 88810,
+      "null_value_pct": 0.028,
+      "null_values": 25,
+      "markup_value_pct": 0.0,
+      "markup_values": 0,
+      "docs_with_unfilled_slot_pct": 9.323,
+      "docs_with_unfilled_slot": 7587,
+      "slot_examples": [
+        "the insurance. In an emergency, contact [IPV4_1], or call +41 41-415",
+        "t phone: +1 995-437-5906. Data secured: [IPV4_1].</p>",
+        "card: 647813627792196535. IP secured at [IPV4_1].</p>",
+        "15617982180180983. Details logged from: [IPV4_1]. Witness: Att."
+      ],
+      "top_slots": {
+        "[IPV#_#]": 5774,
+        "[CREDITCARDEXPIRYCREDITCARDCVV_#]": 946,
+        "[NAME_#]": 166,
+        "[EMAIL_#]": 109,
+        "[TELEPHONENUM_#]": 108,
+        "[CITY_#]": 102,
+        "[DATE_#]": 76,
+        "[ORGANISATION_#]": 68
+      }
+    },
+    "X_consequence": {}
+  }
+}

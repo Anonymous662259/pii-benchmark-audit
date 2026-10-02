@@ -1,0 +1,433 @@
+{
+  "privy": {
+    "audit_key": "privy",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 37.87,
+      "novel": 44.93,
+      "share_seen": 50.35
+    },
+    "precision": {
+      "precision": 55.27,
+      "precision_without_flagged": 55.27,
+      "fp": 2715,
+      "fp_in_flagged": 0,
+      "fp_in_flagged_pct": 0.0
+    },
+    "rare_half": {
+      "macro": 49.93,
+      "rare": 55.85,
+      "micro": 47.33,
+      "types_scored": 17
+    },
+    "rare_half_floor10": {
+      "macro": 49.93,
+      "rare": 55.85,
+      "micro": 47.33,
+      "types_scored": 17
+    },
+    "trained_b_seeds": [
+      "seed-1337",
+      "seed-2024",
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 99.74,
+      "novel": 99.5,
+      "share_seen": 50.35
+    },
+    "did_by_type": {
+      "types": 6,
+      "equal_weight": 9.67,
+      "mention_weight": 5.88,
+      "types_positive": 3,
+      "min_n": 20
+    }
+  },
+  "pii_500k": {
+    "audit_key": "pii_500k",
+    "docs": 4999,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 53.01,
+      "novel": 51.03,
+      "share_seen": 28.55
+    },
+    "precision": {
+      "precision": 60.4,
+      "precision_without_flagged": 60.43,
+      "fp": 3994,
+      "fp_in_flagged": 5,
+      "fp_in_flagged_pct": 0.13
+    },
+    "rare_half": {
+      "macro": 46.88,
+      "rare": 34.19,
+      "micro": 55.65,
+      "types_scored": 20
+    },
+    "rare_half_floor10": {
+      "macro": 46.88,
+      "rare": 34.19,
+      "micro": 55.65,
+      "types_scored": 20
+    },
+    "trained_b_seeds": [
+      "seed-1337",
+      "seed-2024",
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 91.93,
+      "novel": 88.51,
+      "share_seen": 28.55
+    },
+    "did_by_type": {
+      "types": 9,
+      "equal_weight": -5.37,
+      "mention_weight": -8.62,
+      "types_positive": 1,
+      "min_n": 20
+    }
+  },
+  "kiji": {
+    "audit_key": "kiji",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 59.32,
+      "novel": 69.36,
+      "share_seen": 83.7
+    },
+    "precision": {
+      "precision": 66.5,
+      "precision_without_flagged": 66.52,
+      "fp": 11907,
+      "fp_in_flagged": 10,
+      "fp_in_flagged_pct": 0.08
+    },
+    "rare_half": {
+      "macro": 64.48,
+      "rare": 65.24,
+      "micro": 63.61,
+      "types_scored": 28
+    },
+    "rare_half_floor10": {
+      "macro": 69.34,
+      "rare": 72.74,
+      "micro": 64.19,
+      "types_scored": 26
+    },
+    "trained_b_seeds": [
+      "seed-1337",
+      "seed-2024",
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 93.36,
+      "novel": 90.97,
+      "share_seen": 83.7
+    },
+    "did_by_type": {
+      "types": 24,
+      "equal_weight": 2.4,
+      "mention_weight": 3.68,
+      "types_positive": 11,
+      "min_n": 20
+    }
+  },
+  "gretel": {
+    "audit_key": "gretel",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 42.09,
+      "novel": 58.06,
+      "share_seen": 14.1
+    },
+    "precision": {
+      "precision": 59.61,
+      "precision_without_flagged": 59.63,
+      "fp": 8083,
+      "fp_in_flagged": 6,
+      "fp_in_flagged_pct": 0.07
+    },
+    "rare_half": {
+      "macro": 46.17,
+      "rare": 37.22,
+      "micro": 57.65,
+      "types_scored": 42
+    },
+    "rare_half_floor10": {
+      "macro": 47.86,
+      "rare": 40.18,
+      "micro": 57.66,
+      "types_scored": 40
+    },
+    "trained_b_seeds": [
+      "seed-1337",
+      "seed-2024",
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 90.87,
+      "novel": 96.47,
+      "share_seen": 14.1
+    },
+    "did_by_type": {
+      "types": 5,
+      "equal_weight": -10.81,
+      "mention_weight": -4.6,
+      "types_positive": 0,
+      "min_n": 20
+    }
+  },
+  "nemotron_pii": {
+    "audit_key": "nemotron",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 66.09,
+      "novel": 81.54,
+      "share_seen": 48.74
+    },
+    "precision": {
+      "precision": 82.11,
+      "precision_without_flagged": 82.13,
+      "fp": 6802,
+      "fp_in_flagged": 7,
+      "fp_in_flagged_pct": 0.1
+    },
+    "rare_half": {
+      "macro": 78.73,
+      "rare": 78.76,
+      "micro": 77.85,
+      "types_scored": 55
+    },
+    "rare_half_floor10": {
+      "macro": 78.73,
+      "rare": 78.76,
+      "micro": 77.85,
+      "types_scored": 55
+    },
+    "trained_b_seeds": [
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 95.93,
+      "novel": 96.49,
+      "share_seen": 48.74
+    },
+    "did_by_type": {
+      "types": 35,
+      "equal_weight": 1.0,
+      "mention_weight": -0.32,
+      "types_positive": 17,
+      "min_n": 20
+    }
+  },
+  "ai4p_300k": {
+    "audit_key": "ai4privacy_300k",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 72.79,
+      "novel": 55.21,
+      "share_seen": 34.95
+    },
+    "precision": {
+      "precision": 66.75,
+      "precision_without_flagged": 66.81,
+      "fp": 10114,
+      "fp_in_flagged": 30,
+      "fp_in_flagged_pct": 0.3
+    },
+    "rare_half": {
+      "macro": 58.98,
+      "rare": 57.19,
+      "micro": 63.94,
+      "types_scored": 27
+    },
+    "rare_half_floor10": {
+      "macro": 58.98,
+      "rare": 57.19,
+      "micro": 63.94,
+      "types_scored": 27
+    },
+    "trained_b_seeds": [
+      "seed-1337",
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 96.89,
+      "novel": 94.14,
+      "share_seen": 34.95
+    },
+    "did_by_type": {
+      "types": 14,
+      "equal_weight": -1.32,
+      "mention_weight": -2.34,
+      "types_positive": 4,
+      "min_n": 20
+    }
+  },
+  "ai4p_400k": {
+    "audit_key": "ai4privacy_400k",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 60.65,
+      "novel": 59.53,
+      "share_seen": 11.9
+    },
+    "precision": {
+      "precision": 38.56,
+      "precision_without_flagged": 39.45,
+      "fp": 5138,
+      "fp_in_flagged": 189,
+      "fp_in_flagged_pct": 3.68
+    },
+    "rare_half": {
+      "macro": 45.89,
+      "rare": 43.23,
+      "micro": 46.85,
+      "types_scored": 17
+    },
+    "rare_half_floor10": {
+      "macro": 45.89,
+      "rare": 43.23,
+      "micro": 46.85,
+      "types_scored": 17
+    },
+    "trained_b_seeds": [
+      "seed-1337",
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 89.66,
+      "novel": 87.59,
+      "share_seen": 11.9
+    },
+    "did_by_type": {
+      "types": 6,
+      "equal_weight": 1.27,
+      "mention_weight": 1.73,
+      "types_positive": 3,
+      "min_n": 20
+    }
+  },
+  "gretel_finance": {
+    "audit_key": "gretel_finance",
+    "docs": 4999,
+    "docs_failed_excluded": 1,
+    "recall": {
+      "seen": 49.54,
+      "novel": 47.32,
+      "share_seen": 59.88
+    },
+    "precision": {
+      "precision": 41.47,
+      "precision_without_flagged": 41.5,
+      "fp": 22641,
+      "fp_in_flagged": 28,
+      "fp_in_flagged_pct": 0.12
+    },
+    "rare_half": {
+      "macro": 38.14,
+      "rare": 27.17,
+      "micro": 44.78,
+      "types_scored": 29
+    },
+    "rare_half_floor10": {
+      "macro": 38.14,
+      "rare": 27.17,
+      "micro": 44.78,
+      "types_scored": 29
+    },
+    "trained_b_seeds": [
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 85.68,
+      "novel": 75.58,
+      "share_seen": 59.88
+    },
+    "did_by_type": {
+      "types": 11,
+      "equal_weight": 5.12,
+      "mention_weight": 6.8,
+      "types_positive": 7,
+      "min_n": 20
+    }
+  },
+  "tab": {
+    "audit_key": "tab",
+    "docs": 127,
+    "docs_failed_excluded": 0,
+    "recall": {
+      "seen": 61.17,
+      "novel": 42.57,
+      "share_seen": 63.53
+    },
+    "precision": {
+      "precision": 61.26,
+      "precision_without_flagged": 61.26,
+      "fp": 2601,
+      "fp_in_flagged": 0,
+      "fp_in_flagged_pct": 0.0
+    },
+    "rare_half": {
+      "macro": 44.22,
+      "rare": 27.95,
+      "micro": 57.62,
+      "types_scored": 8
+    },
+    "rare_half_floor10": {
+      "macro": 44.22,
+      "rare": 27.95,
+      "micro": 57.62,
+      "types_scored": 8
+    },
+    "trained_b_seeds": [
+      "seed-42"
+    ],
+    "recall_trained_b": {
+      "seen": 83.29,
+      "novel": 64.32,
+      "share_seen": 63.53
+    },
+    "did_by_type": {
+      "types": 8,
+      "equal_weight": -0.73,
+      "mention_weight": 2.99,
+      "types_positive": 3,
+      "min_n": 20
+    }
+  },
+  "mapa": {
+    "audit_key": "mapa",
+    "docs": 5000,
+    "docs_failed_excluded": 0,
+    "recall": null,
+    "precision": {
+      "precision": 21.81,
+      "precision_without_flagged": 21.81,
+      "fp": 6174,
+      "fp_in_flagged": 0,
+      "fp_in_flagged_pct": 0.0
+    },
+    "rare_half": {
+      "macro": 24.82,
+      "rare": 13.55,
+      "micro": 32.31,
+      "types_scored": 5
+    },
+    "rare_half_floor10": {
+      "macro": 24.82,
+      "rare": 13.55,
+      "micro": 32.31,
+      "types_scored": 5
+    }
+  }
+}

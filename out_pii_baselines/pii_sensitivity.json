@@ -1,0 +1,871 @@
+{
+  "seeds": {
+    "a": [
+      42,
+      1337
+    ],
+    "b": [
+      42,
+      1337
+    ],
+    "c": [
+      42,
+      1337
+    ]
+  },
+  "variants": {
+    "V0": {
+      "arms": {
+        "a": {
+          "macro": 90.71,
+          "rare": 86.101,
+          "micro": 94.652
+        },
+        "b": {
+          "macro": 91.17,
+          "rare": 87.195,
+          "micro": 94.499
+        },
+        "c": {
+          "macro": 91.388,
+          "rare": 87.645,
+          "micro": 94.477
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.46,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.093,
+            "p_sign_flip": 0.0156,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.153,
+            "p_sign_flip": 0.1094,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.218,
+            "p_sign_flip": 0.0703,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.451,
+            "p_sign_flip": 0.1172,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.022,
+            "p_sign_flip": 0.5625,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.678,
+            "p_sign_flip": 0.0312,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.544,
+            "p_sign_flip": 0.0078,
+            "n_positive": 8,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.175,
+            "p_sign_flip": 0.0469,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {},
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    },
+    "V1-10": {
+      "arms": {
+        "a": {
+          "macro": 93.249,
+          "rare": 91.178,
+          "micro": 94.657
+        },
+        "b": {
+          "macro": 93.721,
+          "rare": 92.311,
+          "micro": 94.505
+        },
+        "c": {
+          "macro": 93.737,
+          "rare": 92.362,
+          "micro": 94.482
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.472,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.133,
+            "p_sign_flip": 0.0156,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.153,
+            "p_sign_flip": 0.1094,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.016,
+            "p_sign_flip": 0.8438,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.051,
+            "p_sign_flip": 0.75,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.022,
+            "p_sign_flip": 0.5625,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.488,
+            "p_sign_flip": 0.0312,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.184,
+            "p_sign_flip": 0.0078,
+            "n_positive": 8,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.175,
+            "p_sign_flip": 0.0469,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {
+        "privy": {
+          "labels_kept": 17,
+          "labels_total": 17
+        },
+        "pii_500k": {
+          "labels_kept": 20,
+          "labels_total": 20
+        },
+        "kiji": {
+          "labels_kept": 26,
+          "labels_total": 28
+        },
+        "gretel": {
+          "labels_kept": 40,
+          "labels_total": 42
+        }
+      },
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    },
+    "V1-20": {
+      "arms": {
+        "a": {
+          "macro": 93.249,
+          "rare": 91.178,
+          "micro": 94.657
+        },
+        "b": {
+          "macro": 93.721,
+          "rare": 92.311,
+          "micro": 94.505
+        },
+        "c": {
+          "macro": 93.737,
+          "rare": 92.362,
+          "micro": 94.482
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.472,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.133,
+            "p_sign_flip": 0.0156,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.153,
+            "p_sign_flip": 0.1094,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.016,
+            "p_sign_flip": 0.8438,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.051,
+            "p_sign_flip": 0.75,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.022,
+            "p_sign_flip": 0.5625,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.488,
+            "p_sign_flip": 0.0312,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.184,
+            "p_sign_flip": 0.0078,
+            "n_positive": 8,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.175,
+            "p_sign_flip": 0.0469,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {
+        "privy": {
+          "labels_kept": 17,
+          "labels_total": 17
+        },
+        "pii_500k": {
+          "labels_kept": 20,
+          "labels_total": 20
+        },
+        "kiji": {
+          "labels_kept": 26,
+          "labels_total": 28
+        },
+        "gretel": {
+          "labels_kept": 40,
+          "labels_total": 42
+        }
+      },
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    },
+    "V1-50": {
+      "arms": {
+        "a": {
+          "macro": 93.606,
+          "rare": 91.953,
+          "micro": 94.676
+        },
+        "b": {
+          "macro": 93.942,
+          "rare": 92.827,
+          "micro": 94.517
+        },
+        "c": {
+          "macro": 93.978,
+          "rare": 92.913,
+          "micro": 94.495
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.336,
+            "p_sign_flip": 0.0703,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.874,
+            "p_sign_flip": 0.0156,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.159,
+            "p_sign_flip": 0.1094,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.036,
+            "p_sign_flip": 0.5469,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.087,
+            "p_sign_flip": 0.4609,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.021,
+            "p_sign_flip": 0.5547,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.372,
+            "p_sign_flip": 0.0781,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.961,
+            "p_sign_flip": 0.0078,
+            "n_positive": 8,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.181,
+            "p_sign_flip": 0.0469,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {
+        "privy": {
+          "labels_kept": 17,
+          "labels_total": 17
+        },
+        "pii_500k": {
+          "labels_kept": 20,
+          "labels_total": 20
+        },
+        "kiji": {
+          "labels_kept": 26,
+          "labels_total": 28
+        },
+        "gretel": {
+          "labels_kept": 34,
+          "labels_total": 42
+        }
+      },
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    },
+    "V2": {
+      "arms": {
+        "a": {
+          "macro": 84.946,
+          "rare": 82.807,
+          "micro": 92.134
+        },
+        "b": {
+          "macro": 85.442,
+          "rare": 84.271,
+          "micro": 92.049
+        },
+        "c": {
+          "macro": 85.604,
+          "rare": 84.684,
+          "micro": 92.009
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.497,
+            "p_sign_flip": 0.1875,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.464,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.084,
+            "p_sign_flip": 0.6797,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.162,
+            "p_sign_flip": 0.4062,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.412,
+            "p_sign_flip": 0.1328,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.04,
+            "p_sign_flip": 0.7109,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.659,
+            "p_sign_flip": 0.1172,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.877,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.125,
+            "p_sign_flip": 0.5625,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {
+        "privy": {
+          "a": {
+            "gold_dropped": 4082,
+            "preds_dropped": 4078,
+            "gold_kept": 4026
+          },
+          "b": {
+            "gold_dropped": 4082,
+            "preds_dropped": 4070,
+            "gold_kept": 4026
+          },
+          "c": {
+            "gold_dropped": 4082,
+            "preds_dropped": 4074,
+            "gold_kept": 4026
+          }
+        },
+        "pii_500k": {
+          "a": {
+            "gold_dropped": 3371,
+            "preds_dropped": 3329,
+            "gold_kept": 8437
+          },
+          "b": {
+            "gold_dropped": 3371,
+            "preds_dropped": 3341,
+            "gold_kept": 8437
+          },
+          "c": {
+            "gold_dropped": 3371,
+            "preds_dropped": 3333,
+            "gold_kept": 8437
+          }
+        },
+        "kiji": {
+          "a": {
+            "gold_dropped": 32464,
+            "preds_dropped": 31268,
+            "gold_kept": 6321
+          },
+          "b": {
+            "gold_dropped": 32464,
+            "preds_dropped": 30762,
+            "gold_kept": 6321
+          },
+          "c": {
+            "gold_dropped": 32464,
+            "preds_dropped": 31050,
+            "gold_kept": 6321
+          }
+        },
+        "gretel": {
+          "a": {
+            "gold_kept": 18363,
+            "gold_dropped": 3015,
+            "preds_dropped": 2890
+          },
+          "b": {
+            "gold_kept": 18363,
+            "gold_dropped": 3015,
+            "preds_dropped": 2902
+          },
+          "c": {
+            "gold_kept": 18363,
+            "gold_dropped": 3015,
+            "preds_dropped": 2902
+          }
+        }
+      },
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    },
+    "V3": {
+      "arms": {
+        "a": {
+          "macro": 93.178,
+          "rare": 90.593,
+          "micro": 95.048
+        },
+        "b": {
+          "macro": 93.689,
+          "rare": 91.748,
+          "micro": 94.906
+        },
+        "c": {
+          "macro": 93.888,
+          "rare": 92.151,
+          "micro": 94.905
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.512,
+            "p_sign_flip": 0.0469,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.155,
+            "p_sign_flip": 0.0312,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.141,
+            "p_sign_flip": 0.1172,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.199,
+            "p_sign_flip": 0.1797,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.403,
+            "p_sign_flip": 0.1875,
+            "n_positive": 4,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.002,
+            "p_sign_flip": 0.9219,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.711,
+            "p_sign_flip": 0.0312,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.558,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.143,
+            "p_sign_flip": 0.0781,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {
+        "privy": {
+          "merged_groups": []
+        },
+        "pii_500k": {
+          "merged_groups": [
+            "AGE+BUILDINGNUM",
+            "GENDER+SEX"
+          ]
+        },
+        "kiji": {
+          "merged_groups": [
+            "AGE+BUILDINGNUM",
+            "CITY+COMPANYNAME+FIRSTNAME+ORGANIZATION+STATE+SURNAME+TITLE",
+            "DRIVERLICENSENUM+IDCARDNUM+NATIONALID+PASSPORTID+SSN+TAXNUM"
+          ]
+        },
+        "gretel": {
+          "merged_groups": [
+            "DATE+DATE_OF_BIRTH"
+          ]
+        }
+      },
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    },
+    "V4": {
+      "arms": {
+        "a": {
+          "macro": 90.718,
+          "rare": 86.104,
+          "micro": 94.654
+        },
+        "b": {
+          "macro": 91.181,
+          "rare": 87.204,
+          "micro": 94.502
+        },
+        "c": {
+          "macro": 91.399,
+          "rare": 87.655,
+          "micro": 94.48
+        }
+      },
+      "contrasts": {
+        "b-a": {
+          "macro": {
+            "diff": 0.463,
+            "p_sign_flip": 0.0234,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.1,
+            "p_sign_flip": 0.0156,
+            "n_positive": 7,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.152,
+            "p_sign_flip": 0.1094,
+            "n_positive": 3,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-b": {
+          "macro": {
+            "diff": 0.218,
+            "p_sign_flip": 0.0703,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 0.451,
+            "p_sign_flip": 0.1172,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.022,
+            "p_sign_flip": 0.5625,
+            "n_positive": 5,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        },
+        "c-a": {
+          "macro": {
+            "diff": 0.682,
+            "p_sign_flip": 0.0312,
+            "n_positive": 6,
+            "n_pairs": 8
+          },
+          "rare": {
+            "diff": 1.551,
+            "p_sign_flip": 0.0078,
+            "n_positive": 8,
+            "n_pairs": 8
+          },
+          "micro": {
+            "diff": -0.174,
+            "p_sign_flip": 0.0469,
+            "n_positive": 2,
+            "n_pairs": 8
+          },
+          "seeds": [
+            42,
+            1337
+          ]
+        }
+      },
+      "removed": {
+        "privy": {
+          "a": {},
+          "b": {},
+          "c": {}
+        },
+        "pii_500k": {
+          "a": {
+            "preds_dropped": 0
+          },
+          "b": {
+            "preds_dropped": 0
+          },
+          "c": {
+            "preds_dropped": 0
+          }
+        },
+        "kiji": {
+          "a": {
+            "preds_dropped": 9
+          },
+          "b": {
+            "preds_dropped": 9
+          },
+          "c": {
+            "preds_dropped": 9
+          }
+        },
+        "gretel": {
+          "a": {
+            "preds_dropped": 1
+          },
+          "b": {
+            "preds_dropped": 3
+          },
+          "c": {
+            "preds_dropped": 3
+          }
+        }
+      },
+      "b_over_a_holds": true,
+      "c_over_b_not_decisive": true
+    }
+  }
+}

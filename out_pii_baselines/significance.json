@@ -1,0 +1,164 @@
+[
+  {
+    "dataset": "privy",
+    "n_sentences": 5000,
+    "n_labels": 17,
+    "n_rare": 9,
+    "resamples": 5000,
+    "metrics": {
+      "macro": {
+        "bce": 99.315,
+        "set": 99.461,
+        "diff": 0.146,
+        "ci_lo": -0.036,
+        "ci_hi": 0.32,
+        "p": 0.1144
+      },
+      "rare_macro": {
+        "bce": 99.193,
+        "set": 99.489,
+        "diff": 0.296,
+        "ci_lo": 0.066,
+        "ci_hi": 0.56,
+        "p": 0.0116
+      },
+      "micro": {
+        "bce": 99.544,
+        "set": 99.572,
+        "diff": 0.028,
+        "ci_lo": -0.05,
+        "ci_hi": 0.1,
+        "p": 0.4564
+      }
+    }
+  },
+  {
+    "dataset": "kiji",
+    "n_sentences": 5000,
+    "n_labels": 28,
+    "n_rare": 14,
+    "resamples": 5000,
+    "metrics": {
+      "macro": {
+        "bce": 85.887,
+        "set": 86.046,
+        "diff": 0.159,
+        "ci_lo": 0.054,
+        "ci_hi": 0.265,
+        "p": 0.0036
+      },
+      "rare_macro": {
+        "bce": 79.994,
+        "set": 80.216,
+        "diff": 0.221,
+        "ci_lo": 0.066,
+        "ci_hi": 0.382,
+        "p": 0.0044
+      },
+      "micro": {
+        "bce": 92.951,
+        "set": 92.943,
+        "diff": -0.008,
+        "ci_lo": -0.094,
+        "ci_hi": 0.075,
+        "p": 0.8524
+      }
+    }
+  },
+  {
+    "dataset": "pii_500k",
+    "n_sentences": 4999,
+    "n_labels": 20,
+    "n_rare": 10,
+    "resamples": 5000,
+    "metrics": {
+      "macro": {
+        "bce": 86.895,
+        "set": 87.873,
+        "diff": 0.978,
+        "ci_lo": 0.428,
+        "ci_hi": 1.521,
+        "p": 0.0004
+      },
+      "rare_macro": {
+        "bce": 79.93,
+        "set": 82.303,
+        "diff": 2.373,
+        "ci_lo": 1.292,
+        "ci_hi": 3.448,
+        "p": 0.0
+      },
+      "micro": {
+        "bce": 89.923,
+        "set": 89.575,
+        "diff": -0.348,
+        "ci_lo": -0.636,
+        "ci_hi": -0.069,
+        "p": 0.0172
+      }
+    }
+  },
+  {
+    "dataset": "gretel",
+    "n_sentences": 5000,
+    "n_labels": 42,
+    "n_rare": 21,
+    "resamples": 5000,
+    "metrics": {
+      "macro": {
+        "bce": 90.623,
+        "set": 92.17,
+        "diff": 1.547,
+        "ci_lo": 0.466,
+        "ci_hi": 2.224,
+        "p": 0.0
+      },
+      "rare_macro": {
+        "bce": 85.355,
+        "set": 88.75,
+        "diff": 3.395,
+        "ci_lo": 1.251,
+        "ci_hi": 4.745,
+        "p": 0.0
+      },
+      "micro": {
+        "bce": 95.944,
+        "set": 95.692,
+        "diff": -0.252,
+        "ci_lo": -0.384,
+        "ci_hi": -0.118,
+        "p": 0.0
+      }
+    }
+  },
+  {
+    "dataset": "AVERAGE of 4",
+    "corpora": [
+      "privy",
+      "kiji",
+      "pii_500k",
+      "gretel"
+    ],
+    "resamples": 5000,
+    "metrics": {
+      "macro": {
+        "diff": 0.707,
+        "ci_lo": 0.372,
+        "ci_hi": 0.932,
+        "p": 0.0
+      },
+      "rare_macro": {
+        "diff": 1.571,
+        "ci_lo": 0.917,
+        "ci_hi": 2.014,
+        "p": 0.0
+      },
+      "micro": {
+        "diff": -0.145,
+        "ci_lo": -0.232,
+        "ci_hi": -0.061,
+        "p": 0.0016
+      }
+    }
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "privy/C": {
+    "flags": 14,
+    "sampled": 14
+  },
+  "pii_500k/C": {
+    "flags": 155,
+    "sampled": 20
+  },
+  "pii_500k/G": {
+    "flags": 27,
+    "sampled": 20
+  },
+  "kiji/C": {
+    "flags": 1823,
+    "sampled": 20
+  },
+  "kiji/U": {
+    "flags": 10,
+    "sampled": 10
+  },
+  "gretel/C": {
+    "flags": 86,
+    "sampled": 20
+  },
+  "gretel/G": {
+    "flags": 5,
+    "sampled": 5
+  },
+  "gretel/U": {
+    "flags": 5,
+    "sampled": 5
+  },
+  "nemotron/C": {
+    "flags": 10295,
+    "sampled": 20
+  },
+  "nemotron/G": {
+    "flags": 60,
+    "sampled": 20
+  },
+  "nemotron/O": {
+    "flags": 6195,
+    "sampled": 20
+  },
+  "nemotron/U": {
+    "flags": 32,
+    "sampled": 20
+  },
+  "ai4privacy_300k/C": {
+    "flags": 6465,
+    "sampled": 20
+  },
+  "ai4privacy_300k/G": {
+    "flags": 1549,
+    "sampled": 20
+  },
+  "ai4privacy_300k/O": {
+    "flags": 1784,
+    "sampled": 20
+  },
+  "ai4privacy_300k/U": {
+    "flags": 69,
+    "sampled": 20
+  },
+  "ai4privacy_400k/C": {
+    "flags": 693,
+    "sampled": 20
+  },
+  "ai4privacy_400k/G": {
+    "flags": 10319,
+    "sampled": 20
+  },
+  "ai4privacy_400k/U": {
+    "flags": 995,
+    "sampled": 20
+  },
+  "gretel_finance/C": {
+    "flags": 280,
+    "sampled": 20
+  },
+  "gretel_finance/G": {
+    "flags": 64,
+    "sampled": 20
+  },
+  "gretel_finance/U": {
+    "flags": 20,
+    "sampled": 20
+  },
+  "tab/C": {
+    "flags": 148,
+    "sampled": 20
+  },
+  "mapa/C": {
+    "flags": 187,
+    "sampled": 20
+  },
+  "mapa/U": {
+    "flags": 1,
+    "sampled": 1
+  }
+}

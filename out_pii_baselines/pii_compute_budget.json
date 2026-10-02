@@ -1,0 +1,27 @@
+{
+  "gpu_hours": {
+    "A100-40GB": 37.9,
+    "A100-80GB": 33.0,
+    "A10G": 57.4,
+    "H200": 0.3
+  },
+  "runs": {
+    "A100-40GB": 36,
+    "A10G": 260,
+    "A100-80GB": 27,
+    "H200": 2
+  },
+  "total_gpu_hours": 128.6,
+  "by_kind": {
+    "training + evaluation": 114.7,
+    "evaluation only": 13.8
+  },
+  "smoke_gpu_hours": {
+    "A10G": 0.33,
+    "A100-40GB": 0.13,
+    "H200": 0.04,
+    "A100-80GB": 0.02,
+    "RTX-PRO-6000": 0.28
+  },
+  "records": 355
+}

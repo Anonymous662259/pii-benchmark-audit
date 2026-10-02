@@ -1,0 +1,385 @@
+{
+  "selection": {
+    "untrained|privy": {
+      "val": {
+        "S0": 54.59,
+        "S1": 53.82,
+        "S2": 63.41
+      },
+      "chosen": "S2"
+    },
+    "untrained|pii_500k": {
+      "val": {
+        "S0": 33.15,
+        "S1": 31.96,
+        "S2": 35.14
+      },
+      "chosen": "S2"
+    },
+    "untrained|kiji": {
+      "val": {
+        "S0": 67.75,
+        "S1": 68.88,
+        "S2": 73.09
+      },
+      "chosen": "S2"
+    },
+    "untrained|gretel": {
+      "val": {
+        "S0": 45.73,
+        "S1": 50.34,
+        "S2": 44.82
+      },
+      "chosen": "S1"
+    },
+    "untrained|nemotron_pii": {
+      "val": {
+        "S0": 75.82,
+        "S1": 81.73,
+        "S2": 73.96
+      },
+      "chosen": "S1"
+    },
+    "untrained|ai4p_300k": {
+      "val": {
+        "S0": 58.57,
+        "S1": 57.39,
+        "S2": 61.48
+      },
+      "chosen": "S2"
+    },
+    "untrained|ai4p_400k": {
+      "val": {
+        "S0": 46.12,
+        "S1": 45.67,
+        "S2": 50.81
+      },
+      "chosen": "S2"
+    },
+    "untrained|gretel_finance": {
+      "val": {
+        "S0": 32.28,
+        "S1": 48.19,
+        "S2": 42.67
+      },
+      "chosen": "S1"
+    },
+    "untrained|tab": {
+      "val": {
+        "S0": 37.7,
+        "S1": 36.09,
+        "S2": 45.1
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|privy": {
+      "val": {
+        "S0": 55.89,
+        "S1": 55.04,
+        "S2": 63.33
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|pii_500k": {
+      "val": {
+        "S0": 35.05,
+        "S1": 35.44,
+        "S2": 37.03
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|kiji": {
+      "val": {
+        "S0": 73.88,
+        "S1": 75.1,
+        "S2": 79.01
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|gretel": {
+      "val": {
+        "S0": 39.72,
+        "S1": 42.95,
+        "S2": 44.53
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|nemotron_pii": {
+      "val": {
+        "S0": 71.85,
+        "S1": 77.43,
+        "S2": 71.23
+      },
+      "chosen": "S1"
+    },
+    "GLiNER2-PII|ai4p_300k": {
+      "val": {
+        "S0": 57.06,
+        "S1": 57.01,
+        "S2": 58.2
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|ai4p_400k": {
+      "val": {
+        "S0": 44.77,
+        "S1": 47.35,
+        "S2": 50.14
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII|gretel_finance": {
+      "val": {
+        "S0": 39.61,
+        "S1": 45.53,
+        "S2": 45.26
+      },
+      "chosen": "S1"
+    },
+    "GLiNER2-PII|tab": {
+      "val": {
+        "S0": 37.07,
+        "S1": 34.25,
+        "S2": 41.23
+      },
+      "chosen": "S2"
+    }
+  },
+  "global": {
+    "untrained": {
+      "median_val_gain": {
+        "S0": 0.0,
+        "S1": -0.45,
+        "S2": 4.69
+      },
+      "chosen": "S2"
+    },
+    "GLiNER2-PII": {
+      "median_val_gain": {
+        "S0": 0.0,
+        "S1": 1.22,
+        "S2": 4.81
+      },
+      "chosen": "S2"
+    }
+  },
+  "missing_validation": [],
+  "test_runs_needed": [],
+  "test": {
+    "untrained": {
+      "rows": [
+        {
+          "corpus": "privy",
+          "chosen": "S2",
+          "S0": 55.85,
+          "selected": 69.17,
+          "gain": 13.32,
+          "gain_micro": 15.19,
+          "global": "S2",
+          "gain_global": 13.32
+        },
+        {
+          "corpus": "pii_500k",
+          "chosen": "S2",
+          "S0": 34.19,
+          "selected": 32.96,
+          "gain": -1.23,
+          "gain_micro": -3.72,
+          "global": "S2",
+          "gain_global": -1.23
+        },
+        {
+          "corpus": "kiji",
+          "chosen": "S2",
+          "S0": 65.24,
+          "selected": 68.29,
+          "gain": 3.06,
+          "gain_micro": 7.04,
+          "global": "S2",
+          "gain_global": 3.06
+        },
+        {
+          "corpus": "gretel",
+          "chosen": "S1",
+          "S0": 37.22,
+          "selected": 42.25,
+          "gain": 5.03,
+          "gain_micro": -0.9,
+          "global": "S2",
+          "gain_global": -2.1
+        },
+        {
+          "corpus": "nemotron_pii",
+          "chosen": "S1",
+          "S0": 78.76,
+          "selected": 82.75,
+          "gain": 3.99,
+          "gain_micro": 7.42,
+          "global": "S2",
+          "gain_global": -4.97
+        },
+        {
+          "corpus": "ai4p_300k",
+          "chosen": "S2",
+          "S0": 57.19,
+          "selected": 58.67,
+          "gain": 1.48,
+          "gain_micro": 4.15,
+          "global": "S2",
+          "gain_global": 1.48
+        },
+        {
+          "corpus": "ai4p_400k",
+          "chosen": "S2",
+          "S0": 43.23,
+          "selected": 51.85,
+          "gain": 8.61,
+          "gain_micro": 4.28,
+          "global": "S2",
+          "gain_global": 8.61
+        },
+        {
+          "corpus": "gretel_finance",
+          "chosen": "S1",
+          "S0": 27.17,
+          "selected": 44.59,
+          "gain": 17.42,
+          "gain_micro": -4.42,
+          "global": "S2",
+          "gain_global": 12.43
+        },
+        {
+          "corpus": "tab",
+          "chosen": "S2",
+          "S0": 27.95,
+          "selected": 34.97,
+          "gain": 7.02,
+          "gain_micro": 1.68,
+          "global": "S2",
+          "gain_global": 7.02
+        }
+      ],
+      "n": 9,
+      "improved": 8,
+      "unchanged": 0,
+      "median_gain": 5.03,
+      "p_sign_flip": 0.0078,
+      "global_strategy": "S2",
+      "global_improved": 6,
+      "median_global_gain": 3.06,
+      "chosen_counts": {
+        "S0": 0,
+        "S1": 3,
+        "S2": 6
+      }
+    },
+    "GLiNER2-PII": {
+      "rows": [
+        {
+          "corpus": "privy",
+          "chosen": "S2",
+          "S0": 58.04,
+          "selected": 67.57,
+          "gain": 9.53,
+          "gain_micro": 10.34,
+          "global": "S2",
+          "gain_global": 9.53
+        },
+        {
+          "corpus": "pii_500k",
+          "chosen": "S2",
+          "S0": 39.86,
+          "selected": 35.5,
+          "gain": -4.36,
+          "gain_micro": -0.99,
+          "global": "S2",
+          "gain_global": -4.36
+        },
+        {
+          "corpus": "kiji",
+          "chosen": "S2",
+          "S0": 72.05,
+          "selected": 73.2,
+          "gain": 1.15,
+          "gain_micro": -2.68,
+          "global": "S2",
+          "gain_global": 1.15
+        },
+        {
+          "corpus": "gretel",
+          "chosen": "S2",
+          "S0": 33.68,
+          "selected": 36.35,
+          "gain": 2.68,
+          "gain_micro": 0.22,
+          "global": "S2",
+          "gain_global": 2.68
+        },
+        {
+          "corpus": "nemotron_pii",
+          "chosen": "S1",
+          "S0": 72.41,
+          "selected": 78.58,
+          "gain": 6.17,
+          "gain_micro": 3.56,
+          "global": "S2",
+          "gain_global": -0.78
+        },
+        {
+          "corpus": "ai4p_300k",
+          "chosen": "S2",
+          "S0": 55.36,
+          "selected": 56.69,
+          "gain": 1.33,
+          "gain_micro": 4.46,
+          "global": "S2",
+          "gain_global": 1.33
+        },
+        {
+          "corpus": "ai4p_400k",
+          "chosen": "S2",
+          "S0": 41.33,
+          "selected": 52.03,
+          "gain": 10.71,
+          "gain_micro": 5.75,
+          "global": "S2",
+          "gain_global": 10.71
+        },
+        {
+          "corpus": "gretel_finance",
+          "chosen": "S1",
+          "S0": 36.5,
+          "selected": 43.8,
+          "gain": 7.3,
+          "gain_micro": 1.48,
+          "global": "S2",
+          "gain_global": 7.4
+        },
+        {
+          "corpus": "tab",
+          "chosen": "S2",
+          "S0": 29.83,
+          "selected": 38.76,
+          "gain": 8.93,
+          "gain_micro": -0.37,
+          "global": "S2",
+          "gain_global": 8.93
+        }
+      ],
+      "n": 9,
+      "improved": 8,
+      "unchanged": 0,
+      "median_gain": 6.17,
+      "p_sign_flip": 0.0312,
+      "global_strategy": "S2",
+      "global_improved": 7,
+      "median_global_gain": 2.68,
+      "chosen_counts": {
+        "S0": 0,
+        "S1": 2,
+        "S2": 7
+      }
+    },
+    "rule_holds": true
+  }
+}

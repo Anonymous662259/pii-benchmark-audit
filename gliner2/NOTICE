@@ -1,0 +1,20 @@
+This directory contains a modified copy of GLiNER2 1.2.6
+(https://github.com/fastino-ai/GLiNER2), licensed under the Apache License 2.0
+(see LICENSE in this directory). It is vendored so that `import gliner2` from the
+repository root resolves to this copy.
+
+Files changed with respect to the upstream 1.2.6 wheel:
+
+- layers.py         adds SpanScorer, a configurable span-to-label scorer; its default
+                    ("dot") reproduces the original dot-product scoring, and it carries
+                    the optional per-type null score used by objectives (b) and (c).
+- model.py          adds the scorer options to the model configuration (with defaults that
+                    reproduce the original model) and routes span scoring through SpanScorer.
+- processor.py      maps entity annotations by exact character span when available,
+                    instead of searching the tokens for the entity string.
+- inference/engine.py  aligns entity inference with how entity structures are trained
+                    (count prediction is not used for entity extraction).
+- training/data.py  carries the exact entity character spans through example
+                    serialization, for the processor change above.
+
+All other files are unchanged.

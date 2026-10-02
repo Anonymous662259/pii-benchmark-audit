@@ -1,0 +1,27 @@
+# secrets
+.hf_token
+.env
+*.token
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# outputs of runs (released separately)
+out_pii_baselines/*/
+!out_pii_baselines/audit_validation/
+out_pii_baselines/compute_records/
+ckpt/
+eval/
+build/
+
+# LaTeX
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+
+# built paper (not released before submission)
+paper/*.pdf

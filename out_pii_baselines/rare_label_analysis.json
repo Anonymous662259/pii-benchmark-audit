@@ -1,0 +1,1310 @@
+{
+  "c-b": {
+    "seeds": [
+      42,
+      1337
+    ],
+    "summary": {
+      "n_labels": 53,
+      "n_up": 17,
+      "n_down": 25,
+      "mean_delta": 0.579,
+      "median_delta": 0.0,
+      "spearman_type": {
+        "rho": 0.184,
+        "p": 0.1878
+      },
+      "spearman_boundary": {
+        "rho": -0.35,
+        "p": 0.0101
+      },
+      "spearman_spurious": {
+        "rho": -0.226,
+        "p": 0.103
+      },
+      "spearman_missed": {
+        "rho": -0.266,
+        "p": 0.0542
+      },
+      "spearman_f1": {
+        "rho": 0.143,
+        "p": 0.3054
+      },
+      "spearman_log_train": {
+        "rho": -0.038,
+        "p": 0.7885
+      },
+      "type_split": {
+        "median_type_rate": 0.281,
+        "n_hi": 26,
+        "mean_hi": 1.391,
+        "up_hi": 11,
+        "n_lo": 27,
+        "mean_lo": -0.203,
+        "up_lo": 6,
+        "mannwhitney_p": 0.3764
+      },
+      "per_corpus_spearman_type": {
+        "privy": {
+          "n": 9,
+          "rho": 0.72,
+          "p": 0.0289
+        },
+        "pii_500k": {
+          "n": 10,
+          "rho": -0.006,
+          "p": 0.9867
+        },
+        "kiji": {
+          "n": 13,
+          "rho": -0.427,
+          "p": 0.1458
+        },
+        "gretel": {
+          "n": 21,
+          "rho": 0.135,
+          "p": 0.5596
+        }
+      }
+    },
+    "rows": [
+      {
+        "corpus": "privy",
+        "label": "AGE",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 1.4285714285714286,
+        "missed": 0.0,
+        "f1": 99.29577464788733,
+        "log_train": 3.13956426617585
+      },
+      {
+        "corpus": "privy",
+        "label": "CREDIT_CARD",
+        "delta": -0.1831501831501896,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.13640344813399
+      },
+      {
+        "corpus": "privy",
+        "label": "IMEI",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.125806458139527
+      },
+      {
+        "corpus": "privy",
+        "label": "MAC_ADDRESS",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.36986301369863,
+        "f1": 98.29466032988537,
+        "log_train": 3.1225435240687545
+      },
+      {
+        "corpus": "privy",
+        "label": "PASSWORD",
+        "delta": -0.19156519156518925,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 4.861111111111111,
+        "missed": 0.0,
+        "f1": 97.6372161441574,
+        "log_train": 3.1261314072619846
+      },
+      {
+        "corpus": "privy",
+        "label": "US_BANK_NUMBER",
+        "delta": 0.19305019305019755,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.143327129992046
+      },
+      {
+        "corpus": "privy",
+        "label": "US_DRIVER_LICENSE",
+        "delta": 0.3383113100624229,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.1389339402569236
+      },
+      {
+        "corpus": "privy",
+        "label": "US_ITIN",
+        "delta": 0.9061941901026671,
+        "type": 1.694915254237288,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.694915254237288,
+        "f1": 98.27586206896551,
+        "log_train": 3.1357685145678222
+      },
+      {
+        "corpus": "privy",
+        "label": "US_LICENSE_PLATE",
+        "delta": 0.4885993485341942,
+        "type": 3.125,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 98.40985442329227,
+        "log_train": 3.1367205671564067
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "AGE",
+        "delta": -0.4746088712553842,
+        "type": 1.8518518518518519,
+        "boundary": 0.0,
+        "spurious": 1.8518518518518519,
+        "missed": 0.0,
+        "f1": 96.80365296803654,
+        "log_train": 3.4385423487861106
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "CREDITCARDNUMBER",
+        "delta": 0.0,
+        "type": 1.5384615384615385,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.7692307692307693,
+        "f1": 98.06797853309482,
+        "log_train": 3.0610753236297916
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "DRIVERLICENSENUM",
+        "delta": -0.6695275903127396,
+        "type": 57.291666666666664,
+        "boundary": 0.0,
+        "spurious": 1.0416666666666667,
+        "missed": 4.166666666666667,
+        "f1": 49.67567567567568,
+        "log_train": 3.0090257420869104
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "GENDER",
+        "delta": 1.3743600853420048,
+        "type": 16.304347826086957,
+        "boundary": 0.0,
+        "spurious": 2.1739130434782608,
+        "missed": 0.0,
+        "f1": 83.69565217391305,
+        "log_train": 3.0224283711854865
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "IDCARDNUM",
+        "delta": 0.22855389023938244,
+        "type": 11.009174311926607,
+        "boundary": 2.293577981651376,
+        "spurious": 0.22935779816513763,
+        "missed": 2.522935779816514,
+        "f1": 80.04062758679746,
+        "log_train": 3.630122642859312
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "PASSPORTNUM",
+        "delta": 0.6241987179487154,
+        "type": 20.0,
+        "boundary": 1.9047619047619047,
+        "spurious": 0.0,
+        "missed": 1.4285714285714284,
+        "f1": 79.11352657004831,
+        "log_train": 3.2727695865517594
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "SEX",
+        "delta": 1.5669992932324988,
+        "type": 11.904761904761905,
+        "boundary": 0.0,
+        "spurious": 1.5873015873015872,
+        "missed": 1.5873015873015872,
+        "f1": 86.5079365079365,
+        "log_train": 3.0780941504064105
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "SOCIALNUM",
+        "delta": 2.0937097836856253,
+        "type": 18.96551724137931,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.7241379310344827,
+        "f1": 77.36102281556828,
+        "log_train": 3.0472748673841794
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "TAXNUM",
+        "delta": -0.09829042990408254,
+        "type": 24.264705882352942,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.4705882352941178,
+        "f1": 80.46984126984127,
+        "log_train": 3.1215598441875008
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "ZIPCODE",
+        "delta": 0.5060510405956791,
+        "type": 4.3478260869565215,
+        "boundary": 0.43478260869565216,
+        "spurious": 0.8695652173913043,
+        "missed": 0.0,
+        "f1": 96.05255564319103,
+        "log_train": 3.301897717195208
+      },
+      {
+        "corpus": "kiji",
+        "label": "AGE",
+        "delta": 0.1280723581021732,
+        "type": 1.0909090909090908,
+        "boundary": 0.0,
+        "spurious": 19.636363636363637,
+        "missed": 7.818181818181818,
+        "f1": 86.30725219156373,
+        "log_train": 3.693726948923647
+      },
+      {
+        "corpus": "kiji",
+        "label": "CREDITCARDNUMBER",
+        "delta": 0.14696132823485186,
+        "type": 0.0,
+        "boundary": 0.5952380952380952,
+        "spurious": 2.380952380952381,
+        "missed": 1.1904761904761905,
+        "f1": 97.92284866468843,
+        "log_train": 3.4824447919182653
+      },
+      {
+        "corpus": "kiji",
+        "label": "DRIVERLICENSENUM",
+        "delta": -0.07647301198825573,
+        "type": 1.21580547112462,
+        "boundary": 0.9118541033434651,
+        "spurious": 1.3677811550151975,
+        "missed": 2.8875379939209727,
+        "f1": 95.93261868300152,
+        "log_train": 3.745777217889759
+      },
+      {
+        "corpus": "kiji",
+        "label": "IBAN",
+        "delta": -0.029608253039242527,
+        "type": 0.16286644951140064,
+        "boundary": 1.3029315960912051,
+        "spurious": 3.094462540716612,
+        "missed": 2.44299674267101,
+        "f1": 95.31601928191316,
+        "log_train": 3.7311050512159203
+      },
+      {
+        "corpus": "kiji",
+        "label": "IDCARDNUM",
+        "delta": -0.08435001503764283,
+        "type": 6.644518272425249,
+        "boundary": 0.16611295681063123,
+        "spurious": 1.3289036544850499,
+        "missed": 1.495016611295681,
+        "f1": 91.09134132294194,
+        "log_train": 3.7151673578484576
+      },
+      {
+        "corpus": "kiji",
+        "label": "LICENSEPLATENUM",
+        "delta": -0.21246540139969738,
+        "type": 0.9652509652509652,
+        "boundary": 0.3861003861003861,
+        "spurious": 0.0,
+        "missed": 0.5791505791505791,
+        "f1": 97.88053949903662,
+        "log_train": 3.725094521081469
+      },
+      {
+        "corpus": "kiji",
+        "label": "NATIONALID",
+        "delta": -0.44506802806898804,
+        "type": 18.38487972508591,
+        "boundary": 0.5154639175257731,
+        "spurious": 1.5463917525773194,
+        "missed": 4.4673539518900345,
+        "f1": 81.8348623853211,
+        "log_train": 3.7300551523755
+      },
+      {
+        "corpus": "kiji",
+        "label": "PASSPORTID",
+        "delta": -0.07703652241050918,
+        "type": 1.21580547112462,
+        "boundary": 0.0,
+        "spurious": 1.8237082066869301,
+        "missed": 2.5835866261398177,
+        "f1": 96.78899082568807,
+        "log_train": 3.7323133274712426
+      },
+      {
+        "corpus": "kiji",
+        "label": "PASSWORD",
+        "delta": -0.32461116251113253,
+        "type": 0.0,
+        "boundary": 3.246753246753247,
+        "spurious": 0.974025974025974,
+        "missed": 1.2987012987012987,
+        "f1": 95.37692858195288,
+        "log_train": 3.7281913985899466
+      },
+      {
+        "corpus": "kiji",
+        "label": "SECURITYTOKEN",
+        "delta": 0.04475189746239039,
+        "type": 0.0,
+        "boundary": 0.6116207951070336,
+        "spurious": 1.834862385321101,
+        "missed": 1.834862385321101,
+        "f1": 97.77829450809622,
+        "log_train": 3.735918116531297
+      },
+      {
+        "corpus": "kiji",
+        "label": "TAXNUM",
+        "delta": -0.032225655560409905,
+        "type": 1.5873015873015872,
+        "boundary": 0.9523809523809523,
+        "spurious": 4.603174603174603,
+        "missed": 3.015873015873016,
+        "f1": 93.70022890672857,
+        "log_train": 3.7214808547700495
+      },
+      {
+        "corpus": "kiji",
+        "label": "TITLE",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 100.0,
+        "f1": 0.0,
+        "log_train": 1.6720978579357175
+      },
+      {
+        "corpus": "kiji",
+        "label": "USERNAME",
+        "delta": -0.1307110819887498,
+        "type": 0.2808988764044944,
+        "boundary": 4.213483146067416,
+        "spurious": 0.8426966292134832,
+        "missed": 1.1235955056179776,
+        "f1": 93.46244912487039,
+        "log_train": 3.446226401778163
+      },
+      {
+        "corpus": "gretel",
+        "label": "ACCOUNT_NUMBER",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.1231980750319988
+      },
+      {
+        "corpus": "gretel",
+        "label": "API_KEY",
+        "delta": -0.4064489906516684,
+        "type": 0.0,
+        "boundary": 2.7027027027027026,
+        "spurious": 0.0,
+        "missed": 5.405405405405405,
+        "f1": 94.44444444444446,
+        "log_train": 2.8639173769578603
+      },
+      {
+        "corpus": "gretel",
+        "label": "BIOMETRIC_IDENTIFIER",
+        "delta": -0.006418828071176108,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.1908917169221698
+      },
+      {
+        "corpus": "gretel",
+        "label": "CERTIFICATE_LICENSE_NUMBER",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.116275587580544
+      },
+      {
+        "corpus": "gretel",
+        "label": "CITY",
+        "delta": -2.1178421619706143,
+        "type": 2.112676056338028,
+        "boundary": 0.704225352112676,
+        "spurious": 3.52112676056338,
+        "missed": 12.67605633802817,
+        "f1": 86.65276329509906,
+        "log_train": 3.1209028176145273
+      },
+      {
+        "corpus": "gretel",
+        "label": "COMPANY_NAME",
+        "delta": -1.0510259035916079,
+        "type": 1.1627906976744187,
+        "boundary": 1.1627906976744187,
+        "spurious": 1.744186046511628,
+        "missed": 0.0,
+        "f1": 96.27586206896551,
+        "log_train": 3.290034611362518
+      },
+      {
+        "corpus": "gretel",
+        "label": "COORDINATE",
+        "delta": -0.5608755129959064,
+        "type": 0.0,
+        "boundary": 4.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 96.0,
+        "log_train": 2.910624404889201
+      },
+      {
+        "corpus": "gretel",
+        "label": "COUNTRY",
+        "delta": -0.30405454308585433,
+        "type": 2.5,
+        "boundary": 1.25,
+        "spurious": 2.5,
+        "missed": 6.25,
+        "f1": 92.9070929070929,
+        "log_train": 2.884795363948981
+      },
+      {
+        "corpus": "gretel",
+        "label": "CVV",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 1.9822712330395684
+      },
+      {
+        "corpus": "gretel",
+        "label": "HEALTH_PLAN_BENEFICIARY_NUMBER",
+        "delta": 0.5864197530864317,
+        "type": 3.7037037037037037,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 98.11320754716981,
+        "log_train": 2.649334858712142
+      },
+      {
+        "corpus": "gretel",
+        "label": "IPV6",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 2.7937903846908188
+      },
+      {
+        "corpus": "gretel",
+        "label": "NATIONAL_ID",
+        "delta": -0.01543209876544438,
+        "type": 10.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 91.15384615384616,
+        "log_train": 2.6283889300503116
+      },
+      {
+        "corpus": "gretel",
+        "label": "PASSWORD",
+        "delta": -0.4490801100970714,
+        "type": 0.0,
+        "boundary": 2.9411764705882355,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 97.05882352941177,
+        "log_train": 2.7551122663950713
+      },
+      {
+        "corpus": "gretel",
+        "label": "PIN",
+        "delta": 33.33333333333333,
+        "type": 33.333333333333336,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 80.0,
+        "log_train": 1.4313637641589874
+      },
+      {
+        "corpus": "gretel",
+        "label": "POSTCODE",
+        "delta": -0.26884422110552464,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 3.409090909090909,
+        "missed": 4.545454545454546,
+        "f1": 94.9182839632278,
+        "log_train": 2.9800033715837464
+      },
+      {
+        "corpus": "gretel",
+        "label": "STATE",
+        "delta": -4.060971196989442,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 22.22222222222222,
+        "missed": 22.22222222222222,
+        "f1": 78.75,
+        "log_train": 2.4533183400470375
+      },
+      {
+        "corpus": "gretel",
+        "label": "SWIFT_BIC",
+        "delta": -0.7778212445541186,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 12.5,
+        "f1": 93.33333333333333,
+        "log_train": 2.3201462861110542
+      },
+      {
+        "corpus": "gretel",
+        "label": "TAX_ID",
+        "delta": 0.0,
+        "type": 16.666666666666668,
+        "boundary": 0.0,
+        "spurious": 3.3333333333333335,
+        "missed": 3.3333333333333335,
+        "f1": 84.23645320197045,
+        "log_train": 2.481442628502305
+      },
+      {
+        "corpus": "gretel",
+        "label": "TIME",
+        "delta": 0.6589431069382812,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 5.64516129032258,
+        "missed": 2.419354838709677,
+        "f1": 96.03174603174602,
+        "log_train": 3.0429690733931802
+      },
+      {
+        "corpus": "gretel",
+        "label": "URL",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 5.2631578947368425,
+        "f1": 97.2972972972973,
+        "log_train": 2.4578818967339924
+      },
+      {
+        "corpus": "gretel",
+        "label": "VEHICLE_IDENTIFIER",
+        "delta": 0.5154639175257785,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 2.973589623427257
+      }
+    ]
+  },
+  "b-a": {
+    "seeds": [
+      42,
+      1337
+    ],
+    "summary": {
+      "n_labels": 53,
+      "n_up": 38,
+      "n_down": 9,
+      "mean_delta": 1.231,
+      "median_delta": 0.364,
+      "spearman_type": {
+        "rho": 0.161,
+        "p": 0.2508
+      },
+      "spearman_boundary": {
+        "rho": 0.124,
+        "p": 0.3777
+      },
+      "spearman_spurious": {
+        "rho": 0.141,
+        "p": 0.3139
+      },
+      "spearman_missed": {
+        "rho": 0.328,
+        "p": 0.0166
+      },
+      "spearman_f1": {
+        "rho": -0.385,
+        "p": 0.0044
+      },
+      "spearman_log_train": {
+        "rho": -0.16,
+        "p": 0.2519
+      },
+      "type_split": {
+        "median_type_rate": 0.847,
+        "n_hi": 26,
+        "mean_hi": 1.472,
+        "up_hi": 20,
+        "n_lo": 27,
+        "mean_lo": 0.999,
+        "up_lo": 18,
+        "mannwhitney_p": 0.1596
+      },
+      "per_corpus_spearman_type": {
+        "privy": {
+          "n": 9,
+          "rho": -0.593,
+          "p": 0.0921
+        },
+        "pii_500k": {
+          "n": 10,
+          "rho": 0.6,
+          "p": 0.0667
+        },
+        "kiji": {
+          "n": 13,
+          "rho": 0.149,
+          "p": 0.6267
+        },
+        "gretel": {
+          "n": 21,
+          "rho": 0.155,
+          "p": 0.5021
+        }
+      }
+    },
+    "rows": [
+      {
+        "corpus": "privy",
+        "label": "AGE",
+        "delta": 0.36363636363635976,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 1.4285714285714286,
+        "missed": 0.7142857142857143,
+        "f1": 98.9360624176715,
+        "log_train": 3.13956426617585
+      },
+      {
+        "corpus": "privy",
+        "label": "CREDIT_CARD",
+        "delta": 0.1831501831501896,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.13640344813399
+      },
+      {
+        "corpus": "privy",
+        "label": "IMEI",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.125806458139527
+      },
+      {
+        "corpus": "privy",
+        "label": "MAC_ADDRESS",
+        "delta": 0.18450184501844547,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.36986301369863,
+        "f1": 99.3103448275862,
+        "log_train": 3.1225435240687545
+      },
+      {
+        "corpus": "privy",
+        "label": "PASSWORD",
+        "delta": 0.576180576180576,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 3.4722222222222223,
+        "missed": 2.083333333333333,
+        "f1": 97.24137931034483,
+        "log_train": 3.1261314072619846
+      },
+      {
+        "corpus": "privy",
+        "label": "US_BANK_NUMBER",
+        "delta": 0.5821782757245018,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 1.2987012987012987,
+        "missed": 0.0,
+        "f1": 99.35483870967742,
+        "log_train": 3.143327129992046
+      },
+      {
+        "corpus": "privy",
+        "label": "US_DRIVER_LICENSE",
+        "delta": 0.1502574340653524,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.8771929824561403,
+        "missed": 0.0,
+        "f1": 99.13793103448276,
+        "log_train": 3.1389339402569236
+      },
+      {
+        "corpus": "privy",
+        "label": "US_ITIN",
+        "delta": -0.1866622152193429,
+        "type": 0.847457627118644,
+        "boundary": 0.0,
+        "spurious": 0.847457627118644,
+        "missed": 2.542372881355932,
+        "f1": 97.84819454679439,
+        "log_train": 3.1357685145678222
+      },
+      {
+        "corpus": "privy",
+        "label": "US_LICENSE_PLATE",
+        "delta": 0.0021323957669494575,
+        "type": 2.0833333333333335,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.0416666666666667,
+        "f1": 98.40985442329227,
+        "log_train": 3.1367205671564067
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "AGE",
+        "delta": 1.1240693564655402,
+        "type": 0.9259259259259259,
+        "boundary": 0.0,
+        "spurious": 1.8518518518518519,
+        "missed": 0.9259259259259259,
+        "f1": 96.80365296803654,
+        "log_train": 3.4385423487861106
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "CREDITCARDNUMBER",
+        "delta": 0.3878215016577258,
+        "type": 1.5384615384615385,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.7692307692307693,
+        "f1": 97.69217113438665,
+        "log_train": 3.0610753236297916
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "DRIVERLICENSENUM",
+        "delta": 8.595058241682793,
+        "type": 64.58333333333334,
+        "boundary": 0.0,
+        "spurious": 1.0416666666666667,
+        "missed": 4.166666666666667,
+        "f1": 43.14699792960663,
+        "log_train": 3.0090257420869104
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "GENDER",
+        "delta": -0.9802629619702685,
+        "type": 20.652173913043477,
+        "boundary": 0.0,
+        "spurious": 3.260869565217391,
+        "missed": 0.0,
+        "f1": 82.51980577561973,
+        "log_train": 3.0224283711854865
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "IDCARDNUM",
+        "delta": 3.537825912413197,
+        "type": 16.05504587155963,
+        "boundary": 2.293577981651376,
+        "spurious": 0.45871559633027525,
+        "missed": 0.45871559633027525,
+        "f1": 77.71640640061693,
+        "log_train": 3.630122642859312
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "PASSPORTNUM",
+        "delta": 3.209722799441053,
+        "type": 21.42857142857143,
+        "boundary": 1.9047619047619047,
+        "spurious": 0.0,
+        "missed": 1.9047619047619047,
+        "f1": 72.5176018775336,
+        "log_train": 3.2727695865517594
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "SEX",
+        "delta": -1.4085615629450956,
+        "type": 8.73015873015873,
+        "boundary": 0.0,
+        "spurious": 1.5873015873015872,
+        "missed": 3.1746031746031744,
+        "f1": 86.03113542104947,
+        "log_train": 3.0780941504064105
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "SOCIALNUM",
+        "delta": 4.118071590198284,
+        "type": 20.689655172413794,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 1.7241379310344827,
+        "f1": 73.16234796404018,
+        "log_train": 3.0472748673841794
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "TAXNUM",
+        "delta": 1.2930280745965206,
+        "type": 30.88235294117647,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 78.29952764656849,
+        "log_train": 3.1215598441875008
+      },
+      {
+        "corpus": "pii_500k",
+        "label": "ZIPCODE",
+        "delta": 0.40268354441363385,
+        "type": 3.913043478260869,
+        "boundary": 0.8695652173913043,
+        "spurious": 1.7391304347826086,
+        "missed": 0.0,
+        "f1": 94.80509745127436,
+        "log_train": 3.301897717195208
+      },
+      {
+        "corpus": "kiji",
+        "label": "AGE",
+        "delta": -0.04452948641662147,
+        "type": 1.0909090909090908,
+        "boundary": 0.0,
+        "spurious": 20.363636363636363,
+        "missed": 8.181818181818182,
+        "f1": 85.81340052523244,
+        "log_train": 3.693726948923647
+      },
+      {
+        "corpus": "kiji",
+        "label": "CREDITCARDNUMBER",
+        "delta": 0.21217752949806368,
+        "type": 0.0,
+        "boundary": 1.4880952380952381,
+        "spurious": 2.9761904761904763,
+        "missed": 1.1904761904761905,
+        "f1": 96.74728429750618,
+        "log_train": 3.4824447919182653
+      },
+      {
+        "corpus": "kiji",
+        "label": "DRIVERLICENSENUM",
+        "delta": 0.5658881171861907,
+        "type": 1.6717325227963526,
+        "boundary": 1.0638297872340425,
+        "spurious": 1.8237082066869301,
+        "missed": 3.1914893617021276,
+        "f1": 95.01168565585743,
+        "log_train": 3.745777217889759
+      },
+      {
+        "corpus": "kiji",
+        "label": "IBAN",
+        "delta": 0.10526711045494608,
+        "type": 0.16286644951140064,
+        "boundary": 1.791530944625407,
+        "spurious": 3.4201954397394134,
+        "missed": 2.2801302931596092,
+        "f1": 94.76260973455925,
+        "log_train": 3.7311050512159203
+      },
+      {
+        "corpus": "kiji",
+        "label": "IDCARDNUM",
+        "delta": -0.04820976285579093,
+        "type": 6.976744186046512,
+        "boundary": 0.0,
+        "spurious": 1.993355481727575,
+        "missed": 1.993355481727575,
+        "f1": 90.05758240333611,
+        "log_train": 3.7151673578484576
+      },
+      {
+        "corpus": "kiji",
+        "label": "LICENSEPLATENUM",
+        "delta": 0.17157164373998057,
+        "type": 1.5444015444015444,
+        "boundary": 0.3861003861003861,
+        "spurious": 0.0,
+        "missed": 0.7722007722007722,
+        "f1": 97.29691453956612,
+        "log_train": 3.725094521081469
+      },
+      {
+        "corpus": "kiji",
+        "label": "NATIONALID",
+        "delta": 1.4366211492413754,
+        "type": 19.41580756013746,
+        "boundary": 0.6872852233676976,
+        "spurious": 1.7182130584192439,
+        "missed": 3.951890034364261,
+        "f1": 81.47128780156304,
+        "log_train": 3.7300551523755
+      },
+      {
+        "corpus": "kiji",
+        "label": "PASSPORTID",
+        "delta": 0.2393031509410548,
+        "type": 1.21580547112462,
+        "boundary": 0.0,
+        "spurious": 1.8237082066869301,
+        "missed": 2.5835866261398177,
+        "f1": 96.78898331833113,
+        "log_train": 3.7323133274712426
+      },
+      {
+        "corpus": "kiji",
+        "label": "PASSWORD",
+        "delta": 0.8671111029478737,
+        "type": 0.0,
+        "boundary": 3.896103896103896,
+        "spurious": 1.6233766233766234,
+        "missed": 1.2987012987012987,
+        "f1": 94.34596513205972,
+        "log_train": 3.7281913985899466
+      },
+      {
+        "corpus": "kiji",
+        "label": "SECURITYTOKEN",
+        "delta": -0.1244937184170567,
+        "type": 0.3058103975535168,
+        "boundary": 0.6116207951070336,
+        "spurious": 2.293577981651376,
+        "missed": 2.140672782874618,
+        "f1": 97.16480801210085,
+        "log_train": 3.735918116531297
+      },
+      {
+        "corpus": "kiji",
+        "label": "TAXNUM",
+        "delta": 0.1440942922010322,
+        "type": 2.5396825396825395,
+        "boundary": 1.1111111111111112,
+        "spurious": 4.920634920634921,
+        "missed": 3.9682539682539684,
+        "f1": 92.30749880512163,
+        "log_train": 3.7214808547700495
+      },
+      {
+        "corpus": "kiji",
+        "label": "TITLE",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 100.0,
+        "f1": 0.0,
+        "log_train": 1.6720978579357175
+      },
+      {
+        "corpus": "kiji",
+        "label": "USERNAME",
+        "delta": 0.13068949977466104,
+        "type": 0.5617977528089888,
+        "boundary": 4.49438202247191,
+        "spurious": 1.1235955056179776,
+        "missed": 1.1235955056179776,
+        "f1": 92.90611120568255,
+        "log_train": 3.446226401778163
+      },
+      {
+        "corpus": "gretel",
+        "label": "ACCOUNT_NUMBER",
+        "delta": 0.3532192296704295,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 98.87779149365952,
+        "log_train": 3.1231980750319988
+      },
+      {
+        "corpus": "gretel",
+        "label": "API_KEY",
+        "delta": 1.2261211217992098,
+        "type": 0.0,
+        "boundary": 4.054054054054054,
+        "spurious": 1.3513513513513513,
+        "missed": 4.054054054054054,
+        "f1": 91.27927927927928,
+        "log_train": 2.8639173769578603
+      },
+      {
+        "corpus": "gretel",
+        "label": "BIOMETRIC_IDENTIFIER",
+        "delta": -1.063650833031744,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.1908917169221698
+      },
+      {
+        "corpus": "gretel",
+        "label": "CERTIFICATE_LICENSE_NUMBER",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 3.116275587580544
+      },
+      {
+        "corpus": "gretel",
+        "label": "CITY",
+        "delta": 5.393281937746451,
+        "type": 1.408450704225352,
+        "boundary": 0.0,
+        "spurious": 4.225352112676056,
+        "missed": 13.380281690140846,
+        "f1": 87.68907563025209,
+        "log_train": 3.1209028176145273
+      },
+      {
+        "corpus": "gretel",
+        "label": "COMPANY_NAME",
+        "delta": 1.3916670638323296,
+        "type": 1.1627906976744187,
+        "boundary": 1.1627906976744187,
+        "spurious": 1.1627906976744187,
+        "missed": 0.0,
+        "f1": 97.67441860465117,
+        "log_train": 3.290034611362518
+      },
+      {
+        "corpus": "gretel",
+        "label": "COORDINATE",
+        "delta": -0.5882352941176379,
+        "type": 0.0,
+        "boundary": 4.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 96.0,
+        "log_train": 2.910624404889201
+      },
+      {
+        "corpus": "gretel",
+        "label": "COUNTRY",
+        "delta": 2.5858020569988156,
+        "type": 1.25,
+        "boundary": 1.25,
+        "spurious": 3.75,
+        "missed": 7.5,
+        "f1": 92.30769230769232,
+        "log_train": 2.884795363948981
+      },
+      {
+        "corpus": "gretel",
+        "label": "CVV",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 1.9822712330395684
+      },
+      {
+        "corpus": "gretel",
+        "label": "HEALTH_PLAN_BENEFICIARY_NUMBER",
+        "delta": -1.1876855758712566,
+        "type": 3.7037037037037037,
+        "boundary": 0.0,
+        "spurious": 1.8518518518518519,
+        "missed": 0.0,
+        "f1": 97.20475192173305,
+        "log_train": 2.649334858712142
+      },
+      {
+        "corpus": "gretel",
+        "label": "IPV6",
+        "delta": 0.0,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 100.0,
+        "log_train": 2.7937903846908188
+      },
+      {
+        "corpus": "gretel",
+        "label": "NATIONAL_ID",
+        "delta": 1.280992917539109,
+        "type": 12.5,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 88.6392811296534,
+        "log_train": 2.6283889300503116
+      },
+      {
+        "corpus": "gretel",
+        "label": "PASSWORD",
+        "delta": 1.8182484670950316,
+        "type": 0.0,
+        "boundary": 4.411764705882353,
+        "spurious": 1.4705882352941178,
+        "missed": 0.0,
+        "f1": 94.90622335890878,
+        "log_train": 2.7551122663950713
+      },
+      {
+        "corpus": "gretel",
+        "label": "PIN",
+        "delta": 0.0,
+        "type": 33.333333333333336,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 0.0,
+        "f1": 80.0,
+        "log_train": 1.4313637641589874
+      },
+      {
+        "corpus": "gretel",
+        "label": "POSTCODE",
+        "delta": 2.2738693467336617,
+        "type": 3.409090909090909,
+        "boundary": 0.0,
+        "spurious": 3.409090909090909,
+        "missed": 3.409090909090909,
+        "f1": 93.71734587251828,
+        "log_train": 2.9800033715837464
+      },
+      {
+        "corpus": "gretel",
+        "label": "STATE",
+        "delta": 13.914399092970527,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 11.11111111111111,
+        "missed": 33.333333333333336,
+        "f1": 75.29411764705883,
+        "log_train": 2.4533183400470375
+      },
+      {
+        "corpus": "gretel",
+        "label": "SWIFT_BIC",
+        "delta": 3.048203081499423,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 12.5,
+        "f1": 93.33333333333333,
+        "log_train": 2.3201462861110542
+      },
+      {
+        "corpus": "gretel",
+        "label": "TAX_ID",
+        "delta": 3.782505910165497,
+        "type": 16.666666666666668,
+        "boundary": 0.0,
+        "spurious": 6.666666666666667,
+        "missed": 3.3333333333333335,
+        "f1": 85.71428571428571,
+        "log_train": 2.481442628502305
+      },
+      {
+        "corpus": "gretel",
+        "label": "TIME",
+        "delta": 0.9279502415286487,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 9.67741935483871,
+        "missed": 0.8064516129032258,
+        "f1": 94.98449427480915,
+        "log_train": 3.0429690733931802
+      },
+      {
+        "corpus": "gretel",
+        "label": "URL",
+        "delta": 3.0612244897959187,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 0.0,
+        "missed": 5.2631578947368425,
+        "f1": 97.2972972972973,
+        "log_train": 2.4578818967339924
+      },
+      {
+        "corpus": "gretel",
+        "label": "VEHICLE_IDENTIFIER",
+        "delta": 1.2333676820520907,
+        "type": 0.0,
+        "boundary": 0.0,
+        "spurious": 2.8846153846153846,
+        "missed": 0.0,
+        "f1": 98.58041329739443,
+        "log_train": 2.973589623427257
+      }
+    ]
+  }
+}

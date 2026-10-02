@@ -1,0 +1,279 @@
+{
+  "seeds": {
+    "a": [
+      42,
+      1337
+    ],
+    "b": [
+      42,
+      1337
+    ]
+  },
+  "variants": {
+    "V0": {
+      "arms": {
+        "a": {
+          "macro": 90.606,
+          "rare": 90.653,
+          "micro": 90.883
+        },
+        "b": {
+          "macro": 90.776,
+          "rare": 90.899,
+          "micro": 90.874
+        }
+      },
+      "b-a": {
+        "diff": 0.245,
+        "n_positive": 4,
+        "n": 4,
+        "per_run": [
+          0.01,
+          0.06,
+          0.3,
+          0.62
+        ]
+      },
+      "removed": {}
+    },
+    "V1-10": {
+      "arms": {
+        "a": {
+          "macro": 90.606,
+          "rare": 90.653,
+          "micro": 90.883
+        },
+        "b": {
+          "macro": 90.776,
+          "rare": 90.899,
+          "micro": 90.874
+        }
+      },
+      "b-a": {
+        "diff": 0.245,
+        "n_positive": 4,
+        "n": 4,
+        "per_run": [
+          0.01,
+          0.06,
+          0.3,
+          0.62
+        ]
+      },
+      "removed": {
+        "ai4p_300k": {
+          "labels_kept": 27,
+          "labels_total": 27
+        },
+        "ai4p_400k": {
+          "labels_kept": 17,
+          "labels_total": 17
+        }
+      }
+    },
+    "V1-20": {
+      "arms": {
+        "a": {
+          "macro": 90.606,
+          "rare": 90.653,
+          "micro": 90.883
+        },
+        "b": {
+          "macro": 90.776,
+          "rare": 90.899,
+          "micro": 90.874
+        }
+      },
+      "b-a": {
+        "diff": 0.245,
+        "n_positive": 4,
+        "n": 4,
+        "per_run": [
+          0.01,
+          0.06,
+          0.3,
+          0.62
+        ]
+      },
+      "removed": {
+        "ai4p_300k": {
+          "labels_kept": 27,
+          "labels_total": 27
+        },
+        "ai4p_400k": {
+          "labels_kept": 17,
+          "labels_total": 17
+        }
+      }
+    },
+    "V1-50": {
+      "arms": {
+        "a": {
+          "macro": 90.606,
+          "rare": 90.653,
+          "micro": 90.883
+        },
+        "b": {
+          "macro": 90.776,
+          "rare": 90.899,
+          "micro": 90.874
+        }
+      },
+      "b-a": {
+        "diff": 0.245,
+        "n_positive": 4,
+        "n": 4,
+        "per_run": [
+          0.01,
+          0.06,
+          0.3,
+          0.62
+        ]
+      },
+      "removed": {
+        "ai4p_300k": {
+          "labels_kept": 27,
+          "labels_total": 27
+        },
+        "ai4p_400k": {
+          "labels_kept": 17,
+          "labels_total": 17
+        }
+      }
+    },
+    "V2": {
+      "arms": {
+        "a": {
+          "macro": 82.914,
+          "rare": 79.7,
+          "micro": 89.773
+        },
+        "b": {
+          "macro": 83.135,
+          "rare": 80.011,
+          "micro": 89.806
+        }
+      },
+      "b-a": {
+        "diff": 0.31,
+        "n_positive": 3,
+        "n": 4,
+        "per_run": [
+          -0.15,
+          0.42,
+          0.09,
+          0.88
+        ]
+      },
+      "removed": {
+        "ai4p_300k": {
+          "a": {
+            "gold_dropped": 11564,
+            "preds_dropped": 11240,
+            "gold_kept": 21522
+          },
+          "b": {
+            "gold_dropped": 11564,
+            "preds_dropped": 11180,
+            "gold_kept": 21522
+          }
+        },
+        "ai4p_400k": {
+          "a": {
+            "gold_kept": 4762,
+            "gold_dropped": 643,
+            "preds_dropped": 585
+          },
+          "b": {
+            "gold_kept": 4762,
+            "gold_dropped": 643,
+            "preds_dropped": 600
+          }
+        }
+      }
+    },
+    "V3": {
+      "arms": {
+        "a": {
+          "macro": 91.434,
+          "rare": 92.478,
+          "micro": 91.073
+        },
+        "b": {
+          "macro": 91.544,
+          "rare": 92.619,
+          "micro": 91.031
+        }
+      },
+      "b-a": {
+        "diff": 0.141,
+        "n_positive": 2,
+        "n": 4,
+        "per_run": [
+          -0.15,
+          -0.19,
+          0.3,
+          0.62
+        ]
+      },
+      "removed": {
+        "ai4p_300k": {
+          "merged_groups": [
+            "BOD+DATE",
+            "GIVENNAME1+GIVENNAME2",
+            "LASTNAME1+LASTNAME2+LASTNAME3"
+          ]
+        },
+        "ai4p_400k": {
+          "merged_groups": []
+        }
+      }
+    },
+    "V4": {
+      "arms": {
+        "a": {
+          "macro": 90.578,
+          "rare": 90.648,
+          "micro": 90.845
+        },
+        "b": {
+          "macro": 90.747,
+          "rare": 90.891,
+          "micro": 90.836
+        }
+      },
+      "b-a": {
+        "diff": 0.244,
+        "n_positive": 4,
+        "n": 4,
+        "per_run": [
+          0.0,
+          0.06,
+          0.3,
+          0.62
+        ]
+      },
+      "removed": {
+        "ai4p_300k": {
+          "a": {
+            "preds_dropped": 67
+          },
+          "b": {
+            "preds_dropped": 66
+          }
+        },
+        "ai4p_400k": {
+          "a": {
+            "preds_dropped": 0
+          },
+          "b": {
+            "preds_dropped": 0
+          }
+        }
+      }
+    }
+  },
+  "replicates": true,
+  "ranking_holds": true,
+  "v4_change": -0.001
+}

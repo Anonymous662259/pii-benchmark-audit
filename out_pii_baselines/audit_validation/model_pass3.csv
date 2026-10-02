@@ -1,0 +1,436 @@
+id,answer,note
+ai4privacy_400k-C-02,L,sign-off name; given name plausible
+ai4privacy_300k-C-11,L,province code slot in address
+kiji-C-06,L,Kanton Zürich is a state/canton
+ai4privacy_300k-U-08,M,IP address after IP- not annotated
+ai4privacy_400k-C-04,L,building number after n.
+mapa-C-00,L,Costanzo case refers to company party
+gretel_finance-U-08,N,example.com placeholder server
+ai4privacy_400k-C-12,L,name in greeting
+pii_500k-G-10,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_300k-U-19,M,patient email not annotated
+pii_500k-G-17,A,unfilled AMOUNTPLACEHOLDER slot
+ai4privacy_300k-G-15,A,leaked DATE_BG( template token
+ai4privacy_300k-C-19,L,item in username list
+ai4privacy_300k-G-01,A,unfilled TEL_A slot
+gretel_finance-C-08,E,24/7 is availability phrase not a time
+ai4privacy_300k-C-18,L,person name in patron field
+privy-C-12,L,family-name field holds person name
+gretel_finance-U-17,N,example.com registration link
+ai4privacy_400k-U-09,S,company website not in schema
+gretel_finance-U-18,S,company website not in schema
+gretel-C-00,L,Jones-Smith Company is a company
+privy-C-10,L,urban area field is location
+nemotron-O-10,B,case difference only
+nemotron-G-14,A,N/A null labelled as PII
+nemotron-G-11,A,unfilled STATE slot
+ai4privacy_300k-U-01,M,athlete email not annotated
+privy-C-01,L,first_name_female field person
+ai4privacy_400k-G-04,A,unfilled HOURS slot
+gretel_finance-C-16,L,first name in declaration
+gretel-C-14,L,date_of_birth field
+pii_500k-G-00,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_300k-O-10,H,value contains USERNAME_A( artifact; offsets differ
+ai4privacy_300k-U-03,M,IPv6 address not annotated
+ai4privacy_400k-U-04,S,company website not in schema
+pii_500k-G-06,A,unfilled AMOUNTPLACEHOLDER slot
+nemotron-G-12,A,unfilled STATE slot
+ai4privacy_300k-C-13,L,username-like token in list
+kiji-U-02,N,generic public legal info website
+ai4privacy_300k-C-08,L,second given name in Nombres
+gretel_finance-U-07,N,public government info page
+gretel_finance-C-01,L,Last name field
+gretel_finance-G-19,A,REDACTED placeholder annotated as PII
+ai4privacy_300k-U-11,M,participant email not annotated
+mapa-C-07,E,Budějovický Budvar is a company case name
+gretel-C-12,L,surname position in full name
+ai4privacy_400k-G-12,A,unfilled IPV6 slot
+pii_500k-C-01,L,house number on road
+nemotron-O-17,B,case difference only
+gretel_finance-C-02,L,name column value
+gretel_finance-U-12,N,public government info page
+ai4privacy_300k-C-10,L,given name in name list
+gretel_finance-G-08,A,REDACTED placeholder annotated as password
+ai4privacy_400k-U-13,S,company website not in schema
+gretel-U-00,M,company support email unannotated
+nemotron-U-12,M,card number unannotated
+nemotron-U-14,M,IPv6 address unannotated
+nemotron-G-06,A,N/A null labelled as postcode
+nemotron-C-15,L,first name position
+nemotron-G-19,A,N/A null labelled as time
+nemotron-U-08,M,compressed IPv6 unannotated
+gretel_finance-U-14,S,foundation website not in schema
+tab-C-02,L,ambiguous person-group quantity mention
+ai4privacy_300k-O-11,H,value has PASSPORT_M( and offsets include WHEREAS
+gretel_finance-C-15,E,Prada AB is a company
+ai4privacy_400k-U-08,S,company website not in schema
+nemotron-C-14,L,Last Name field
+gretel_finance-G-13,A,unfilled VILLE slot
+ai4privacy_300k-U-10,M,email unannotated
+ai4privacy_400k-U-05,S,company website not in schema
+tab-C-00,E,went back to Turkey is a location
+gretel_finance-G-00,A,REDACTED placeholder as password
+gretel_finance-G-03,A,unfilled PAYS slot
+kiji-C-17,L,passport ID number context
+gretel-C-10,L,shipment dated; generic date
+nemotron-C-05,L,surname after first name
+nemotron-O-03,B,case difference only
+ai4privacy_300k-O-00,H,offsets cut mid DATE_BG token; span misaligned
+nemotron-C-02,L,first name position
+nemotron-U-15,N,generic public Google opt-out page
+mapa-C-16,E,van Gend en Loos is a company
+ai4privacy_300k-C-17,L,BUILDING field value
+ai4privacy_400k-U-01,S,company website not in schema
+ai4privacy_300k-C-03,L,request date not birthdate
+ai4privacy_300k-U-12,M,volunteer email unannotated
+gretel_finance-G-05,A,unfilled LIBRO slot
+gretel-C-15,L,invoice date
+nemotron-O-13,B,case difference only
+ai4privacy_400k-G-14,A,unfilled IPV4 slot
+kiji-C-09,L,ciudad de Oaxaca is city
+tab-C-06,L,Finland as state party
+nemotron-C-09,L,Race/Ethnicity field
+tab-C-17,L,United Kingdom as location
+nemotron-C-04,L,surname position
+ai4privacy_400k-U-15,S,company website not in schema
+ai4privacy_300k-U-04,M,IP address unannotated
+pii_500k-C-19,L,house number after street
+pii_500k-C-04,L,house number after street
+ai4privacy_300k-O-13,H,different password characters
+ai4privacy_400k-G-05,A,unfilled GEOCOORD slot
+ai4privacy_400k-U-07,S,company website not in schema
+nemotron-O-05,B,case difference only
+ai4privacy_300k-O-06,H,value has SOCIALNUMBER_D( and spans extra fields
+pii_500k-C-12,E,16 grams is a quantity not building number
+ai4privacy_300k-O-07,H,value has PASS_H( and offsets differ
+nemotron-O-19,B,case difference only
+nemotron-U-05,M,internal report URL endpoint unannotated
+mapa-C-13,E,Blaizot is a person case name
+privy-C-00,L,currency code in fare_currency field
+gretel-G-00,A,unfilled AMOUNT slot
+ai4privacy_400k-G-06,A,unfilled GENDER slot
+nemotron-O-11,B,case difference only
+gretel_finance-U-15,N,example.com server hostname
+gretel-C-11,E,date in parts table not birthdate
+pii_500k-G-05,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_400k-G-18,A,unfilled IPV4 slot
+ai4privacy_300k-U-17,M,IPv6 address unannotated
+ai4privacy_300k-G-03,A,unfilled LASTNAME slot
+gretel_finance-U-02,S,company website not in schema
+nemotron-O-00,B,case difference only
+nemotron-C-17,E,standalone time 14:00 should be TIME
+nemotron-G-18,A,N/A null labelled as time
+nemotron-G-10,A,unfilled DATE slot
+ai4privacy_300k-G-12,T,filled ID value in brackets
+mapa-C-05,E,Simmenthal case party is a company
+ai4privacy_300k-U-15,M,participant email unannotated
+gretel_finance-C-13,E,unfilled placeholder not a real entity
+gretel-C-04,L,first name position
+ai4privacy_300k-U-02,M,IPv6 address unannotated
+pii_500k-G-13,A,unfilled AMOUNTPLACEHOLDER slot
+kiji-C-03,L,identity card number
+ai4privacy_400k-U-10,S,insurer website not in schema
+gretel-U-03,N,example.com product image URL
+ai4privacy_300k-G-18,T,filled licence value in brackets
+gretel-C-18,L,surname position in full name
+gretel_finance-G-14,A,unfilled YEAR slot
+ai4privacy_300k-C-00,L,GivenName2 field
+ai4privacy_400k-G-17,A,unfilled SECONDARYADDRESS slot
+pii_500k-C-06,L,ambiguous sex/gender word
+nemotron-U-01,N,example.com API endpoint
+nemotron-C-01,L,political view context
+gretel-C-08,?,unclear whether Jordan is surname or given name
+ai4privacy_300k-U-09,M,email unannotated
+ai4privacy_400k-G-00,A,unfilled IPV6 slot
+ai4privacy_400k-C-14,L,name usable as given name
+kiji-U-04,N,public government website
+pii_500k-G-16,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_400k-C-06,L,plausible Swiss postcode in address
+pii_500k-C-05,L,house number after street
+mapa-C-02,E,Simmenthal case party is a company
+nemotron-C-12,L,first name position
+tab-C-05,L,United Kingdom as location
+nemotron-O-08,B,case difference only
+kiji-U-03,M,organization's own website unannotated
+nemotron-U-06,M,customer email unannotated
+nemotron-U-13,M,card number unannotated
+kiji-C-02,L,45-year-old age
+privy-C-07,L,bank-city field
+pii_500k-C-09,L,house number in address
+ai4privacy_400k-C-17,L,addressee handle; username plausible
+ai4privacy_400k-U-11,S,health centre website not in schema
+ai4privacy_300k-C-02,E,nan is a null value not a city
+pii_500k-C-08,L,house number before road
+gretel-G-02,T,filled ID value though misplaced
+nemotron-G-15,A,unfilled STATE slot
+nemotron-U-19,N,generic private 192.168.1.1 address
+pii_500k-G-03,A,unfilled LANGUAGEPLACEHOLDER slot
+pii_500k-C-11,L,house number after road
+nemotron-G-16,A,unfilled STATE slot
+gretel_finance-C-05,L,first name in signature
+gretel-U-04,N,placeholder example.com email
+ai4privacy_400k-C-07,L,officer name surname plausible
+ai4privacy_300k-U-00,M,member email unannotated
+nemotron-O-15,B,case difference only
+gretel_finance-C-03,E,unfilled placeholder not a real entity
+mapa-C-09,E,Van Gend & Loos is a company
+nemotron-C-13,L,surname position
+ai4privacy_300k-C-15,L,call date not birthdate
+privy-C-08,L,urban area field
+privy-C-05,L,family-name field
+ai4privacy_300k-C-04,L,city slot in address
+tab-C-04,L,United Kingdom nationals is demonym use
+gretel_finance-G-07,A,unfilled DATE slot
+ai4privacy_300k-O-04,H,value has LASTNAME1_J( and offsets include extra text
+kiji-C-19,L,stated national ID number
+gretel_finance-U-11,N,example.com placeholder website
+mapa-C-10,E,Baczó is a person party
+ai4privacy_400k-G-11,A,unfilled DATE slot
+ai4privacy_300k-G-10,A,N/A null labelled as given name
+gretel_finance-C-04,E,unfilled placeholder not a real entity
+pii_500k-G-19,A,unfilled ORGANISATIONPLACEHOLDER slot
+kiji-C-05,E,Carlos is second given name of Juan Carlos
+gretel_finance-U-03,S,company website not in schema
+kiji-C-15,L,surname after Dr. Emily
+kiji-C-13,L,driving licence number context
+gretel-U-01,N,placeholder example.com email
+tab-C-07,L,plot number is an identifier
+nemotron-O-18,B,case difference only
+tab-C-12,L,United Kingdom as location
+ai4privacy_300k-G-02,A,null value labelled as phone
+kiji-C-00,L,ID card number context
+ai4privacy_400k-G-19,A,unfilled CVV slot
+gretel_finance-C-09,L,security code context
+privy-C-09,L,municipality field
+mapa-C-04,L,Costanzo case refers to company party
+gretel-C-01,L,surname position
+ai4privacy_400k-C-19,?,context does not show what 1090 is
+ai4privacy_400k-G-16,A,unfilled CREDITCARD slot
+gretel_finance-C-10,E,Prada part of company name Prada AB
+nemotron-C-10,L,first name referenced
+pii_500k-G-15,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_300k-G-13,A,unfilled LASTNAME slot
+gretel-G-01,T,filled ID value in brackets
+ai4privacy_400k-G-01,A,unfilled CREDITCARD slot
+nemotron-G-02,A,unfilled COUNTY slot
+ai4privacy_400k-U-19,S,company website not in schema
+nemotron-C-18,E,North is fragment of district name Al-Kharj North
+kiji-U-00,M,bank verification URL unannotated
+mapa-C-06,E,Simmenthal case party is a company
+mapa-C-12,L,Peterbroeck case party is a company
+nemotron-U-17,N,public government info page
+gretel_finance-C-18,L,first name position
+kiji-U-06,M,business website unannotated
+kiji-C-18,L,passport ID context
+mapa-C-19,L,Vrijheidsfonds is an organisation
+tab-C-16,E,part of office title; Northern Ireland is location
+nemotron-C-03,L,Krasnodar is a city
+ai4privacy_400k-G-02,A,unfilled JOINUM slot
+gretel_finance-G-17,A,REDACTED placeholder as contact number
+ai4privacy_400k-C-18,E,child's given name not username
+privy-C-04,L,given_name_female field
+nemotron-C-00,L,person name; first or last ambiguous
+ai4privacy_400k-U-14,S,company website not in schema
+ai4privacy_300k-O-12,H,value has TEL_B( and offsets include extra text
+gretel-C-02,L,surname position
+gretel-C-06,L,DOB context
+kiji-U-01,M,personal email unannotated
+nemotron-U-16,M,card number unannotated
+pii_500k-G-08,A,unfilled NUMBER slot
+mapa-C-18,E,Simmenthal case party is a company
+gretel_finance-G-01,A,REDACTED placeholder annotated
+nemotron-G-08,A,N/A null labelled as date
+ai4privacy_300k-U-18,M,patient email unannotated
+gretel-C-03,L,capture date not birthdate
+gretel_finance-U-09,N,example.com registration link
+kiji-C-04,L,stated National-ID
+ai4privacy_300k-O-15,H,value has LASTNAME1_F( and offsets add extra name
+pii_500k-C-03,L,house number after road
+pii_500k-G-01,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_300k-U-05,M,student email unannotated
+kiji-C-14,L,neighbourhood name; street/city ambiguous
+ai4privacy_300k-G-11,A,N/A null labelled as ID card
+nemotron-O-14,B,case difference only
+ai4privacy_300k-O-16,H,value has PASS_C( and offsets include extra text
+nemotron-U-03,N,generic public info website
+gretel_finance-U-16,S,company website not in schema
+nemotron-G-13,A,N/A null labelled as time
+ai4privacy_300k-G-05,T,filled ID value in brackets
+gretel-C-05,L,return authorization date
+nemotron-O-01,B,case difference only
+pii_500k-G-07,A,unfilled ORGANISATIONPLACEHOLDER slot
+ai4privacy_300k-C-05,L,third surname in list
+kiji-U-05,M,customer email unannotated
+pii_500k-G-11,A,unfilled AMOUNTPLACEHOLDER slot
+gretel-C-09,L,first name in greeting
+gretel_finance-C-19,E,unfilled company-name placeholder labelled NAME
+gretel_finance-G-11,A,REDACTED placeholder annotated
+ai4privacy_300k-G-04,T,filled ID value in brackets
+pii_500k-C-02,L,surname after given name
+ai4privacy_300k-C-14,L,session date not birthdate
+nemotron-C-07,L,surname position
+ai4privacy_400k-C-03,L,Japanese given name addressing person
+nemotron-G-07,A,unfilled STATE slot
+gretel_finance-G-02,A,REDACTED placeholder as amount
+ai4privacy_400k-U-00,S,website not in schema
+gretel-C-07,L,Date of Birth field
+gretel_finance-G-06,T,filled SWIFT value in brackets
+tab-C-10,E,Secretary of State is an office not demonym
+ai4privacy_400k-U-17,S,company website not in schema
+ai4privacy_300k-G-17,T,filled ID value in brackets
+nemotron-O-07,B,case difference only
+gretel_finance-G-16,A,REDACTED placeholder annotated
+nemotron-C-08,L,Dutch community as ethnicity
+gretel_finance-G-09,A,unfilled ACTIFS slot
+ai4privacy_300k-G-09,A,unfilled LASTNAME slot
+nemotron-O-12,B,case difference only
+nemotron-U-18,M,company customer-service website unannotated
+nemotron-U-09,M,IP address unannotated (partial match)
+pii_500k-C-14,L,house number after street
+tab-C-08,E,Secretary of State is an office not demonym
+ai4privacy_300k-O-14,H,value has IP_A( and offsets include XML tag
+kiji-C-10,E,city position in address labelled state
+pii_500k-C-00,?,no address context for the number
+ai4privacy_400k-C-09,L,18B used as user handle
+pii_500k-G-09,A,unfilled CURRENCYPLACEHOLDER slot
+ai4privacy_300k-C-06,L,LASTNAME2 field
+gretel_finance-C-00,L,first name position
+gretel_finance-G-04,A,REDACTED placeholder annotated
+nemotron-G-17,A,unfilled STATE slot
+gretel_finance-G-12,A,unfilled DATE slot
+nemotron-O-16,B,case difference only
+ai4privacy_400k-C-16,E,Prof. fariha is a given name not username
+ai4privacy_300k-G-16,A,n/a null labelled as secondary address
+ai4privacy_300k-O-02,H,value has USERNAME_B( and offsets include extra keys
+ai4privacy_300k-G-00,T,filled ID value in brackets
+nemotron-O-09,B,case difference only
+nemotron-U-02,N,documentation-example IPv6 server address
+ai4privacy_300k-U-14,N,generic survey link domain
+ai4privacy_300k-O-05,H,value has POSTCODE_D( and offsets include username
+ai4privacy_300k-C-07,E,missing is a null token not a time
+nemotron-U-04,M,company support URL unannotated
+ai4privacy_400k-U-06,S,company website not in schema
+ai4privacy_300k-U-06,M,IP address unannotated
+ai4privacy_400k-C-15,L,Benutzer field is username
+ai4privacy_400k-G-10,A,unfilled IPV4 slot
+kiji-U-07,M,researcher's personal webpage unannotated
+gretel-U-02,M,company email unannotated
+nemotron-O-06,B,case difference only
+privy-C-06,L,bank_city field
+tab-C-01,E,Secretary of State is an office not demonym
+ai4privacy_300k-U-07,M,IPv6 address unannotated
+tab-C-14,E,Kingdom of Denmark as respondent state is ORG
+mapa-U-00,N,public government info page
+mapa-C-08,E,Vizsnyiczai is a person party
+nemotron-U-10,M,IPv6 address unannotated
+pii_500k-G-04,A,unfilled AMOUNTPLACEHOLDER slot
+ai4privacy_400k-G-08,A,unfilled IPV6 slot
+nemotron-U-11,N,example.com API endpoint
+gretel_finance-U-10,S,bank website not in schema
+ai4privacy_300k-G-07,A,unfilled GIVENNAME1 slot
+gretel-C-17,L,surname shared by two staff
+nemotron-C-06,L,language field
+nemotron-U-00,M,organization file URL unannotated
+pii_500k-G-12,A,unfilled ACCOUNTNUMPLACEHOLDER slot
+ai4privacy_400k-G-03,A,unfilled JOBTYPE slot
+ai4privacy_300k-G-19,T,filled name value in braces
+pii_500k-G-14,A,unfilled LANGUAGEPLACEHOLDER slot
+ai4privacy_300k-O-17,H,value has GEBRUIKERSNAAM_A( and offsets include extra fields
+gretel-C-16,L,last-updated date
+kiji-C-11,E,Carlos is second given name of Juan Carlos
+privy-C-03,L,urban-area field
+nemotron-G-00,A,REDACTED placeholder as account holder name
+kiji-U-09,M,bank website unannotated
+kiji-C-07,L,stated national ID
+ai4privacy_400k-U-02,S,website not in schema
+tab-C-15,E,Public Prosecutor is an office not demonym
+privy-C-13,L,currency code in farecurrency field
+ai4privacy_300k-G-08,A,unfilled DATE slot
+nemotron-C-16,L,surname position
+gretel_finance-C-17,L,first name in full name
+ai4privacy_400k-C-01,L,address locality ambiguous street/city
+mapa-C-03,L,Costanzo case refers to company party
+nemotron-C-11,E,blank underscore line is not an address
+tab-C-09,L,United Kingdom as location
+gretel-G-04,A,unfilled RATE slot
+pii_500k-G-18,A,unfilled LANGUAGEPLACEHOLDER slot
+nemotron-U-07,M,company guidelines URL unannotated
+gretel_finance-C-06,L,notify party name ambiguous
+ai4privacy_400k-U-18,S,website not in schema
+ai4privacy_300k-G-14,T,filled value in braces
+pii_500k-C-07,L,ambiguous sex/gender word
+tab-C-18,L,Finland as treaty party
+gretel_finance-C-11,E,check-out 12:00 is a time not date
+ai4privacy_300k-O-19,H,value has STREET_B( and offsets include city fragment
+ai4privacy_400k-C-11,L,surname after given name
+ai4privacy_300k-C-16,L,given name after Rev
+mapa-C-14,L,Costanzo case refers to company party
+nemotron-G-03,A,unfilled COUNTY slot
+kiji-C-01,L,context says État de Luxembourg
+nemotron-G-04,A,unfilled STATE slot
+gretel_finance-C-14,E,We is fragment of weekday Wed
+tab-C-03,L,United Kingdom as location
+ai4privacy_300k-G-06,A,nan null labelled as postcode
+nemotron-G-05,A,unfilled STATE slot
+privy-C-11,L,given-name field
+ai4privacy_300k-C-09,L,surname after title in name field
+kiji-C-16,L,identity card number context
+kiji-C-08,L,45 Jahre alt is age
+gretel_finance-U-05,N,example.com placeholder website
+ai4privacy_400k-C-08,L,explicitly a postcode
+ai4privacy_400k-U-03,S,website not in schema
+mapa-C-17,E,Simmenthal case party is a company
+gretel_finance-G-18,A,unfilled ADRESS slot
+ai4privacy_400k-G-09,A,unfilled CREDITCARD slot
+gretel-C-13,L,Date of Birth field
+gretel_finance-U-00,S,community website not in schema
+gretel_finance-C-07,L,first name usage
+pii_500k-G-02,A,unfilled ORGANISATIONPLACEHOLDER slot
+nemotron-G-01,A,unfilled STATE slot
+tab-C-13,E,Commanding Officer is a person role not demonym
+ai4privacy_300k-C-01,L,title position in record
+ai4privacy_300k-O-03,H,value has SOCIALNUMBER_C( and offsets include extra key
+gretel_finance-G-15,T,filled tax ID value in brackets
+gretel-G-03,A,unfilled TERMS slot
+pii_500k-C-15,L,number as venue address
+ai4privacy_300k-O-09,H,value has TIME_G( and offsets include brace
+gretel_finance-U-04,N,generic survey link domain
+kiji-C-12,L,42-year-old age
+ai4privacy_400k-U-12,S,website not in schema
+tab-C-11,L,sentence duration as datetime plausible
+gretel_finance-U-13,S,company website not in schema
+ai4privacy_400k-G-15,A,unfilled IPV6 slot
+ai4privacy_300k-O-18,H,value has USERNAME_B( and offsets include extra number
+ai4privacy_300k-U-13,M,email unannotated
+nemotron-O-04,H,state IN vs preposition in
+nemotron-C-19,L,Santo Domingo is a city
+ai4privacy_400k-U-16,S,website not in schema
+ai4privacy_400k-G-07,A,unfilled AMOUNT slot
+ai4privacy_300k-C-12,L,Usuario field
+ai4privacy_300k-O-08,H,value has CITY_A( STATE_A( and offsets include CAP
+pii_500k-C-16,L,ambiguous sex/gender word
+gretel_finance-G-10,A,unfilled MONTH slot
+pii_500k-C-10,L,ambiguous sex/gender word
+ai4privacy_400k-C-00,E,Ayca is a given name
+gretel_finance-U-06,N,yourcompanyname placeholder domain
+mapa-C-15,L,Costanzo case refers to company party
+ai4privacy_300k-O-01,H,value has GIVENNAME1_B( and offsets include extra key
+pii_500k-C-17,L,ambiguous sex/gender word
+pii_500k-C-13,L,surname after given name
+ai4privacy_400k-C-10,L,name ambiguous given/surname
+gretel_finance-U-01,M,card number unannotated
+tab-C-19,E,Secretary of State is an office not demonym
+nemotron-O-02,B,case difference only
+gretel_finance-C-12,E,date part of timestamp labelled TIME
+ai4privacy_400k-G-13,A,unfilled IPV6 slot
+ai4privacy_300k-U-16,M,IP address unannotated
+privy-C-02,L,apartment field is address part
+mapa-C-01,L,Costanzo case refers to company party
+ai4privacy_400k-C-05,L,number in address before city
+ai4privacy_400k-C-13,L,surname position after Dr.
+nemotron-G-09,A,N/A null labelled as date
+gretel_finance-U-19,N,example.com reset link
+kiji-U-08,M,banking activation URL unannotated
+gretel-C-19,L,surname position
+mapa-C-11,E,Debus is a person party
+pii_500k-C-18,L,ambiguous sex/gender word

@@ -1,0 +1,530 @@
+id,answer,note
+mapa-C-33,E,Simmenthal case party is a company
+ai4privacy_400k-C-47,E,greeting addresses a person by given name
+ai4privacy_300k-O-21,H,offsets include extra token Edua
+ai4privacy_400k-U-29,S,concrete submission URL; no URL type
+ai4privacy_300k-U-43,M,IP address in IP Address field unannotated
+ai4privacy_300k-O-44,H,offsets add postcode beyond city/state value
+gretel_finance-G-31,A,unfilled [CITY] template slot
+nemotron-C-28,L,
+gretel_finance-C-36,L,
+ai4privacy_400k-G-48,A,unfilled IPV4 placeholder
+pii_500k-G-20,A,unfilled language placeholder
+ai4privacy_300k-G-22,A,unfilled LASTNAME placeholder
+nemotron-O-22,B,
+ai4privacy_400k-C-31,L,
+ai4privacy_300k-O-30,H,offsets add postcode and IP fragment
+gretel-C-26,L,
+gretel-C-24,L,
+nemotron-U-23,N,
+pii_500k-G-26,A,unfilled language placeholder
+pii_500k-C-24,L,
+ai4privacy_300k-G-23,A,n/a annotated as USERNAME
+ai4privacy_400k-G-40,A,unfilled ORGANISATION placeholder
+nemotron-G-27,A,N/A annotated as PII
+gretel_finance-G-24,T,
+gretel-C-21,L,
+ai4privacy_300k-G-44,A,unfilled TEL placeholder
+mapa-C-39,E,Blaizot case party is a person
+ai4privacy_300k-O-29,H,offsets add region and postcode
+nemotron-O-23,B,
+ai4privacy_300k-O-27,H,offsets add postcode beyond value
+ai4privacy_400k-U-34,S,concrete website URL; no URL type
+ai4privacy_400k-G-43,A,unfilled CITY placeholder
+nemotron-G-32,A,unfilled COUNTY slot
+ai4privacy_300k-C-24,L,
+ai4privacy_400k-U-28,S,concrete URL; no URL type
+pii_500k-C-47,E,sentence subject not a building number
+pii_500k-C-30,E,quantity of paper pieces not building number
+ai4privacy_400k-U-36,S,concrete link URL; no URL type
+ai4privacy_400k-C-40,L,
+gretel_finance-C-41,L,
+gretel-C-25,L,
+ai4privacy_400k-C-37,L,
+nemotron-G-30,A,N/A annotated as TIME
+ai4privacy_300k-U-41,M,student email unannotated
+ai4privacy_300k-O-20,H,offsets add trailing Pe fragment
+ai4privacy_300k-C-31,L,
+nemotron-O-45,B,
+kiji-C-49,L,
+nemotron-G-46,A,N/A annotated as DATE
+pii_500k-G-23,A,unfilled VIN placeholder
+gretel_finance-G-29,A,unfilled HOJA slot
+gretel_finance-C-27,E,order number labelled TIME
+pii_500k-C-38,L,
+gretel_finance-G-42,A,unfilled STATE slot
+ai4privacy_400k-G-46,A,unfilled IPV4 placeholder
+ai4privacy_300k-C-47,L,
+ai4privacy_300k-O-45,H,offsets span different tokens than value
+mapa-C-29,E,government minister party is organisation not person
+gretel_finance-G-48,T,
+nemotron-G-24,A,unfilled COUNTY slot
+ai4privacy_300k-C-26,L,
+ai4privacy_300k-U-24,M,participant IPv6 unannotated
+ai4privacy_300k-U-37,M,participant IPv6 unannotated
+ai4privacy_300k-C-21,E,N/A null token labelled SECADDRESS
+tab-C-29,L,
+gretel-C-20,L,
+nemotron-O-48,B,
+ai4privacy_300k-O-43,H,offsets add date fragment beyond value
+mapa-C-31,L,
+ai4privacy_400k-G-29,A,unfilled IPV4 placeholder
+gretel_finance-G-36,A,[REDACTED] placeholder in table cell
+mapa-C-21,L,
+gretel_finance-C-49,E,field name not a date of birth value
+ai4privacy_400k-C-29,L,
+tab-C-49,L,
+ai4privacy_400k-U-27,S,concrete URL; no URL type
+kiji-C-23,L,
+tab-C-45,L,
+nemotron-C-38,L,
+gretel_finance-C-44,L,
+ai4privacy_400k-C-20,L,
+nemotron-G-28,A,N/A annotated as TIME
+ai4privacy_300k-G-33,A,nan annotated as CITY
+nemotron-O-29,B,
+nemotron-U-24,N,
+nemotron-C-21,L,
+nemotron-G-31,A,unfilled COUNTY slot
+ai4privacy_300k-G-30,A,leaked generator markup DATA_BG(
+ai4privacy_300k-O-31,H,offsets add HTML table markup
+ai4privacy_400k-U-39,S,concrete URL; no URL type
+ai4privacy_400k-C-43,L,
+nemotron-G-36,A,unfilled [JPEG] image placeholder
+nemotron-G-39,A,N/A annotated as TIME
+nemotron-C-41,L,
+kiji-C-27,L,
+ai4privacy_400k-U-49,S,concrete URL; no URL type
+gretel_finance-C-45,L,
+ai4privacy_300k-O-48,B,
+nemotron-G-37,A,N/A annotated as TIME
+kiji-C-28,L,
+pii_500k-G-25,A,unfilled policy number placeholder
+ai4privacy_400k-G-28,A,unfilled SUBSTATE placeholder
+gretel_finance-C-20,E,calendar date labelled TIME
+ai4privacy_300k-G-36,A,unfilled TIME placeholder
+ai4privacy_300k-G-38,T,
+nemotron-G-26,A,unfilled STATE slot
+nemotron-C-30,L,
+ai4privacy_400k-G-33,A,unfilled FULLNAME placeholder
+tab-C-34,E,quantity three labelled PERSON
+ai4privacy_400k-U-35,S,concrete URL; no URL type
+pii_500k-C-26,L,
+nemotron-C-20,L,
+nemotron-O-49,B,
+nemotron-O-36,B,
+nemotron-C-48,E,unknown null token labelled CITY
+ai4privacy_300k-C-22,E,no disponible null token labelled PASSPORT
+ai4privacy_300k-O-47,H,offsets add password fragment
+nemotron-O-21,B,
+ai4privacy_300k-G-47,A,N/A annotated as last name
+pii_500k-C-25,L,
+ai4privacy_300k-C-48,L,
+pii_500k-G-22,A,unfilled currency placeholder
+ai4privacy_300k-U-40,M,clinic contact email unannotated
+nemotron-O-31,B,
+ai4privacy_400k-G-37,A,unfilled IPV4 placeholder
+gretel-C-38,L,
+ai4privacy_400k-U-47,S,concrete access URL; no URL type
+nemotron-C-27,E,explicitly the first name not user name
+ai4privacy_400k-C-44,L,
+pii_500k-C-49,?,garbled sentence; number role unclear
+ai4privacy_300k-O-26,H,offsets add country and building text
+mapa-C-42,E,Simmenthal case party is a company
+nemotron-G-29,A,N/A annotated as DATE
+gretel_finance-C-26,L,
+gretel-C-39,L,
+nemotron-O-34,B,
+nemotron-O-26,B,
+nemotron-C-39,L,
+nemotron-O-32,B,
+kiji-C-32,L,
+tab-C-24,E,QC is a post-nominal title not a person
+nemotron-G-20,A,N/A annotated as TIME
+kiji-C-43,L,
+nemotron-G-25,A,unfilled PURPOSE slot
+pii_500k-C-36,L,
+nemotron-O-38,B,
+nemotron-U-30,M,listed IPv6 address unannotated
+ai4privacy_400k-C-42,L,
+gretel-C-32,L,
+ai4privacy_300k-G-39,A,leaked generator markup STATE_BG(
+ai4privacy_300k-U-48,M,user IP address unannotated
+mapa-C-27,L,
+ai4privacy_300k-C-44,L,
+nemotron-O-27,B,
+ai4privacy_300k-G-35,A,unfilled LASTNAME placeholder
+ai4privacy_300k-O-22,H,offsets add extra tokens beyond value
+ai4privacy_400k-G-47,A,unfilled IPV6 placeholder
+nemotron-C-42,E,Benguela region refers to province not city
+pii_500k-C-27,L,
+pii_500k-C-41,L,
+gretel-C-34,L,
+ai4privacy_400k-U-31,S,concrete URL; no URL type
+mapa-C-47,L,
+ai4privacy_300k-C-34,L,
+kiji-C-30,L,
+ai4privacy_300k-C-42,L,
+tab-C-27,L,
+gretel_finance-C-43,E,job tenure duration labelled TIME
+tab-C-41,E,nationality adjective Swedish not an organisation
+ai4privacy_300k-U-26,M,candidate email unannotated
+nemotron-O-33,B,
+ai4privacy_300k-U-27,M,IP address unannotated
+nemotron-O-30,B,
+mapa-C-24,L,
+nemotron-U-28,N,
+nemotron-C-47,L,
+gretel_finance-C-39,L,
+ai4privacy_300k-U-46,M,client IPv6 unannotated
+nemotron-O-28,B,
+gretel_finance-C-37,L,
+nemotron-G-47,A,unfilled COUNTY slot
+pii_500k-C-32,L,
+nemotron-C-32,L,
+ai4privacy_300k-C-43,L,
+pii_500k-G-21,A,unfilled organisation placeholder
+ai4privacy_300k-G-49,A,unfilled CITY placeholder
+gretel-C-31,L,
+ai4privacy_400k-U-38,S,concrete contact URL; no URL type
+gretel_finance-C-46,L,
+nemotron-G-33,A,N/A annotated as education level
+pii_500k-C-48,L,
+nemotron-G-44,A,N/A annotated as occupation
+gretel-C-37,L,
+gretel_finance-C-31,L,
+nemotron-G-35,A,N/A annotated as occupation
+mapa-C-48,L,
+gretel_finance-G-37,A,[REDACTED] placeholder in table cell
+ai4privacy_400k-G-44,A,unfilled IPV4 placeholder
+ai4privacy_300k-O-33,H,offsets add time and name fragment
+tab-C-36,E,age is a demographic attribute (DEM) not DATETIME
+pii_500k-C-31,L,
+ai4privacy_300k-U-39,M,IPv6 address field unannotated
+tab-C-40,L,
+nemotron-C-37,L,
+ai4privacy_300k-U-49,M,IP address unannotated
+nemotron-G-21,A,unfilled STATE slot
+ai4privacy_400k-U-46,S,concrete URL; no URL type
+gretel_finance-G-27,A,masked placeholder account GB23XXX
+nemotron-C-36,L,
+nemotron-U-27,M,concrete organisation login URL unannotated
+pii_500k-C-37,L,
+nemotron-O-39,B,
+nemotron-O-25,B,
+nemotron-C-23,L,
+gretel_finance-C-32,L,
+mapa-C-36,L,
+ai4privacy_400k-G-25,A,unfilled IPV4 placeholder
+gretel_finance-C-47,L,
+gretel-C-41,L,
+kiji-C-33,L,
+ai4privacy_300k-G-48,A,unfilled DRIVERLICENSE placeholder
+ai4privacy_400k-C-35,L,
+pii_500k-C-46,L,
+pii_500k-C-43,L,
+kiji-C-39,L,
+tab-C-28,L,
+ai4privacy_400k-C-48,L,
+gretel_finance-C-38,L,
+ai4privacy_300k-C-23,L,
+ai4privacy_300k-G-25,T,
+mapa-C-45,E,Simmenthal case party is a company
+pii_500k-C-34,L,
+gretel-C-48,L,
+gretel_finance-C-23,L,
+mapa-C-49,E,Baczó case party is a person
+ai4privacy_300k-O-34,H,offsets add street fragment Via Gi
+ai4privacy_400k-U-30,S,concrete registration URL; no URL type
+ai4privacy_300k-G-31,T,
+ai4privacy_400k-G-42,A,unfilled credit card placeholder
+kiji-C-36,L,
+gretel_finance-G-28,T,
+ai4privacy_300k-G-26,A,unfilled CONTACT_DETAILS slot
+nemotron-U-31,N,
+nemotron-G-38,A,N/A annotated as PII
+ai4privacy_400k-U-23,S,concrete access URL; no URL type
+ai4privacy_400k-U-20,S,concrete login URL; no URL type
+ai4privacy_300k-O-38,H,offsets add bracket and section number
+mapa-C-37,L,
+ai4privacy_300k-G-27,T,
+pii_500k-C-28,L,
+ai4privacy_400k-U-48,S,concrete URL; no URL type
+tab-C-23,L,
+nemotron-C-49,L,
+tab-C-38,L,
+nemotron-O-41,B,
+ai4privacy_300k-C-40,E,course code not a username
+gretel_finance-G-40,A,bracketed placeholder token [BIDM]
+ai4privacy_400k-U-21,S,concrete URL; no URL type
+ai4privacy_300k-U-20,M,IP address field unannotated
+ai4privacy_400k-C-21,L,
+nemotron-C-35,L,
+nemotron-O-37,B,
+ai4privacy_400k-C-41,L,
+gretel_finance-C-25,L,
+nemotron-G-34,A,unfilled ADDRESS slot
+ai4privacy_400k-G-30,A,unfilled ORGANISATION placeholder
+ai4privacy_400k-G-23,A,unfilled IPV4 placeholder
+gretel-C-36,L,
+ai4privacy_400k-C-36,L,
+ai4privacy_300k-G-29,A,unfilled TEL placeholder
+tab-C-33,E,country in a list is a location not DEM
+ai4privacy_300k-O-49,H,offsets add next password and text
+kiji-C-47,L,
+kiji-C-24,L,
+gretel_finance-G-41,A,unfilled ADRESSE slot
+ai4privacy_300k-U-36,M,IPv6 address field unannotated
+gretel_finance-C-34,L,
+tab-C-43,L,
+ai4privacy_400k-G-35,A,unfilled IPV6 placeholder
+ai4privacy_400k-C-32,L,
+ai4privacy_400k-U-45,S,concrete URL; no URL type
+ai4privacy_300k-G-24,A,N/A annotated as given name
+ai4privacy_300k-C-46,L,
+gretel_finance-G-22,A,[REDACTED] placeholder in table cell
+pii_500k-C-22,L,
+nemotron-G-40,A,N/A annotated as PII
+ai4privacy_300k-O-24,H,offsets add further titles
+tab-C-25,E,birth year is DATETIME not DEM
+nemotron-G-45,A,N/A annotated as DATE
+gretel_finance-G-47,A,unfilled VALUE slot
+gretel_finance-C-21,E,date part of timestamp labelled TIME
+ai4privacy_300k-C-35,L,
+nemotron-C-40,L,
+kiji-C-34,E,customer number labelled national ID
+ai4privacy_300k-U-35,M,applicant email unannotated
+nemotron-O-43,B,
+ai4privacy_300k-O-36,H,offsets add city and state fragment
+mapa-C-23,E,Simmenthal case party is a company
+nemotron-O-47,B,
+nemotron-O-35,B,
+ai4privacy_300k-C-49,L,
+ai4privacy_400k-C-34,L,
+mapa-C-43,L,
+ai4privacy_300k-O-32,H,offsets add extra surname Waidelich
+ai4privacy_300k-G-20,T,
+gretel-C-45,L,
+gretel_finance-G-25,A,unfilled VILLE slot
+tab-C-42,L,
+nemotron-C-44,L,
+ai4privacy_300k-C-37,L,
+mapa-C-41,E,Simmenthal case party is a company
+ai4privacy_300k-C-38,E,unknown null token labelled CITY
+gretel_finance-G-21,A,unfilled VILLE slot
+tab-C-48,L,
+ai4privacy_300k-C-20,L,
+gretel-C-43,L,
+gretel_finance-G-33,A,[REDACTED] placeholder as email value
+gretel-C-49,E,ID issue date labelled date of birth
+gretel_finance-G-32,A,[REDACTED] placeholder in table cell
+ai4privacy_300k-O-40,H,offsets add region fragment Emili
+nemotron-C-25,L,
+pii_500k-C-39,L,
+nemotron-G-49,A,N/A annotated as DATE
+ai4privacy_300k-C-39,E,JSON key id labelled TIME
+nemotron-U-20,M,concrete organisation API endpoint unannotated
+ai4privacy_300k-G-32,T,
+ai4privacy_400k-C-33,L,
+ai4privacy_400k-G-39,A,unfilled AGE placeholder
+ai4privacy_300k-U-42,M,member IPv6 unannotated
+kiji-C-38,L,
+ai4privacy_400k-C-49,L,
+ai4privacy_300k-C-30,L,
+nemotron-C-43,L,
+tab-C-47,L,
+ai4privacy_300k-C-45,L,
+ai4privacy_400k-C-26,L,
+ai4privacy_300k-O-25,H,offsets add city fragment
+pii_500k-C-42,L,
+gretel_finance-G-45,A,[REDACTED] placeholder in table cell
+tab-C-21,L,
+nemotron-U-29,N,
+ai4privacy_300k-U-34,M,participant email unannotated
+tab-C-39,L,
+nemotron-U-25,N,
+pii_500k-C-21,L,
+ai4privacy_400k-G-21,A,unfilled OTP placeholder
+gretel_finance-G-39,A,unfilled LUOGO slot
+gretel-C-35,L,
+ai4privacy_400k-U-26,S,concrete URL; no URL type
+ai4privacy_300k-C-36,L,
+gretel_finance-G-43,A,unfilled TOMO slot
+nemotron-C-24,E,contact phone not a fax number
+mapa-C-32,E,Simmenthal case party is a company
+nemotron-G-23,?,Nan may be real surname or NaN leak
+gretel-C-28,L,
+nemotron-U-26,M,concrete organisation API endpoint unannotated
+ai4privacy_300k-C-27,L,
+ai4privacy_300k-U-33,M,patient email unannotated
+tab-C-44,L,
+ai4privacy_400k-G-49,A,unfilled IPV4 placeholder
+tab-C-31,L,
+ai4privacy_400k-G-24,A,unfilled IPV6 placeholder
+kiji-C-44,L,
+ai4privacy_300k-O-23,H,offsets cut different digits than value
+ai4privacy_300k-O-39,H,offsets add date fragment
+tab-C-32,E,drugs is not a demographic attribute
+ai4privacy_400k-U-43,S,concrete URL; no URL type
+ai4privacy_400k-U-24,S,concrete access URL; no URL type
+nemotron-U-21,M,card number in applicant card field unannotated
+ai4privacy_400k-U-32,S,concrete URL; no URL type
+ai4privacy_400k-U-33,S,concrete URL; no URL type
+ai4privacy_300k-U-47,M,IPv6 address field unannotated
+gretel-C-30,L,
+nemotron-C-33,L,
+ai4privacy_300k-G-34,T,
+ai4privacy_300k-U-44,M,IPv6 address unannotated
+kiji-C-46,L,
+ai4privacy_300k-U-28,M,customer email unannotated
+nemotron-C-26,E,Egyptian dance is not a language
+gretel_finance-C-30,L,
+ai4privacy_400k-U-41,S,concrete URL; no URL type
+gretel_finance-G-38,A,[REDACTED] placeholder in table cell
+mapa-C-44,E,a date labelled PERSON
+ai4privacy_300k-G-45,T,
+ai4privacy_300k-U-25,M,IP address field unannotated
+gretel-C-40,L,
+kiji-C-45,L,
+gretel-C-23,L,
+ai4privacy_300k-C-28,L,
+ai4privacy_300k-U-31,S,concrete organisation URL; no URL type
+gretel-C-42,L,
+gretel_finance-G-44,A,[REDACTED] placeholder as account number
+kiji-C-26,L,
+nemotron-G-43,A,unfilled [JPEG] image placeholder
+ai4privacy_400k-G-32,A,unfilled PHONEIMEI placeholder
+ai4privacy_400k-G-41,A,unfilled IPV4 placeholder
+tab-C-26,L,
+gretel-C-33,L,
+mapa-C-20,E,Simmenthal case party is a company
+mapa-C-22,E,Solred case party is a company
+ai4privacy_300k-U-29,M,email field unannotated
+gretel-C-29,E,part of foundation name not a surname
+ai4privacy_400k-U-37,S,concrete URL; no URL type
+nemotron-O-24,B,
+gretel-C-22,L,
+ai4privacy_400k-U-22,S,concrete URL; no URL type
+nemotron-G-48,A,N/A annotated as education level
+kiji-C-37,E,Ciudad de Puebla refers to the city
+ai4privacy_400k-C-39,L,
+nemotron-C-34,L,
+ai4privacy_300k-U-32,M,email field unannotated
+ai4privacy_400k-U-40,S,concrete URL; no URL type
+ai4privacy_300k-C-41,L,
+nemotron-C-31,L,
+tab-C-20,L,
+tab-C-46,L,
+ai4privacy_400k-C-28,L,
+gretel_finance-G-20,A,unfilled NUMBER slot
+nemotron-C-29,E,blank underscore line labelled COUNTY
+ai4privacy_400k-U-25,S,concrete URL; no URL type
+kiji-C-29,L,
+ai4privacy_400k-G-27,A,unfilled IPV4 placeholder
+mapa-C-40,E,Simmenthal case party is a company
+ai4privacy_300k-C-29,E,number in encryption phrase not a username
+ai4privacy_300k-G-41,T,
+kiji-C-41,L,
+gretel_finance-C-35,E,word Hoy (today) labelled NAME
+nemotron-G-42,A,N/A annotated as PII
+gretel_finance-C-22,L,
+kiji-C-31,L,
+gretel_finance-C-48,E,waiting period duration labelled TIME
+ai4privacy_300k-O-46,H,offsets add password field text
+ai4privacy_400k-C-45,L,
+nemotron-O-20,B,
+ai4privacy_300k-O-35,H,offsets add next password field
+ai4privacy_300k-O-42,H,offsets add time and field text
+ai4privacy_300k-O-41,H,offsets add Street key text
+mapa-C-25,E,Simmenthal case party is a company
+gretel_finance-G-23,A,unfilled DATE slot
+ai4privacy_300k-G-46,A,unfilled GIVENNAME placeholder
+ai4privacy_300k-U-45,S,concrete organisation URL; no URL type
+ai4privacy_300k-C-25,L,
+ai4privacy_400k-C-30,L,
+ai4privacy_300k-U-38,M,participant email unannotated
+ai4privacy_400k-U-44,S,concrete URL; no URL type
+nemotron-G-22,?,Nan may be real first name or NaN leak
+ai4privacy_300k-C-33,E,Onbekend (unknown) null token labelled IDCARD
+ai4privacy_300k-U-23,S,concrete organisation URL; no URL type
+ai4privacy_400k-C-25,L,
+pii_500k-C-44,L,
+gretel-C-44,L,
+kiji-C-25,L,
+pii_500k-C-29,L,
+ai4privacy_400k-G-31,A,unfilled ADDRESS placeholder
+nemotron-C-45,L,
+nemotron-O-44,B,
+ai4privacy_300k-O-37,H,offsets add JSON key text
+nemotron-G-41,A,unfilled STATE slot
+ai4privacy_300k-O-28,H,offsets add markup and Us fragment
+nemotron-C-46,L,
+ai4privacy_400k-C-38,E,nan null token labelled CITY
+ai4privacy_400k-G-34,A,unfilled IPV6 placeholder
+ai4privacy_400k-G-26,A,unfilled SALARY placeholder
+pii_500k-C-40,L,
+gretel_finance-G-34,A,[REDACTED] placeholder in table cell
+pii_500k-C-33,L,
+nemotron-C-22,L,
+pii_500k-C-20,L,
+nemotron-O-40,B,
+ai4privacy_300k-G-43,T,
+ai4privacy_300k-G-28,A,nan annotated as STATE
+tab-C-35,L,
+ai4privacy_400k-C-27,L,
+ai4privacy_400k-C-24,L,
+ai4privacy_300k-G-40,A,unfilled [FILL] slot
+kiji-C-35,L,
+kiji-C-40,L,
+mapa-C-46,E,Simmenthal case party is a company
+kiji-C-21,L,
+gretel_finance-G-30,A,[REDACTED] placeholder as phone number
+ai4privacy_400k-C-46,L,
+nemotron-O-42,B,
+pii_500k-C-45,L,
+tab-C-37,L,
+ai4privacy_300k-G-21,T,
+ai4privacy_400k-G-45,A,unfilled SECONDARYADDRESS placeholder
+ai4privacy_400k-G-20,A,unfilled IPV6 placeholder
+gretel_finance-C-24,L,
+gretel_finance-G-26,A,bracketed placeholder token [BIDM]
+gretel_finance-G-35,A,unfilled LUOGO slot
+ai4privacy_300k-G-37,T,
+ai4privacy_300k-C-32,L,
+pii_500k-C-23,L,
+ai4privacy_300k-U-21,M,IPv6 address field unannotated
+mapa-C-34,E,Pontin case party is a person
+ai4privacy_400k-U-42,S,concrete URL; no URL type
+ai4privacy_300k-G-42,T,
+gretel_finance-C-29,E,unfilled template slot labelled COMPANY
+ai4privacy_400k-G-38,A,unfilled IPV4 placeholder
+tab-C-22,L,
+kiji-C-42,L,
+nemotron-O-46,B,
+gretel_finance-C-42,L,
+kiji-C-20,E,social security number should be SSN not NATIONALID
+ai4privacy_400k-G-36,A,nan annotated as ZIPCODE
+pii_500k-G-24,A,unfilled NUMBER placeholder
+nemotron-U-22,M,cardholder card number unannotated
+gretel_finance-C-33,L,
+ai4privacy_400k-C-23,L,
+ai4privacy_300k-U-22,M,participant IP unannotated
+ai4privacy_300k-U-30,M,email field unannotated
+gretel-C-27,L,
+ai4privacy_400k-G-22,A,unfilled IPV4 placeholder
+mapa-C-30,L,
+mapa-C-26,E,Simmenthal case party is a company
+tab-C-30,L,
+gretel_finance-G-46,A,unfilled DATE slot
+pii_500k-C-35,L,
+mapa-C-35,E,a date labelled PERSON
+kiji-C-48,L,
+kiji-C-22,L,
+gretel_finance-C-40,L,
+gretel-C-47,L,
+mapa-C-28,E,Simmenthal case party is a company
+gretel_finance-G-49,A,unfilled COUNTRY slot
+gretel_finance-C-28,L,
+ai4privacy_400k-C-22,L,
+gretel-C-46,L,
+mapa-C-38,E,Simmenthal case party is a company

@@ -1,0 +1,224 @@
+{
+  "rows": [
+    {
+      "home": "privy",
+      "trained": 99.2,
+      "trained_para": 99.16,
+      "untrained": 55.85,
+      "untrained_para": 69.17,
+      "d_trained": -0.04,
+      "d_untrained": 13.32,
+      "did": -13.36,
+      "micro": {
+        "trained": 99.47,
+        "trained_para": 99.53,
+        "untrained": 47.33,
+        "untrained_para": 62.51,
+        "did": -15.13
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_privy": 0,
+        "trained_privy_para": 0
+      }
+    },
+    {
+      "home": "pii_500k",
+      "trained": 81.82,
+      "trained_para": 80.92,
+      "untrained": 34.19,
+      "untrained_para": 32.96,
+      "d_trained": -0.91,
+      "d_untrained": -1.23,
+      "did": 0.32,
+      "micro": {
+        "trained": 89.71,
+        "trained_para": 89.19,
+        "untrained": 55.65,
+        "untrained_para": 51.93,
+        "did": 3.2
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_pii_500k": 0,
+        "trained_pii_500k_para": 0
+      }
+    },
+    {
+      "home": "kiji",
+      "trained": 80.3,
+      "trained_para": 80.34,
+      "untrained": 65.24,
+      "untrained_para": 68.29,
+      "d_trained": 0.04,
+      "d_untrained": 3.06,
+      "did": -3.02,
+      "micro": {
+        "trained": 92.94,
+        "trained_para": 92.97,
+        "untrained": 63.61,
+        "untrained_para": 70.65,
+        "did": -7.02
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_kiji": 0,
+        "trained_kiji_para": 0
+      }
+    },
+    {
+      "home": "gretel",
+      "trained": 87.49,
+      "trained_para": 86.79,
+      "untrained": 37.22,
+      "untrained_para": 35.12,
+      "d_trained": -0.69,
+      "d_untrained": -2.1,
+      "did": 1.41,
+      "micro": {
+        "trained": 95.9,
+        "trained_para": 95.59,
+        "untrained": 57.65,
+        "untrained_para": 56.66,
+        "did": 0.67
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_gretel": 0,
+        "trained_gretel_para": 0
+      }
+    },
+    {
+      "home": "nemotron_pii",
+      "trained": 96.84,
+      "trained_para": 96.82,
+      "untrained": 78.76,
+      "untrained_para": 73.79,
+      "d_trained": -0.02,
+      "d_untrained": -4.97,
+      "did": 4.95,
+      "micro": {
+        "trained": 96.01,
+        "trained_para": 96.11,
+        "untrained": 77.85,
+        "untrained_para": 82.05,
+        "did": -4.1
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_nemotron_pii": 0,
+        "trained_nemotron_pii_para": 0
+      }
+    },
+    {
+      "home": "ai4p_300k",
+      "trained": 93.51,
+      "trained_para": 93.47,
+      "untrained": 57.19,
+      "untrained_para": 58.67,
+      "d_trained": -0.04,
+      "d_untrained": 1.48,
+      "did": -1.53,
+      "micro": {
+        "trained": 94.43,
+        "trained_para": 94.27,
+        "untrained": 63.94,
+        "untrained_para": 68.09,
+        "did": -4.31
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_ai4p_300k": 0,
+        "trained_ai4p_300k_para": 0
+      }
+    },
+    {
+      "home": "ai4p_400k",
+      "trained": 88.12,
+      "trained_para": 87.51,
+      "untrained": 43.23,
+      "untrained_para": 51.85,
+      "d_trained": -0.62,
+      "d_untrained": 8.61,
+      "did": -9.23,
+      "micro": {
+        "trained": 86.75,
+        "trained_para": 86.7,
+        "untrained": 46.85,
+        "untrained_para": 51.13,
+        "did": -4.34
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_ai4p_400k": 0,
+        "trained_ai4p_400k_para": 0
+      }
+    },
+    {
+      "home": "gretel_finance",
+      "trained": 83.79,
+      "trained_para": 81.62,
+      "untrained": 27.17,
+      "untrained_para": 39.6,
+      "d_trained": -2.16,
+      "d_untrained": 12.43,
+      "did": -14.59,
+      "micro": {
+        "trained": 80.44,
+        "trained_para": 80.56,
+        "untrained": 44.78,
+        "untrained_para": 45.89,
+        "did": -1.0
+      },
+      "failed_documents": {
+        "untrained": 1,
+        "untrained_para": 1,
+        "trained_gretel_finance": 1,
+        "trained_gretel_finance_para": 1
+      }
+    },
+    {
+      "home": "tab",
+      "trained": 57.46,
+      "trained_para": 57.58,
+      "untrained": 27.95,
+      "untrained_para": 34.97,
+      "d_trained": 0.12,
+      "d_untrained": 7.02,
+      "did": -6.9,
+      "micro": {
+        "trained": 78.83,
+        "trained_para": 78.67,
+        "untrained": 57.62,
+        "untrained_para": 59.3,
+        "did": -1.85
+      },
+      "failed_documents": {
+        "untrained": 0,
+        "untrained_para": 0,
+        "trained_tab": 0,
+        "trained_tab_para": 0
+      }
+    }
+  ],
+  "missing": [],
+  "summary": {
+    "homes": 9,
+    "did_negative": 6,
+    "median_did": -3.02,
+    "median_d_trained": -0.04,
+    "median_d_untrained": 3.06,
+    "p_sign_flip": 0.082,
+    "micro_did_negative": 7,
+    "median_micro_did": -4.1,
+    "micro_p_sign_flip": 0.0391,
+    "P1_holds": false
+  }
+}

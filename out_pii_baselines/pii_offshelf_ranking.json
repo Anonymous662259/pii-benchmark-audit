@@ -1,0 +1,1001 @@
+{
+  "systems": [
+    "GLiNER2 Multi-v1",
+    "GLiNER2-PII",
+    "GLiNER multi-PII",
+    "NVIDIA GLiNER-PII",
+    "Gretel GLiNER"
+  ],
+  "corpora": {
+    "privy": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 55.85,
+            "GLiNER2-PII": 58.04,
+            "GLiNER multi-PII": 61.91,
+            "NVIDIA GLiNER-PII": 58.88,
+            "Gretel GLiNER": 15.11
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 55.85,
+            "GLiNER2-PII": 58.04,
+            "GLiNER multi-PII": 61.91,
+            "NVIDIA GLiNER-PII": 58.88,
+            "Gretel GLiNER": 15.11
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 36.63,
+            "GLiNER2-PII": 39.08,
+            "GLiNER multi-PII": 40.96,
+            "NVIDIA GLiNER-PII": 38.26,
+            "Gretel GLiNER": 16.98
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 0.8,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 55.85,
+            "GLiNER2-PII": 58.04,
+            "GLiNER multi-PII": 61.91,
+            "NVIDIA GLiNER-PII": 58.88,
+            "Gretel GLiNER": 15.11
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 55.85,
+            "GLiNER2-PII": 58.04,
+            "GLiNER multi-PII": 61.91,
+            "NVIDIA GLiNER-PII": 58.88,
+            "Gretel GLiNER": 15.11
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "pii_500k": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 34.19,
+            "GLiNER2-PII": 39.86,
+            "GLiNER multi-PII": 26.0,
+            "NVIDIA GLiNER-PII": 33.78,
+            "Gretel GLiNER": 18.5
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 34.19,
+            "GLiNER2-PII": 39.86,
+            "GLiNER multi-PII": 26.0,
+            "NVIDIA GLiNER-PII": 33.78,
+            "Gretel GLiNER": 18.5
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 24.44,
+            "GLiNER2-PII": 29.21,
+            "GLiNER multi-PII": 20.16,
+            "NVIDIA GLiNER-PII": 22.29,
+            "Gretel GLiNER": 19.64
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 32.47,
+            "GLiNER2-PII": 40.71,
+            "GLiNER multi-PII": 26.06,
+            "NVIDIA GLiNER-PII": 34.21,
+            "Gretel GLiNER": 19.36
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 0.8,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 34.3,
+            "GLiNER2-PII": 39.87,
+            "GLiNER multi-PII": 26.0,
+            "NVIDIA GLiNER-PII": 33.78,
+            "Gretel GLiNER": 18.5
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "kiji": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 65.24,
+            "GLiNER2-PII": 72.05,
+            "GLiNER multi-PII": 63.17,
+            "NVIDIA GLiNER-PII": 68.24,
+            "Gretel GLiNER": 19.4
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 72.74,
+            "GLiNER2-PII": 79.63,
+            "GLiNER multi-PII": 73.67,
+            "NVIDIA GLiNER-PII": 78.97,
+            "Gretel GLiNER": 21.05
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2 Multi-v1",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 0.8,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 26.55,
+            "GLiNER2-PII": 30.15,
+            "GLiNER multi-PII": 24.28,
+            "NVIDIA GLiNER-PII": 29.48,
+            "Gretel GLiNER": 13.11
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 77.53,
+            "GLiNER2-PII": 88.04,
+            "GLiNER multi-PII": 71.16,
+            "NVIDIA GLiNER-PII": 82.44,
+            "Gretel GLiNER": 43.17
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 65.24,
+            "GLiNER2-PII": 72.05,
+            "GLiNER multi-PII": 63.17,
+            "NVIDIA GLiNER-PII": 68.24,
+            "Gretel GLiNER": 19.4
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "gretel": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 37.22,
+            "GLiNER2-PII": 33.68,
+            "GLiNER multi-PII": 41.4,
+            "NVIDIA GLiNER-PII": 40.63,
+            "Gretel GLiNER": 78.92
+          },
+          "ranking": [
+            "Gretel GLiNER",
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 40.18,
+            "GLiNER2-PII": 37.5,
+            "GLiNER multi-PII": 44.12,
+            "NVIDIA GLiNER-PII": 42.91,
+            "Gretel GLiNER": 82.7
+          },
+          "ranking": [
+            "Gretel GLiNER",
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 35.29,
+            "GLiNER2-PII": 31.8,
+            "GLiNER multi-PII": 37.89,
+            "NVIDIA GLiNER-PII": 38.44,
+            "Gretel GLiNER": 73.86
+          },
+          "ranking": [
+            "Gretel GLiNER",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII"
+          ],
+          "kendall_tau_vs_V0": 0.8,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 37.22,
+            "GLiNER2-PII": 33.68,
+            "GLiNER multi-PII": 41.4,
+            "NVIDIA GLiNER-PII": 40.63,
+            "Gretel GLiNER": 78.92
+          },
+          "ranking": [
+            "Gretel GLiNER",
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 37.29,
+            "GLiNER2-PII": 33.71,
+            "GLiNER multi-PII": 41.4,
+            "NVIDIA GLiNER-PII": 40.68,
+            "Gretel GLiNER": 78.9
+          },
+          "ranking": [
+            "Gretel GLiNER",
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "nemotron_pii": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 78.76,
+            "GLiNER2-PII": 72.41,
+            "GLiNER multi-PII": 67.18,
+            "NVIDIA GLiNER-PII": 83.99,
+            "Gretel GLiNER": 31.38
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 78.76,
+            "GLiNER2-PII": 72.41,
+            "GLiNER multi-PII": 67.18,
+            "NVIDIA GLiNER-PII": 83.99,
+            "Gretel GLiNER": 31.38
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 53.78,
+            "GLiNER2-PII": 51.38,
+            "GLiNER multi-PII": 41.64,
+            "NVIDIA GLiNER-PII": 58.43,
+            "Gretel GLiNER": 24.99
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 78.32,
+            "GLiNER2-PII": 71.78,
+            "GLiNER multi-PII": 66.84,
+            "NVIDIA GLiNER-PII": 83.64,
+            "Gretel GLiNER": 32.51
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 78.76,
+            "GLiNER2-PII": 72.42,
+            "GLiNER multi-PII": 67.18,
+            "NVIDIA GLiNER-PII": 83.99,
+            "Gretel GLiNER": 31.38
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "ai4p_300k": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 57.19,
+            "GLiNER2-PII": 55.36,
+            "GLiNER multi-PII": 46.33,
+            "NVIDIA GLiNER-PII": 56.21,
+            "Gretel GLiNER": 28.71
+          },
+          "ranking": [
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 57.19,
+            "GLiNER2-PII": 55.36,
+            "GLiNER multi-PII": 46.33,
+            "NVIDIA GLiNER-PII": 56.21,
+            "Gretel GLiNER": 28.71
+          },
+          "ranking": [
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 37.03,
+            "GLiNER2-PII": 34.31,
+            "GLiNER multi-PII": 29.6,
+            "NVIDIA GLiNER-PII": 37.34,
+            "Gretel GLiNER": 25.6
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 0.8,
+          "top_changed": true
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 67.71,
+            "GLiNER2-PII": 65.96,
+            "GLiNER multi-PII": 62.81,
+            "NVIDIA GLiNER-PII": 63.76,
+            "Gretel GLiNER": 36.66
+          },
+          "ranking": [
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 0.8,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 57.2,
+            "GLiNER2-PII": 55.37,
+            "GLiNER multi-PII": 46.33,
+            "NVIDIA GLiNER-PII": 56.21,
+            "Gretel GLiNER": 28.71
+          },
+          "ranking": [
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "ai4p_400k": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 43.23,
+            "GLiNER2-PII": 41.33,
+            "GLiNER multi-PII": 52.13,
+            "NVIDIA GLiNER-PII": 44.61,
+            "Gretel GLiNER": 16.01
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 43.23,
+            "GLiNER2-PII": 41.33,
+            "GLiNER multi-PII": 52.13,
+            "NVIDIA GLiNER-PII": 44.61,
+            "Gretel GLiNER": 16.01
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 41.9,
+            "GLiNER2-PII": 40.11,
+            "GLiNER multi-PII": 51.02,
+            "NVIDIA GLiNER-PII": 43.86,
+            "Gretel GLiNER": 15.59
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 43.23,
+            "GLiNER2-PII": 41.33,
+            "GLiNER multi-PII": 52.13,
+            "NVIDIA GLiNER-PII": 44.61,
+            "Gretel GLiNER": 16.01
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 43.79,
+            "GLiNER2-PII": 41.76,
+            "GLiNER multi-PII": 52.69,
+            "NVIDIA GLiNER-PII": 44.76,
+            "Gretel GLiNER": 16.01
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "gretel_finance": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 1,
+        "GLiNER2-PII": 1,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.17,
+            "GLiNER2-PII": 36.5,
+            "GLiNER multi-PII": 41.9,
+            "NVIDIA GLiNER-PII": 44.84,
+            "Gretel GLiNER": 28.92
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER",
+            "GLiNER2 Multi-v1"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.17,
+            "GLiNER2-PII": 36.5,
+            "GLiNER multi-PII": 41.9,
+            "NVIDIA GLiNER-PII": 44.84,
+            "Gretel GLiNER": 28.92
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER",
+            "GLiNER2 Multi-v1"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.81,
+            "GLiNER2-PII": 37.02,
+            "GLiNER multi-PII": 44.48,
+            "NVIDIA GLiNER-PII": 47.37,
+            "Gretel GLiNER": 32.65
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER",
+            "GLiNER2 Multi-v1"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 28.58,
+            "GLiNER2-PII": 40.23,
+            "GLiNER multi-PII": 47.72,
+            "NVIDIA GLiNER-PII": 50.55,
+            "Gretel GLiNER": 29.68
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER",
+            "GLiNER2 Multi-v1"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.23,
+            "GLiNER2-PII": 36.61,
+            "GLiNER multi-PII": 41.95,
+            "NVIDIA GLiNER-PII": 44.89,
+            "Gretel GLiNER": 28.92
+          },
+          "ranking": [
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER",
+            "GLiNER2 Multi-v1"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "tab": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.95,
+            "GLiNER2-PII": 29.83,
+            "GLiNER multi-PII": 11.11,
+            "NVIDIA GLiNER-PII": 12.43,
+            "Gretel GLiNER": 0.55
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.95,
+            "GLiNER2-PII": 29.83,
+            "GLiNER multi-PII": 11.11,
+            "NVIDIA GLiNER-PII": 12.43,
+            "Gretel GLiNER": 0.55
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V2": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 37.18,
+            "GLiNER2-PII": 35.03,
+            "GLiNER multi-PII": 27.52,
+            "NVIDIA GLiNER-PII": 26.74,
+            "Gretel GLiNER": 4.01
+          },
+          "ranking": [
+            "GLiNER2 Multi-v1",
+            "GLiNER2-PII",
+            "GLiNER multi-PII",
+            "NVIDIA GLiNER-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 0.6,
+          "top_changed": true
+        },
+        "V3": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.95,
+            "GLiNER2-PII": 29.83,
+            "GLiNER multi-PII": 11.11,
+            "NVIDIA GLiNER-PII": 12.43,
+            "Gretel GLiNER": 0.55
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 27.95,
+            "GLiNER2-PII": 29.83,
+            "GLiNER multi-PII": 11.11,
+            "NVIDIA GLiNER-PII": 12.43,
+            "Gretel GLiNER": 0.55
+          },
+          "ranking": [
+            "GLiNER2-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER multi-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    },
+    "mapa": {
+      "failed_documents": {
+        "GLiNER2 Multi-v1": 0,
+        "GLiNER2-PII": 0,
+        "GLiNER multi-PII": 0,
+        "NVIDIA GLiNER-PII": 0,
+        "Gretel GLiNER": 0
+      },
+      "variants": {
+        "V0": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 13.55,
+            "GLiNER2-PII": 11.77,
+            "GLiNER multi-PII": 20.47,
+            "NVIDIA GLiNER-PII": 12.14,
+            "Gretel GLiNER": 5.73
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ]
+        },
+        "V1-10": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 13.55,
+            "GLiNER2-PII": 11.77,
+            "GLiNER multi-PII": 20.47,
+            "NVIDIA GLiNER-PII": 12.14,
+            "Gretel GLiNER": 5.73
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        },
+        "V4": {
+          "rare_half": {
+            "GLiNER2 Multi-v1": 13.55,
+            "GLiNER2-PII": 11.77,
+            "GLiNER multi-PII": 20.47,
+            "NVIDIA GLiNER-PII": 12.14,
+            "Gretel GLiNER": 5.73
+          },
+          "ranking": [
+            "GLiNER multi-PII",
+            "GLiNER2 Multi-v1",
+            "NVIDIA GLiNER-PII",
+            "GLiNER2-PII",
+            "Gretel GLiNER"
+          ],
+          "kendall_tau_vs_V0": 1.0,
+          "top_changed": false
+        }
+      }
+    }
+  },
+  "summary": {
+    "V1-10": {
+      "corpora": 10,
+      "top_changed": 0,
+      "median_tau": 1.0
+    },
+    "V2": {
+      "corpora": 9,
+      "top_changed": 2,
+      "median_tau": 1.0
+    },
+    "V3": {
+      "corpora": 9,
+      "top_changed": 0,
+      "median_tau": 1.0
+    },
+    "V4": {
+      "corpora": 10,
+      "top_changed": 0,
+      "median_tau": 1.0
+    }
+  },
+  "trained_on_own_corpus": {
+    "NVIDIA GLiNER-PII": {
+      "own_corpus": "nemotron_pii",
+      "rank_own": 1,
+      "median_rank_elsewhere": 2,
+      "n_systems": 5
+    },
+    "Gretel GLiNER": {
+      "own_corpus": "gretel",
+      "rank_own": 1,
+      "median_rank_elsewhere": 5,
+      "n_systems": 5
+    }
+  }
+}

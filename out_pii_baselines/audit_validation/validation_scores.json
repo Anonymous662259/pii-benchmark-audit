@@ -1,0 +1,640 @@
+{
+  "ai4privacy_300k/C": {
+    "k": 9,
+    "n": 50,
+    "n_majority": 48,
+    "unanimous_pct": 86.0,
+    "fleiss_kappa": 0.732,
+    "pairwise_kappa": [
+      0.64,
+      0.878,
+      0.711
+    ],
+    "problem_pct": 18.8,
+    "ci": [
+      10.2,
+      31.9
+    ],
+    "flags": 6465,
+    "est_real": 1212
+  },
+  "ai4privacy_300k/G": {
+    "k": 29,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 58.0,
+    "ci": [
+      44.2,
+      70.6
+    ],
+    "flags": 1549,
+    "est_real": 898
+  },
+  "ai4privacy_300k/O": {
+    "k": 49,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 98.0,
+    "ci": [
+      89.5,
+      99.6
+    ],
+    "flags": 1784,
+    "est_real": 1748
+  },
+  "ai4privacy_300k/U": {
+    "k_pii": 49,
+    "pii_pct": 98.0,
+    "pii_ci": [
+      89.5,
+      99.6
+    ],
+    "k": 46,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 92.0,
+    "ci": [
+      81.2,
+      96.8
+    ],
+    "flags": 69,
+    "est_real": 63
+  },
+  "ai4privacy_400k/C": {
+    "k": 3,
+    "n": 50,
+    "n_majority": 48,
+    "unanimous_pct": 96.0,
+    "fleiss_kappa": 0.819,
+    "pairwise_kappa": [
+      0.783,
+      0.782,
+      0.892
+    ],
+    "problem_pct": 6.2,
+    "ci": [
+      2.1,
+      16.8
+    ],
+    "flags": 693,
+    "est_real": 43
+  },
+  "ai4privacy_400k/G": {
+    "k": 50,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": NaN,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 100.0,
+    "ci": [
+      92.9,
+      100.0
+    ],
+    "flags": 10319,
+    "est_real": 10319
+  },
+  "ai4privacy_400k/U": {
+    "k_pii": 50,
+    "pii_pct": 100.0,
+    "pii_ci": [
+      92.9,
+      100.0
+    ],
+    "k": 0,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": NaN,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 0.0,
+    "ci": [
+      0.0,
+      7.1
+    ],
+    "flags": 995,
+    "est_real": 0
+  },
+  "gretel/C": {
+    "k": 4,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 98.0,
+    "fleiss_kappa": 0.91,
+    "pairwise_kappa": [
+      1.0,
+      0.866,
+      0.866
+    ],
+    "problem_pct": 8.0,
+    "ci": [
+      3.2,
+      18.8
+    ],
+    "flags": 86,
+    "est_real": 7
+  },
+  "gretel/G": {
+    "k": 3,
+    "n": 5,
+    "n_majority": 5,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 60.0,
+    "ci": [
+      23.1,
+      88.2
+    ],
+    "flags": 5,
+    "est_real": 3
+  },
+  "gretel/U": {
+    "k_pii": 2,
+    "pii_pct": 40.0,
+    "pii_ci": [
+      11.8,
+      76.9
+    ],
+    "k": 2,
+    "n": 5,
+    "n_majority": 5,
+    "unanimous_pct": 80.0,
+    "fleiss_kappa": 0.7,
+    "pairwise_kappa": [
+      0.545,
+      1.0,
+      0.545
+    ],
+    "problem_pct": 40.0,
+    "ci": [
+      11.8,
+      76.9
+    ],
+    "flags": 5,
+    "est_real": 2
+  },
+  "gretel_finance/C": {
+    "k": 17,
+    "n": 50,
+    "n_majority": 49,
+    "unanimous_pct": 86.0,
+    "fleiss_kappa": 0.803,
+    "pairwise_kappa": [
+      0.874,
+      0.784,
+      0.753
+    ],
+    "problem_pct": 34.7,
+    "ci": [
+      22.9,
+      48.7
+    ],
+    "flags": 280,
+    "est_real": 97
+  },
+  "gretel_finance/G": {
+    "k": 46,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 98.0,
+    "fleiss_kappa": 0.916,
+    "pairwise_kappa": [
+      0.878,
+      0.878,
+      1.0
+    ],
+    "problem_pct": 92.0,
+    "ci": [
+      81.2,
+      96.8
+    ],
+    "flags": 64,
+    "est_real": 59
+  },
+  "gretel_finance/U": {
+    "k_pii": 9,
+    "pii_pct": 45.0,
+    "pii_ci": [
+      25.8,
+      65.8
+    ],
+    "k": 1,
+    "n": 20,
+    "n_majority": 20,
+    "unanimous_pct": 90.0,
+    "fleiss_kappa": 0.872,
+    "pairwise_kappa": [
+      0.806,
+      0.905,
+      0.905
+    ],
+    "problem_pct": 5.0,
+    "ci": [
+      0.9,
+      23.6
+    ],
+    "flags": 20,
+    "est_real": 1
+  },
+  "kiji/C": {
+    "k": 5,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 98.0,
+    "fleiss_kappa": 0.93,
+    "pairwise_kappa": [
+      0.898,
+      0.898,
+      1.0
+    ],
+    "problem_pct": 10.0,
+    "ci": [
+      4.3,
+      21.4
+    ],
+    "flags": 1823,
+    "est_real": 182
+  },
+  "kiji/U": {
+    "k_pii": 8,
+    "pii_pct": 80.0,
+    "pii_ci": [
+      49.0,
+      94.3
+    ],
+    "k": 8,
+    "n": 10,
+    "n_majority": 10,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 80.0,
+    "ci": [
+      49.0,
+      94.3
+    ],
+    "flags": 10,
+    "est_real": 8
+  },
+  "mapa/C": {
+    "k": 32,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 64.0,
+    "ci": [
+      50.1,
+      75.9
+    ],
+    "flags": 187,
+    "est_real": 120
+  },
+  "mapa/U": {
+    "k_pii": 0,
+    "pii_pct": 0.0,
+    "pii_ci": [
+      0.0,
+      79.3
+    ],
+    "k": 0,
+    "n": 1,
+    "n_majority": 1,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": NaN,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 0.0,
+    "ci": [
+      0.0,
+      79.3
+    ],
+    "flags": 1,
+    "est_real": 0
+  },
+  "nemotron/C": {
+    "k": 9,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 98.0,
+    "fleiss_kappa": 0.956,
+    "pairwise_kappa": [
+      0.936,
+      1.0,
+      0.936
+    ],
+    "problem_pct": 18.0,
+    "ci": [
+      9.8,
+      30.8
+    ],
+    "flags": 10295,
+    "est_real": 1853
+  },
+  "nemotron/G": {
+    "k": 48,
+    "n": 50,
+    "n_majority": 48,
+    "unanimous_pct": 96.0,
+    "fleiss_kappa": 0.656,
+    "pairwise_kappa": [
+      1.0,
+      0.49,
+      0.49
+    ],
+    "problem_pct": 100.0,
+    "ci": [
+      92.6,
+      100.0
+    ],
+    "flags": 60,
+    "est_real": 60
+  },
+  "nemotron/O": {
+    "k": 1,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 2.0,
+    "ci": [
+      0.4,
+      10.5
+    ],
+    "flags": 6195,
+    "est_real": 124
+  },
+  "nemotron/U": {
+    "k_pii": 23,
+    "pii_pct": 71.9,
+    "pii_ci": [
+      54.6,
+      84.4
+    ],
+    "k": 23,
+    "n": 32,
+    "n_majority": 32,
+    "unanimous_pct": 78.1,
+    "fleiss_kappa": 0.661,
+    "pairwise_kappa": [
+      0.71,
+      0.504,
+      0.776
+    ],
+    "problem_pct": 71.9,
+    "ci": [
+      54.6,
+      84.4
+    ],
+    "flags": 32,
+    "est_real": 23
+  },
+  "pii_500k/C": {
+    "k": 3,
+    "n": 50,
+    "n_majority": 48,
+    "unanimous_pct": 92.0,
+    "fleiss_kappa": 0.726,
+    "pairwise_kappa": [
+      0.602,
+      1.0,
+      0.602
+    ],
+    "problem_pct": 6.2,
+    "ci": [
+      2.1,
+      16.8
+    ],
+    "flags": 155,
+    "est_real": 10
+  },
+  "pii_500k/G": {
+    "k": 27,
+    "n": 27,
+    "n_majority": 27,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": NaN,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 100.0,
+    "ci": [
+      87.5,
+      100.0
+    ],
+    "flags": 27,
+    "est_real": 27
+  },
+  "privy/C": {
+    "k": 0,
+    "n": 14,
+    "n_majority": 14,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": NaN,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 0.0,
+    "ci": [
+      0.0,
+      21.5
+    ],
+    "flags": 14,
+    "est_real": 0
+  },
+  "tab/C": {
+    "k": 16,
+    "n": 50,
+    "n_majority": 50,
+    "unanimous_pct": 68.0,
+    "fleiss_kappa": 0.51,
+    "pairwise_kappa": [
+      0.299,
+      0.955,
+      0.266
+    ],
+    "problem_pct": 32.0,
+    "ci": [
+      20.8,
+      45.8
+    ],
+    "flags": 148,
+    "est_real": 47
+  },
+  "all/O": {
+    "k": 50,
+    "n": 100,
+    "n_majority": 100,
+    "unanimous_pct": 100.0,
+    "fleiss_kappa": 1.0,
+    "pairwise_kappa": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "problem_pct": 50.0,
+    "ci": [
+      40.4,
+      59.6
+    ],
+    "flags": 0,
+    "est_real": 0,
+    "strat_pct": 23.5,
+    "strat_ci": [
+      19.7,
+      27.2
+    ],
+    "strat_flags": 7979
+  },
+  "all/C": {
+    "k": 98,
+    "n": 464,
+    "n_majority": 457,
+    "unanimous_pct": 91.6,
+    "fleiss_kappa": 0.841,
+    "pairwise_kappa": [
+      0.803,
+      0.927,
+      0.794
+    ],
+    "problem_pct": 21.4,
+    "ci": [
+      17.9,
+      25.4
+    ],
+    "flags": 0,
+    "est_real": 0,
+    "strat_pct": 17.7,
+    "strat_ci": [
+      11.1,
+      24.3
+    ],
+    "strat_flags": 20146
+  },
+  "all/U": {
+    "k_pii": 141,
+    "pii_pct": 83.9,
+    "pii_ci": [
+      77.6,
+      88.7
+    ],
+    "k": 80,
+    "n": 168,
+    "n_majority": 168,
+    "unanimous_pct": 94.0,
+    "fleiss_kappa": 0.936,
+    "pairwise_kappa": [
+      0.933,
+      0.923,
+      0.952
+    ],
+    "problem_pct": 47.6,
+    "ci": [
+      40.2,
+      55.1
+    ],
+    "flags": 0,
+    "est_real": 0,
+    "strat_pct": 8.6,
+    "strat_ci": [
+      6.3,
+      11.0
+    ],
+    "strat_flags": 1132,
+    "strat_pii_pct": 97.6,
+    "strat_pii_ci": [
+      95.2,
+      99.9
+    ],
+    "strat_pii_flags": 1132
+  },
+  "all/G": {
+    "k": 203,
+    "n": 232,
+    "n_majority": 230,
+    "unanimous_pct": 98.7,
+    "fleiss_kappa": 0.961,
+    "pairwise_kappa": [
+      0.981,
+      0.942,
+      0.961
+    ],
+    "problem_pct": 88.3,
+    "ci": [
+      83.5,
+      91.8
+    ],
+    "flags": 0,
+    "est_real": 0,
+    "strat_pct": 94.5,
+    "strat_ci": [
+      91.6,
+      97.4
+    ],
+    "strat_flags": 12024
+  },
+  "_meta": {
+    "raters": "independent passes of one LLM (Claude), blind to each other, corpus name withheld, item order shuffled per pass",
+    "files": [
+      "model_pass1_all.csv",
+      "model_pass2_all.csv",
+      "model_pass3_all.csv"
+    ],
+    "agreement": "self-consistency of one model, not inter-annotator agreement"
+  }
+}
